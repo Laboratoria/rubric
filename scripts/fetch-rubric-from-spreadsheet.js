@@ -1,3 +1,5 @@
+#! /usr/bin/env node
+
 const fs = require('fs');
 const path = require('path');
 const readline = require('readline');
@@ -7,57 +9,6 @@ const { google } = require('googleapis');
 
 const SCOPES = ['https://www.googleapis.com/auth/spreadsheets.readonly'];
 const TOKEN_PATH = path.join(__dirname, 'token.json');
-
-
-const getProjectsFromRow = (projectRanges, categoryHeadings, skillHeadings, row) => {
-  const values = row.slice(5);
-  return projectRanges.map(
-    (range, idx) => {
-      const endIdx = range[1] === undefined ? values.length : range[1] + 1;
-      return values.slice(range[0], endIdx).reduce((memo, value, idx) => {
-        const key = (!idx)
-          ? 'jedi'
-          : skillHeadingToSkillId(skillHeadings[idx + range[0]]);
-
-        return {
-          ...memo,
-          [key]: parseValue(value),
-        };
-      }, {});
-    },
-  )
-};
-
-
-// Load client secrets from local file.
-fs.readFile(path.join(__dirname, 'credentials.json'), (err, content) => {
-  if (err) {
-    return console.log('Error loading client secret file:', err);
-  }
-  // Authorize a client with credentials, then call the Google Sheets API.
-  authorize(JSON.parse(content), fetchSheets);
-});
-
-
-/**
- * Create an OAuth2 client with the given credentials, and then execute the
- * given callback function.
- * @param {Object} credentials The authorization client credentials.
- * @param {function} callback The callback to call with the authorized client.
- */
-const authorize = (credentials, callback) => {
-  const { client_secret, client_id, redirect_uris } = credentials.installed;
-  const oAuth2Client = new google.auth.OAuth2(client_id, client_secret, redirect_uris[0]);
-
-  // Check if we have previously stored a token.
-  fs.readFile(TOKEN_PATH, (err, token) => {
-    if (err) {
-      return getNewToken(oAuth2Client, callback);
-    }
-    oAuth2Client.setCredentials(JSON.parse(token));
-    callback(oAuth2Client);
-  });
-};
 
 
 /**
@@ -96,6 +47,28 @@ const getNewToken = (oAuth2Client, callback) => {
 };
 
 
+/**
+ * Create an OAuth2 client with the given credentials, and then execute the
+ * given callback function.
+ * @param {Object} credentials The authorization client credentials.
+ * @param {function} callback The callback to call with the authorized client.
+ */
+const authorize = (credentials, callback) => {
+  // eslint-disable-next-line camelcase
+  const { client_secret, client_id, redirect_uris } = credentials.installed;
+  const oAuth2Client = new google.auth.OAuth2(client_id, client_secret, redirect_uris[0]);
+
+  // Check if we have previously stored a token.
+  fs.readFile(TOKEN_PATH, (err, token) => {
+    if (err) {
+      return getNewToken(oAuth2Client, callback);
+    }
+    oAuth2Client.setCredentials(JSON.parse(token));
+    callback(oAuth2Client);
+  });
+};
+
+
 const fetchSheets = (auth) => {
   const sheets = google.sheets({ version: 'v4', auth });
   const ranges = [
@@ -119,7 +92,7 @@ const fetchSheets = (auth) => {
       })
         .then(
           resp => fetchRanges(ranges.slice(1))
-            .then((nextResults) => [resp.data.values, ...nextResults]),
+            .then(nextResults => [resp.data.values, ...nextResults]),
         )
   );
 
@@ -127,3 +100,13 @@ const fetchSheets = (auth) => {
     .then(results => console.log(JSON.stringify(results, null, 2)))
     .catch(console.error);
 };
+
+
+// Load client secrets from local file.
+fs.readFile(path.join(__dirname, 'credentials.json'), (err, content) => {
+  if (err) {
+    return console.log('Error loading client secret file:', err);
+  }
+  // Authorize a client with credentials, then call the Google Sheets API.
+  authorize(JSON.parse(content), fetchSheets);
+});

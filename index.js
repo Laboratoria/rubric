@@ -77,6 +77,9 @@ const applyLocale = (tree, locale) => tree.map(node => ({
 module.exports = {
   name: pkg.name,
   version: pkg.version,
+  categories,
+  skills,
+  intl,
   buildTree,
   buildTreeWithLocale,
   applyLocale,

@@ -1,3 +1,6 @@
+#! /usr/bin/env node
+
+
 const fromSpreadsheet = require('../data/from-spreadsheet.json');
 
 
@@ -38,12 +41,12 @@ const categoryToId = (str) => {
 
 
 const skillToIdMap = {
-  'Completitud': 'completion',
+  Completitud: 'completion',
   'Documentación (producción)': 'documentation',
   'Lógica / Algoritmia': 'logic',
-  'Arquitectura': 'architecture',
+  Arquitectura: 'architecture',
   'Patrones/Paradigmas': 'softwareDesign',
-  'Git': 'git',
+  Git: 'git',
   GitHub: 'github',
   'Estilo (linter js)': 'jsStyle',
   'Nomenclatura / semántica': 'jsSemantics',
@@ -68,10 +71,10 @@ const skillToIdMap = {
   'Comunicación eficaz': 'communication',
 
   'User centricity': 'userCentricity',
-  'Planificación': 'planning',
-  'Analítica': 'analytics',
+  Planificación: 'planning',
+  Analítica: 'analytics',
   Entrevistas: 'interviews',
-  'Observación': 'observation',
+  Observación: 'observation',
   Testing: 'uxTesting',
   'Síntesis de resultados': 'synthesis',
   'Flujos de usuario': 'userFlow',
@@ -79,15 +82,15 @@ const skillToIdMap = {
   'Arquitectura de la información': 'informationArchitecture',
   Prototyping: 'prototyping',
   Contraste: 'contrast',
-  'Alineación': 'alignment',
-  'Jerarquías': 'hierarchy',
-  'Tipografías': 'typography',
+  Alineación: 'alignment',
+  Jerarquías: 'hierarchy',
+  Tipografías: 'typography',
   Color: 'color',
   Accesibilidad: 'accessibility',
   Usabilidad: 'usability',
   'Objetivos de negocio + KPIs': 'businessObjectivesKPI',
   'Relación con Stakeholders': 'stakeholdersRelationships',
-  'Priorización': 'priorization',
+  Priorización: 'priorization',
   'Otras tecnologías': 'otherTechnologies',
 
   'Entrevistas y testing': 'interviews',
@@ -114,7 +117,7 @@ const isHeadingRow = row => (
 );
 
 
-const data = fromSpreadsheet.map((rows, idx, arr) => {
+const data = fromSpreadsheet.map((rows) => {
   // const rootCategoryId = (idx === arr.length - 1) ? 'ux-2' : categoryToId(rows[0][0]);
   const rootCategoryId = categoryToId(rows[0][0]);
   const rootCategoryDescription = rows[1][0] || '';
@@ -179,10 +182,9 @@ const data = fromSpreadsheet.map((rows, idx, arr) => {
 }, []);
 
 
-
 const flattened = data.reduce((memo, item) => {
   const duplicates = Object.keys(item.categories)
-    .filter(key => memo.categories.hasOwnProperty(key));
+    .filter(key => Object.prototype.hasOwnProperty.call(memo.categories, key));
 
   if (duplicates.length) {
     console.error(item.id, duplicates);
@@ -190,7 +192,7 @@ const flattened = data.reduce((memo, item) => {
 
   return {
     ...memo,
-    categories: {  ...memo.categories, ...item.categories },
+    categories: { ...memo.categories, ...item.categories },
     skills: { ...memo.skills, ...item.skills },
     intl: { es: { ...memo.intl.es, ...item.intl } },
   };

@@ -3,8 +3,20 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "pretest": "eslint .",
+    "test": "jest --coverage",
+    "fetch-rubric-from-spreadsheet": "./scripts/fetch-rubric-from-spreadsheet.js > ./data/from-spreadsheet.json",
+    "process-spreadsheet-data": "./scripts/process-spreadsheet-data.js > ./data/processed.json",
+    "fetch-and-process": "npm run fetch-rubric-from-spreadsheet && npm run process-spreadsheet-data"
+  },
+  "dependencies": {
+    "googleapis": "^34.0.0"
+  },
   "devDependencies": {
-    "googleapis": "^34.0.0",
+    "eslint": "^5.8.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
     "jest": "^23.6.0"
   }
 }
