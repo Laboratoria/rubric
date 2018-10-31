@@ -1,0 +1,10 @@
+{
+  "name": "rubric",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "googleapis": "^34.0.0",
+    "jest": "^23.6.0"
+  }
+}
