@@ -1290,6 +1290,13 @@ fb-watchman@^2.0.0:
   dependencies:
     bser "^2.0.0"
 
+fetch-gsheets@Laboratoria/fetch-gsheets:
+  version "1.0.0"
+  resolved "git+ssh://git@github.com/Laboratoria/fetch-gsheets.git#304f8253014634bf1f0898cfa6b7d70a49dc4244"
+  dependencies:
+    googleapis "^34.0.0"
+    minimist "^1.2.0"
+
 figures@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/figures/-/figures-2.0.0.tgz#3ab1a2d2a62c8bfb431a0c94cb797a2fce27c962"

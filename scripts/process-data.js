@@ -1,7 +1,7 @@
 #! /usr/bin/env node
 
 
-const fromSpreadsheet = require('../data/from-spreadsheet.json');
+const fromSpreadsheet = require('../data/gsheets.json');
 
 
 const categoryToIdMap = {
@@ -41,7 +41,7 @@ const categoryToId = (str) => {
 
 
 const skillToIdMap = {
-  Completitud: 'completion',
+  Completitud: 'completeness',
   'Documentación (producción)': 'documentation',
   'Lógica / Algoritmia': 'logic',
   Arquitectura: 'architecture',
@@ -52,7 +52,7 @@ const skillToIdMap = {
   'Nomenclatura / semántica': 'jsSemantics',
   'Uso de funciones / modularidad': 'modularity',
   'Estructuras de datos': 'dataStructures',
-  Tests: 'testing',
+  Tests: 'jsTesting',
   'Correctitud / Validación': 'htmlValidation',
   'Estilo (linter html)': 'htmlStyle',
   'Semántica / Arquitectura de información': 'htmlSemantics',
@@ -71,7 +71,7 @@ const skillToIdMap = {
   'Comunicación eficaz': 'communication',
 
   'User centricity': 'userCentricity',
-  Planificación: 'planning',
+  Planificación: 'uxPlanning',
   Analítica: 'analytics',
   Entrevistas: 'interviews',
   Observación: 'observation',

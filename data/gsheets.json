@@ -145,7 +145,7 @@
       "Uso de funciones / modularidad",
       "Organiza y divide su código en unidades lógicas con superficies de contacto y responsabilidades claras.",
       "Organiza su código en funciones, unidades lógicas",
-      "Organiza su código en archivos, carpetas y funciones dividiendo responsabilidades\n",
+      "Organiza su código en archivos, carpetas y funciones dividiendo responsabilidades",
       "Organiza su código en funciones y objetos con dependencias claras/explícitas, aisladas y orientadas a ser testeadas.",
       "Divide su código en \"módulos\" y usa un bundler para importar/exportar.",
       "Diseña interfaces minimizando superficie de contacto. Usa sistemas de módulos tanto CommonJS como módulos de ES6"
@@ -163,7 +163,7 @@
       "Tests",
       "Desarrollo orientado a pruebas, cobertura, mantenibilidad.",
       "No demuestra enfoque orientado a tests. Código no testeable.",
-      "Demuestra un mínimo de orientación hacia tests, pero sólo una pequeña parte del código es testeable y/o incluye tests.\n",
+      "Demuestra un mínimo de orientación hacia tests, pero sólo una pequeña parte del código es testeable y/o incluye tests.",
       "Aplica TDD como concepto. Imagina el flujo del usuario en la interacción con el programa. Posibles usos y errores al usar el programa.",
       "Demuestra código orientado a tests, coverage alto, incluye casos de error.",
       "Test suite comprensiva. Múltiples entornos. Automatizado."
@@ -182,7 +182,7 @@
     ],
     [
       "Correctitud / Validación",
-      "Pasa o no validador de HTML: https://validator.w3.org/ ",
+      "Pasa o no validador de HTML: https://validator.w3.org/",
       ">10 errores",
       "<10 errores",
       "<3 errores",
@@ -257,9 +257,9 @@
     [
       "Planificación y manejo del tiempo",
       "Gestiona su tiempo y completa las tareas de forma eficiente, utilizando herramientas que la ayudan en ese objetivo.",
-      "Planifica pero no gestiona su tiempo/ Gestiona su tiempo pero no planifica/ No planifica y tampoco gestiona su tiempo. ",
+      "Planifica pero no gestiona su tiempo/ Gestiona su tiempo pero no planifica/ No planifica y tampoco gestiona su tiempo.",
       "Logra organizarse de manera general, sin un plan específico, realizando una estimación general del tiempo.",
-      "Utiliza herramientas de planificación, como un calendario, trello, papelógrafo u otras, creando un plan paso a paso de cómo quiere abarcar el proyecto o problema. Realizando una estimación realista del tiempo. ",
+      "Utiliza herramientas de planificación, como un calendario, trello, papelógrafo u otras, creando un plan paso a paso de cómo quiere abarcar el proyecto o problema. Realizando una estimación realista del tiempo.",
       "Utiliza herramientas de planificación, creando un plan paso a paso de cómo quiere abarcar el proyecto o problema, identificando las herramientas necesarias para su solución. Además, estima realistamente el tiempo y cumple con lo planificado. No pierde tiempo en secciones sin relevancia, gestionando el tiempo que tiene para realizar el proyecto de la mejor manera.",
       "Demuestra tener un prototyping mindset, lo que le permite tener siempre un producto en un nivel de fidelidad adecuado para mostrarlo a clientes y usuarios, ya sea a manera de un prototipo o un MVP. Para esto utiliza herramientas de planificación, creando un plan paso a paso de cómo quiere abarcar el proyecto o problema, identificando las herramientas necesarias para su solución. Además logra realizar una correcta distribución del problema y elección de las herramienas. Gestiona su tiempo y recursos de la mejor manera para el proyecto, considerando el tiempo, las herramientas y el equipo con que cuenta."
     ],
@@ -277,9 +277,9 @@
       "Tiene interés en adquirir nuevos conocimientos de manera autónoma, encuentra los medios para hacerlo, y lo intenta hasta lograrlo.",
       "Demuestra interés en adquirir conocimientos, pero no lo hace de manera autónoma, tampoco realiza preguntas o aclara sus dudas / No demuestra interés en adquirir conocimientos de manera autónoma, -no realiza preguntas sobre el material, ni busca aclarar conceptos-.",
       "Demuestra interés en adquirir conocimientos autónomamente, estudiando de manera independiente, lo que se puede reflejar en que cuando es necesario realiza preguntas sobre la materia, buscando aclarar conceptos y resolver dudas",
-      "Adquiere de forma constante conocimientos de manera independiente y responsable. Pide referencia de materiales que pueden ser de utilidad para su aprendizaje. Además, cuando es necesario, realiza preguntas sobre la materia. Busca aprender, aclarar conceptos y resolver dudas sobre temáticas más allá de las vistas en clase. ",
-      "Adquiere de forma constante conocimientos de manera independiente y responsable. Es capaz de identificar por su cuenta herramientas que necesita aprender o también reforzar. Pide referencia de materiales que pueden ser de utilidad para su aprendizaje. Además, cuando es necesario, realiza preguntas sobre la materia. Busca aprender, aclarar conceptos y resolver dudas sobre temáticas más allá de las vistas en clase. ",
-      "Adquiere de forma constante conocimientos de manera independiente y responsable. Es capaz de identificar por su cuenta herramientas que necesita aprender o también reforzar. Pide referencia de materiales que pueden ser de utilidad para su aprendizaje. Además, cuando es necesario, realiza preguntas sobre la materia. Busca aprender, aclarar conceptos y resolver dudas sobre temáticas más allá de las vistas en clase. Le agregan a sus proyectos herramientas fuera de lo visto en clase o lo pedido y que le agregaran valor al producto. "
+      "Adquiere de forma constante conocimientos de manera independiente y responsable. Pide referencia de materiales que pueden ser de utilidad para su aprendizaje. Además, cuando es necesario, realiza preguntas sobre la materia. Busca aprender, aclarar conceptos y resolver dudas sobre temáticas más allá de las vistas en clase.",
+      "Adquiere de forma constante conocimientos de manera independiente y responsable. Es capaz de identificar por su cuenta herramientas que necesita aprender o también reforzar. Pide referencia de materiales que pueden ser de utilidad para su aprendizaje. Además, cuando es necesario, realiza preguntas sobre la materia. Busca aprender, aclarar conceptos y resolver dudas sobre temáticas más allá de las vistas en clase.",
+      "Adquiere de forma constante conocimientos de manera independiente y responsable. Es capaz de identificar por su cuenta herramientas que necesita aprender o también reforzar. Pide referencia de materiales que pueden ser de utilidad para su aprendizaje. Además, cuando es necesario, realiza preguntas sobre la materia. Busca aprender, aclarar conceptos y resolver dudas sobre temáticas más allá de las vistas en clase. Le agregan a sus proyectos herramientas fuera de lo visto en clase o lo pedido y que le agregaran valor al producto."
     ],
     [
       "Habilidad",
@@ -295,9 +295,9 @@
       "Usar estrategias apropiadas para hablar en público, incluida la interacción con medios de presentación, como es el demo, para asegurar el entendimiento de la audiencia y la mejor forma de presentar el proyecto.",
       "No logra presentar el demo según requisitos del reto: no se ve bien, no se abre el link pedido, solo se ve en su computador local, etc. No realiza contacto visual y el volumen de voz es bajo o utiliza un ritmo no adecuado, lo que hace difícil entender el contenido de la presentación.",
       "Cualquier persona puede acceder al demo desde cualquier equipo. Habla con un tono y ritmo adecuado pero no realiza contacto visual o realiza contacto visual con la audiencia pero habla en un volumen bajo o en un ritmo no adecuado, lo que dificulta el entendimiento de la presentación.",
-      "Cualquier persona puede acceder al demo desde cualquier equipo. El demo se ve y funciona correctamente, logrando priorizar qué mostrar en el demo -pudiendo enseñar algunas veces menos elementos pero funcionales-. Realiza algún contacto visual con la audiencia, se apropia del espacio físico y habla con un volumen y ritmo que no interfieren con el entendimiento de la audiencia. ",
-      "Cualquier persona puede acceder al demo desde cualquier equipo. El demo se ve y funciona correctamente, teniendo al menos una funcionalidad principal que está perfecta y pequeñas funcionalidades anexas que funcionan correctamente. Realiza contacto visual regular con la audiencia, se apropia del espacio físico y habla con un volumen y ritmo que no interfieren con el entendimiento de la audiencia, e incluso capta su atención. ",
-      "Cualquier persona puede acceder al demo desde cualquier equipo. El demo se ve y funciona correctamente, teniendo una funcionalidad principal y varias sub funcionalidades que están perfectas. Además eligen el mejor medio para mostrar el demo. Realiza contacto visual regular con la audiencia, se apropia adecuadamente del espacio físico y habla con un volumen y ritmo que propician el entendimiento de la audiencia y capta su atención. "
+      "Cualquier persona puede acceder al demo desde cualquier equipo. El demo se ve y funciona correctamente, logrando priorizar qué mostrar en el demo -pudiendo enseñar algunas veces menos elementos pero funcionales-. Realiza algún contacto visual con la audiencia, se apropia del espacio físico y habla con un volumen y ritmo que no interfieren con el entendimiento de la audiencia.",
+      "Cualquier persona puede acceder al demo desde cualquier equipo. El demo se ve y funciona correctamente, teniendo al menos una funcionalidad principal que está perfecta y pequeñas funcionalidades anexas que funcionan correctamente. Realiza contacto visual regular con la audiencia, se apropia del espacio físico y habla con un volumen y ritmo que no interfieren con el entendimiento de la audiencia, e incluso capta su atención.",
+      "Cualquier persona puede acceder al demo desde cualquier equipo. El demo se ve y funciona correctamente, teniendo una funcionalidad principal y varias sub funcionalidades que están perfectas. Además eligen el mejor medio para mostrar el demo. Realiza contacto visual regular con la audiencia, se apropia adecuadamente del espacio físico y habla con un volumen y ritmo que propician el entendimiento de la audiencia y capta su atención."
     ],
     [
       "Habilidad",
@@ -329,11 +329,11 @@
     [
       "Solución de problemas",
       "Tiene la disposición de buscar y encontrar soluciones a problemas de diversa complejidad y naturaleza, evitando quedarse estancada y apoyando a su equipo en el camino.",
-      "Ante problemas busca pero no logra encontrar una solución o no intenta buscar alternativas ante problemas que se presentan.  ",
-      "Busca soluciones alternativas a problemas de mediana complejidad, no siempre logra buscar alternativas a problemas de mayor complejidad. Para encontrar esta solución depende de otros para comenzar a resolver un problema. ",
-      "Comienza a aplicar su propria creatividad para resolver problemas independentiemente. Busca soluciones alternativas a problemas de diversa complejidad, a pesar de que no todas las soluciones puedan ser correctas, consulta distintas fuentes para resolver el problema. ",
-      "Busca soluciones alternativas utilizando su propia creatividad para resolver problemas de diversa complejidad y naturaleza. Al no encontrar una solución, recurre a los demás para encontrar una forma de resolver el problema o también busca soluciones a través de experimentación e iteracíon -busca salir del edificio como una herramienta para \"resolver\" el problema-. ",
-      "Busca soluciones alternativas utilizando su propia creatividad para resolver problemas de diversa complejidad y naturaleza. Logra pedir ayuda a tiempo y recurre a los demás para encontrar una forma de resolver el problema de manera colaborativa. Demuestra experimentación e iteración dentro del proceso de solución de problemas. No solo experimenta con el problema, si no también piensa criticamente sobre él - es decir, cuestiona como se conecta \"x problema\" a otros y encuentra soluciones, nuevos procesos, técnicas, etc. Para poder resolver un grupo entero de \"problemas,\" influye a los demás y trabaja en equipo para lograrlo. "
+      "Ante problemas busca pero no logra encontrar una solución o no intenta buscar alternativas ante problemas que se presentan.",
+      "Busca soluciones alternativas a problemas de mediana complejidad, no siempre logra buscar alternativas a problemas de mayor complejidad. Para encontrar esta solución depende de otros para comenzar a resolver un problema.",
+      "Comienza a aplicar su propria creatividad para resolver problemas independentiemente. Busca soluciones alternativas a problemas de diversa complejidad, a pesar de que no todas las soluciones puedan ser correctas, consulta distintas fuentes para resolver el problema.",
+      "Busca soluciones alternativas utilizando su propia creatividad para resolver problemas de diversa complejidad y naturaleza. Al no encontrar una solución, recurre a los demás para encontrar una forma de resolver el problema o también busca soluciones a través de experimentación e iteracíon -busca salir del edificio como una herramienta para \"resolver\" el problema-.",
+      "Busca soluciones alternativas utilizando su propia creatividad para resolver problemas de diversa complejidad y naturaleza. Logra pedir ayuda a tiempo y recurre a los demás para encontrar una forma de resolver el problema de manera colaborativa. Demuestra experimentación e iteración dentro del proceso de solución de problemas. No solo experimenta con el problema, si no también piensa criticamente sobre él - es decir, cuestiona como se conecta \"x problema\" a otros y encuentra soluciones, nuevos procesos, técnicas, etc. Para poder resolver un grupo entero de \"problemas,\" influye a los demás y trabaja en equipo para lograrlo."
     ],
     [
       "Habilidades para las Relaciones interpersonales"
@@ -349,17 +349,17 @@
     ],
     [
       "Trabajo en equipo: colaborativo",
-      "Trabajo colaborativo: trabaja de manera colaborativa y coordinada para alcanzar los objetivos de su equipo. ",
-      "No trabaja colaborativamente ",
+      "Trabajo colaborativo: trabaja de manera colaborativa y coordinada para alcanzar los objetivos de su equipo.",
+      "No trabaja colaborativamente",
       "Trabaja de manera coordinada con el equipo",
-      "Trabaja de manera coordinada y contribuye al objetivo común, entregando ideas para la construcción del producto. ",
-      "Trabaja de manera coordinada y contribuye al objetivo común, entregando ideas para la construcción del producto, respetando siempre el trabajo de sus compañeras. ",
-      "Trabaja de manera coordinada y contribuye al objetivo común, entregando ideas para la construcción del producto, respetando siempre el trabajo de sus compañeras. Se preocupa del proceso de aprendizaje del equipo, generando un ambiente colaborativo entre sus compañeras. "
+      "Trabaja de manera coordinada y contribuye al objetivo común, entregando ideas para la construcción del producto.",
+      "Trabaja de manera coordinada y contribuye al objetivo común, entregando ideas para la construcción del producto, respetando siempre el trabajo de sus compañeras.",
+      "Trabaja de manera coordinada y contribuye al objetivo común, entregando ideas para la construcción del producto, respetando siempre el trabajo de sus compañeras. Se preocupa del proceso de aprendizaje del equipo, generando un ambiente colaborativo entre sus compañeras."
     ],
     [
       "Trabajo en equipo: responsabilidad",
       "Responsabilidad: cumple con entregar su trabajo a tiempo y ayuda a los demás con lo que tengan pendiente.",
-      "No cumple con sus responsabilidades o si las cumple es fuera del tiempo acordado ",
+      "No cumple con sus responsabilidades o si las cumple es fuera del tiempo acordado",
       "Entrega su trabajo a tiempo",
       "Entrega su trabajo a tiempo y colabora con el objetivo final del trabajo, con el fin de entregar un producto de calidad.",
       "Entrega su trabajo a tiempo y colabora con el objetivo final del trabajo, ayudando a los demás con los pendientes, con el fin de entregar un producto de calidad.",
@@ -377,8 +377,8 @@
     [
       "Dar y recibir feedback",
       "Escucha y valora los comentarios y críticas de los demás, rescatando los aspectos que la ayuden a incorporar mejoras. Da su opinión de manera fundamentada, constructiva y coherente. Promueve sesiones de feedback con su equipo, aporta puntual y objetivamente en retrospectivas. Code review (hace y recibe)",
-      "No escucha o rechaza los comentarios y criticas de los demás, y/o no entrega su opinión o si lo hace no es de manera constructiva. ",
-      "Escucha los comentarios y críticas de los demás de manera respetuosa, pero no logra accionar el feedback. y/o entrega a los demás su opinión de forma constructiva, pero no necesariamente resulta útil para los otros.  ",
+      "No escucha o rechaza los comentarios y criticas de los demás, y/o no entrega su opinión o si lo hace no es de manera constructiva.",
+      "Escucha los comentarios y críticas de los demás de manera respetuosa, pero no logra accionar el feedback. y/o entrega a los demás su opinión de forma constructiva, pero no necesariamente resulta útil para los otros.",
       "Escucha y valora los comentarios y críticas de los demás, rescatando aspectos que le sirvan para su mejora. Además, entrega su opinión a los demás de forma constructiva, fundamentada y coherente con el fin de ayudar a los demás.",
       "Escucha y valora los comentarios y críticas de los demás, rescatando aspectos que le sirvan para su mejora. Además, busca instancias de feedback o peer review, entregando su opinión a los demás de forma constructiva, fundamentada y coherente con el fin de ayudar a los otros. Reconoce que el feedback es un regalo, por lo tanto es honesto, empático e inmediato.",
       "Escucha y valora los comentarios y críticas de los demás, rescatando aspectos que le sirvan para su mejora. Logra gestionar el feedback y realizar acciones para el cambio. Además, entrega su opinión a los demás de forma constructiva, fundamentada y coherente. Reconoce que el feedback es un regalo, por lo tanto es honesto, empático e inmediato. Participa de retrospectivas, feedbacks y peer review de forma constante, aportando de manera puntual y objetiva, generando un aporte positivo para su entorno de trabajo."
@@ -396,8 +396,8 @@
       "Comunicación eficaz",
       "Tiene capacidad de síntesis y articular sus ideas con claridad. Entiende a su audiencia y logra que se entienda lo que quiere comunicar facilitando el diálogo.",
       "No logra comunicar de manera eficaz, ya sea porque no logra comunicar sus ideas o si las comunica no lo hace de manera clara",
-      "Logra comunicar sus ideas a los demás cuando es necesario, pero no fomenta instancias de comunicación  ",
-      "Logra comunicar sus ideas a los demás, teniendo capacidad de síntesis y articulando sus ideas con claridad. ",
+      "Logra comunicar sus ideas a los demás cuando es necesario, pero no fomenta instancias de comunicación",
+      "Logra comunicar sus ideas a los demás, teniendo capacidad de síntesis y articulando sus ideas con claridad.",
       "Logra comunicar sus ideas a los demás, teniendo capacidad de síntesis y articulando sus ideas con claridad. Entiende a su audiencia o equipo y logra que se entienda lo que quiere comunicar facilitando el diálogo",
       "Logra comunicar sus ideas a los demás, teniendo capacidad de síntesis y articulando sus ideas con claridad. Entiende a su audiencia o equipo y logra que se entienda lo que quiere comunicar facilitando el diálogo. Además, mantiene una comunicación constante y fluida con el resto, facilitando el trabajo y las relaciones en este."
     ]
@@ -427,7 +427,7 @@
       "Diseña el producto basado en su propia experiencia - \"self-driven design\". No entiende ni tiene en cuenta al usuario.",
       "Conoce sobre UX y sabe que el usuario es importante. Reflexiona sobre los objetivos del usuario y del negocio, pero no \"sale a la calle\" (no se acerca al usuario). Utiliza algunas heurísticas.",
       "Se enfoca en la investigación. Entiende al usuario a través de la investigación, realiza entrevistas y observa al usuario en ambientes controlados.",
-      "Toma en cuenta al usuario en todo el proceso de diseño desde research hasta testing, sin embargo, no los toma en cuenta en sus KPIs del producto. ",
+      "Toma en cuenta al usuario en todo el proceso de diseño desde research hasta testing, sin embargo, no los toma en cuenta en sus KPIs del producto.",
       "Toma en cuenta al usuario en todo el proceso de diseño desde research hasta testing hasta KPIs"
     ],
     [
@@ -457,7 +457,7 @@
       "No considera analítica de ningún tipo antes de trabajar en su investigación.",
       "Tiene la capacidad de encontrar y revisar los datos de análitica históricos que puede tener el producto en el que trabaja y considerarlos dentro de su investigación.",
       "Entiende distintas herramientas de analítica tanto para revisar data histórica como para generar nueva data dentro del proceso de investigación.",
-      "Entiende y trabaja con distintas herramientas de análitica tanto internas como externas. Es capaz de revisar data histórica como de generar nueva data dentro de su proceso de investigación. ",
+      "Entiende y trabaja con distintas herramientas de análitica tanto internas como externas. Es capaz de revisar data histórica como de generar nueva data dentro de su proceso de investigación.",
       "Considera analítica en todo su proceso de investigación tanto para revisar data existente, como para generar nueva data. Además, propone un plan para medir los resultados de sus diseños a través de analítica."
     ],
     [

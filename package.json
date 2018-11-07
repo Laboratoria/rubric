@@ -6,11 +6,12 @@
   "scripts": {
     "pretest": "eslint .",
     "test": "jest --coverage",
-    "fetch-rubric-from-spreadsheet": "./scripts/fetch-rubric-from-spreadsheet.js > ./data/from-spreadsheet.json",
-    "process-spreadsheet-data": "./scripts/process-spreadsheet-data.js > ./data/processed.json",
-    "fetch-and-process": "npm run fetch-rubric-from-spreadsheet && npm run process-spreadsheet-data"
+    "fetch-data": "fetch-gsheets -c ./scripts/credentials.json '1NEOiVKy5IQ2pKHOoTywRG_Hcqlmi47-HkUJs0miJvsI!General!A1:G6' '1NEOiVKy5IQ2pKHOoTywRG_Hcqlmi47-HkUJs0miJvsI!Front End!A1:G26' '1NEOiVKy5IQ2pKHOoTywRG_Hcqlmi47-HkUJs0miJvsI!Habilidades Blandas!A1:G21' '1NEOiVKy5IQ2pKHOoTywRG_Hcqlmi47-HkUJs0miJvsI!UX Common Core!A1:G36' > data/gsheets.json",
+    "process-data": "./scripts/process-data.js > ./data/processed.json",
+    "fetch-and-process": "yarn fetch-data && yarn process-data"
   },
   "dependencies": {
+    "fetch-gsheets": "Laboratoria/fetch-gsheets",
     "googleapis": "^34.0.0"
   },
   "devDependencies": {
