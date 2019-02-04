@@ -10,14 +10,12 @@
     "process-data": "./scripts/process-data.js > ./data/processed.json",
     "fetch-and-process": "yarn fetch-data && yarn process-data"
   },
-  "dependencies": {
-    "fetch-gsheets": "Laboratoria/fetch-gsheets",
-    "googleapis": "^37.1.0"
-  },
   "devDependencies": {
     "eslint": "^5.13.0",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.16.0",
+    "fetch-gsheets": "Laboratoria/fetch-gsheets",
+    "googleapis": "^37.1.0",
     "jest": "^24.0.0"
   }
 }
