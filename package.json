@@ -6,7 +6,7 @@
   "scripts": {
     "pretest": "eslint .",
     "test": "jest --coverage",
-    "fetch-data": "fetch-gsheets -c ./scripts/credentials.json '1NEOiVKy5IQ2pKHOoTywRG_Hcqlmi47-HkUJs0miJvsI!General!A1:G6' '1NEOiVKy5IQ2pKHOoTywRG_Hcqlmi47-HkUJs0miJvsI!Front End!A1:G26' '1NEOiVKy5IQ2pKHOoTywRG_Hcqlmi47-HkUJs0miJvsI!Habilidades Blandas!A1:G21' '1NEOiVKy5IQ2pKHOoTywRG_Hcqlmi47-HkUJs0miJvsI!UX Common Core!A1:G36' > data/gsheets.json",
+    "fetch-data": "fetch-gsheets -c ./scripts/credentials.json '1Tviny8HzskBKP0HDKXoSClqyHsvQTO0XsWnyKWZGvJA!General!A1:H5' '1Tviny8HzskBKP0HDKXoSClqyHsvQTO0XsWnyKWZGvJA!Front End!A1:J24' '1Tviny8HzskBKP0HDKXoSClqyHsvQTO0XsWnyKWZGvJA!Habilidades Blandas!A1:J21' '1Tviny8HzskBKP0HDKXoSClqyHsvQTO0XsWnyKWZGvJA!UX Common Core!A1:J4' > data/gsheets.json",
     "process-data": "./scripts/process-data.js > ./data/processed.json",
     "fetch-and-process": "yarn fetch-data && yarn process-data"
   },
