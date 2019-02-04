@@ -12,6 +12,17 @@ describe('rubric', () => {
     it('should build tree based on spreadsheed processed data', () => {
       expect(rubric.buildTree()).toMatchSnapshot();
     });
+
+    it('should build tree with given order', () => {
+      const tree = rubric.buildTree({
+        foo: { order: 1 },
+        bar: { order: 0 },
+        baz: { order: 0 },
+      });
+      expect(tree[0].id).toBe('bar');
+      expect(tree[1].id).toBe('baz');
+      expect(tree[2].id).toBe('foo');
+    });
   });
 
   describe('rubric.buildTreeWithLocale', () => {
