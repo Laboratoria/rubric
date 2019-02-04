@@ -1,5 +1,7 @@
 # rubric
 
+[![Build Status](https://travis-ci.com/Laboratoria/rubric.svg?token=4uyuoxi9qhvAfjzUTB6y&branch=master)](https://travis-ci.com/Laboratoria/rubric)
+
 ## Instalación
 
 ```sh
