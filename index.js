@@ -1,4 +1,4 @@
-const { categories, skills, intl } = require('./data/processed');
+const { categories, skills, intl } = require('./data/processed.json');
 const pkg = require('./package.json');
 
 
