@@ -12,12 +12,12 @@
   },
   "dependencies": {
     "fetch-gsheets": "Laboratoria/fetch-gsheets",
-    "googleapis": "^34.0.0"
+    "googleapis": "^37.1.0"
   },
   "devDependencies": {
-    "eslint": "^5.8.0",
+    "eslint": "^5.13.0",
     "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.14.0",
-    "jest": "^23.6.0"
+    "eslint-plugin-import": "^2.16.0",
+    "jest": "^24.0.0"
   }
 }
