@@ -7,6 +7,7 @@ const fromSpreadsheet = require('../data/gsheets.json');
 const categoryToIdMap = {
   General: 'general',
   'Habilidades Técnicas (Front End)': 'frontEnd',
+  'Habilidades Técnicas (Front-end)': 'frontEnd', // v2
   'Habilidades Blandas (Soft Skills)': 'soft',
   'Habilidades Técnicas (UX)': 'ux',
 
@@ -14,11 +15,13 @@ const categoryToIdMap = {
 
   'Computer Science (CS)': 'cs',
   'Source Code Managment (SCM)': 'scm',
+  'Source Code Management (SCM)': 'scm', // v2
   JavaScript: 'js',
   'HTML/CSS': 'html', // css??
 
   'Habilidades de Autogestión': 'selfManagement',
   'Habilidades para las Relaciones interpersonales': 'interpersonalRelationships',
+  'Habilidades para relaciones interpersonales': 'interpersonalRelationships', // v2
 
   'UX Design': 'uxDesign',
   Research: 'research',
@@ -29,12 +32,23 @@ const categoryToIdMap = {
 };
 
 
-const categoryToId = (str) => {
-  const trimmed = str.trim();
+const lowerCasedCategoryToIdMap = Object.keys(categoryToIdMap).reduce(
+  (memo, key) => ({
+    ...memo,
+    [key.toLowerCase()]: categoryToIdMap[key],
+  }),
+  {},
+);
 
-  if (categoryToIdMap[trimmed]) {
-    return categoryToIdMap[trimmed];
+
+const categoryToId = (str) => {
+  const trimmed = str.trim().toLowerCase();
+
+  if (lowerCasedCategoryToIdMap[trimmed]) {
+    return lowerCasedCategoryToIdMap[trimmed];
   }
+
+  console.warn(`Unknown category ${str}`);
 
   return str;
 };
@@ -61,12 +75,15 @@ const skillToIdMap = {
   SEO: 'seo',
 
   'Planificación y manejo del tiempo': 'softPlanning',
+  'Planificación, organización y manejo del tiempo': 'softPlanning', // v2
   Autoaprendizaje: 'selfLearning',
   Presentaciones: 'presentations',
   Adaptabilidad: 'adaptability',
   'Solución de problemas': 'problemSolving',
   'Trabajo en equipo: colaborativo': 'collaboration',
   'Trabajo en equipo: responsabilidad': 'teamWork',
+  'Trabajo en equipo': 'teamWork', // v2
+  Responsabilidad: 'responsibility', // v2
   'Dar y recibir feedback': 'feedback',
   'Comunicación eficaz': 'communication',
 
@@ -106,6 +123,8 @@ const skillToId = (str) => {
     return skillToIdMap[trimmed];
   }
 
+  console.warn(`Unknown skill ${str}`);
+
   return str;
 };
 
@@ -117,20 +136,26 @@ const isHeadingRow = row => (
 );
 
 
-const data = fromSpreadsheet.map((rows) => {
-  // const rootCategoryId = (idx === arr.length - 1) ? 'ux-2' : categoryToId(rows[0][0]);
+const data = fromSpreadsheet.map((rows, sheetIdx) => {
   const rootCategoryId = categoryToId(rows[0][0]);
-  const rootCategoryDescription = rows[1][0] || '';
-  const { categories, skills, intl } = rows.slice(2)
+  // If in first sheet (General), we skip to rows because we have the legacy
+  // "description"
+  const rootCategoryDescription = sheetIdx === 0 ? rows[1][0] : '';
+  const { categories, skills, intl } = rows.slice(sheetIdx === 0 ? 2 : 1)
     .filter(row => !isHeadingRow(row)) // ignore headings...
     .reduce((memo, row) => (
       (row.length === 1) // category
         ? {
           ...memo,
           currentCategory: categoryToId(row[0]),
+          currentCategoryIdx: memo.currentCategoryIdx + 1,
+          currentSkillIdx: -1,
           categories: {
             ...memo.categories,
-            [categoryToId(row[0])]: { parent: rootCategoryId },
+            [categoryToId(row[0])]: {
+              parent: rootCategoryId,
+              order: memo.currentCategoryIdx + 1,
+            },
           },
           intl: {
             ...memo.intl,
@@ -139,9 +164,14 @@ const data = fromSpreadsheet.map((rows) => {
         }
         : {
           ...memo,
+          currentSkillIdx: memo.currentSkillIdx + 1,
           skills: {
             ...memo.skills,
             [skillToId(row[0])]: {
+              core: row[7],
+              cc: row[8],
+              bc: row[9],
+              order: memo.currentSkillIdx + 1,
               category: (
                 (memo.currentCategory && memo.currentCategory !== 'xxx')
                   ? memo.currentCategory
@@ -162,7 +192,9 @@ const data = fromSpreadsheet.map((rows) => {
         }
     ), {
       categories: {
-        [rootCategoryId]: {},
+        [rootCategoryId]: {
+          order: sheetIdx,
+        },
       },
       skills: {},
       intl: {
@@ -170,6 +202,8 @@ const data = fromSpreadsheet.map((rows) => {
         [`categories.${rootCategoryId}.description`]: rows[1][0],
       },
       currentCategory: null,
+      currentCategoryIdx: -1,
+      currentSkillIdx: -1,
     });
 
   return {

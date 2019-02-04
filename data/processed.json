@@ -1,193 +1,229 @@
 {
   "categories": {
-    "general": {},
-    "frontEnd": {},
+    "general": {
+      "order": 0
+    },
+    "frontEnd": {
+      "order": 1
+    },
     "cs": {
-      "parent": "frontEnd"
+      "parent": "frontEnd",
+      "order": 0
     },
     "scm": {
-      "parent": "frontEnd"
+      "parent": "frontEnd",
+      "order": 1
     },
     "js": {
-      "parent": "frontEnd"
+      "parent": "frontEnd",
+      "order": 2
     },
     "html": {
-      "parent": "frontEnd"
+      "parent": "frontEnd",
+      "order": 3
     },
-    "soft": {},
+    "soft": {
+      "order": 2
+    },
     "selfManagement": {
-      "parent": "soft"
+      "parent": "soft",
+      "order": 0
     },
     "interpersonalRelationships": {
-      "parent": "soft"
+      "parent": "soft",
+      "order": 1
     },
-    "ux": {},
-    "uxDesign": {
-      "parent": "ux"
-    },
-    "research": {
-      "parent": "ux"
-    },
-    "interactionDesign": {
-      "parent": "ux"
-    },
-    "visualDesign": {
-      "parent": "ux"
-    },
-    "businessMindset": {
-      "parent": "ux"
-    },
-    "techUnderstanding": {
-      "parent": "ux"
+    "ux": {
+      "order": 3
     }
   },
   "skills": {
     "completeness": {
-      "category": "general"
-    },
-    "documentation": {
+      "core": true,
+      "order": 0,
       "category": "general"
     },
     "logic": {
+      "core": true,
+      "cc": 1,
+      "bc": 2,
+      "order": 0,
       "category": "cs"
     },
     "architecture": {
+      "core": true,
+      "cc": 2,
+      "bc": 3,
+      "order": 1,
       "category": "cs"
     },
     "softwareDesign": {
+      "core": false,
+      "cc": 1,
+      "bc": 2,
+      "order": 2,
       "category": "cs"
     },
     "git": {
+      "core": true,
+      "cc": 2,
+      "bc": 3,
+      "order": 0,
       "category": "scm"
     },
     "github": {
+      "core": false,
+      "cc": 2,
+      "bc": 3,
+      "order": 1,
       "category": "scm"
     },
     "jsStyle": {
+      "core": true,
+      "cc": 2,
+      "bc": 3,
+      "order": 0,
       "category": "js"
     },
     "jsSemantics": {
+      "core": true,
+      "cc": 3,
+      "bc": 3,
+      "order": 1,
       "category": "js"
     },
     "modularity": {
+      "core": true,
+      "cc": 2,
+      "bc": 4,
+      "order": 2,
       "category": "js"
     },
     "dataStructures": {
+      "core": false,
+      "cc": 2,
+      "bc": 3,
+      "order": 3,
       "category": "js"
     },
     "jsTesting": {
+      "core": true,
+      "cc": 2,
+      "bc": 3,
+      "order": 4,
       "category": "js"
     },
     "htmlValidation": {
+      "core": true,
+      "cc": 3,
+      "bc": 3,
+      "order": 0,
       "category": "html"
     },
     "htmlStyle": {
+      "core": false,
+      "cc": 3,
+      "bc": 3,
+      "order": 1,
       "category": "html"
     },
     "htmlSemantics": {
+      "core": true,
+      "cc": 2,
+      "bc": 4,
+      "order": 2,
       "category": "html"
     },
     "cssDry": {
+      "core": true,
+      "cc": 3,
+      "bc": 4,
+      "order": 3,
       "category": "html"
     },
     "cssResponsive": {
-      "category": "html"
-    },
-    "seo": {
+      "core": true,
+      "cc": 2,
+      "bc": 4,
+      "order": 4,
       "category": "html"
     },
     "softPlanning": {
+      "core": true,
+      "cc": 2,
+      "bc": 4,
+      "order": 0,
       "category": "selfManagement"
     },
     "selfLearning": {
+      "core": true,
+      "cc": 2,
+      "bc": 4,
+      "order": 1,
       "category": "selfManagement"
     },
     "presentations": {
+      "core": true,
+      "cc": 2,
+      "bc": 4,
+      "order": 2,
       "category": "selfManagement"
     },
     "adaptability": {
+      "core": true,
+      "cc": 2,
+      "bc": 4,
+      "order": 3,
       "category": "selfManagement"
     },
     "problemSolving": {
+      "core": true,
+      "cc": 2,
+      "bc": 4,
+      "order": 4,
       "category": "selfManagement"
     },
-    "collaboration": {
+    "teamWork": {
+      "core": true,
+      "cc": 2,
+      "bc": 4,
+      "order": 0,
       "category": "interpersonalRelationships"
     },
-    "teamWork": {
+    "responsibility": {
+      "core": true,
+      "cc": 2,
+      "bc": 4,
+      "order": 1,
       "category": "interpersonalRelationships"
     },
     "feedback": {
+      "core": true,
+      "cc": 2,
+      "bc": 4,
+      "order": 2,
       "category": "interpersonalRelationships"
     },
     "communication": {
+      "core": true,
+      "cc": 2,
+      "bc": 4,
+      "order": 3,
       "category": "interpersonalRelationships"
     },
     "userCentricity": {
-      "category": "uxDesign"
+      "core": true,
+      "cc": 3,
+      "bc": "TBD",
+      "order": 0,
+      "category": "ux"
     },
-    "uxPlanning": {
-      "category": "research"
-    },
-    "analytics": {
-      "category": "research"
-    },
-    "interviews": {
-      "category": "research"
-    },
-    "observation": {
-      "category": "research"
-    },
-    "uxTesting": {
-      "category": "research"
-    },
-    "synthesis": {
-      "category": "research"
-    },
-    "userFlow": {
-      "category": "interactionDesign"
-    },
-    "useOfComponents": {
-      "category": "interactionDesign"
-    },
-    "informationArchitecture": {
-      "category": "interactionDesign"
-    },
-    "prototyping": {
-      "category": "interactionDesign"
-    },
-    "contrast": {
-      "category": "visualDesign"
-    },
-    "alignment": {
-      "category": "visualDesign"
-    },
-    "hierarchy": {
-      "category": "visualDesign"
-    },
-    "typography": {
-      "category": "visualDesign"
-    },
-    "color": {
-      "category": "visualDesign"
-    },
-    "accessibility": {
-      "category": "visualDesign"
-    },
-    "usability": {
-      "category": "visualDesign"
-    },
-    "businessObjectivesKPI": {
-      "category": "businessMindset"
-    },
-    "stakeholdersRelationships": {
-      "category": "businessMindset"
-    },
-    "priorization": {
-      "category": "businessMindset"
-    },
-    "otherTechnologies": {
-      "category": "techUnderstanding"
+    "visualDesign": {
+      "core": true,
+      "cc": 2,
+      "bc": "TBD",
+      "order": 1,
+      "category": "ux"
     }
   },
   "intl": {
@@ -201,14 +237,8 @@
       "skills.completeness.levels.2": "80%",
       "skills.completeness.levels.3": "100%",
       "skills.completeness.levels.4": ">100%",
-      "skills.documentation": "Documentación (producción)",
-      "skills.documentation.description": "Documentación del trabajo hecho.",
-      "skills.documentation.levels.0": "No documenta.",
-      "skills.documentation.levels.1": "Incluye README con info básica sobre requerimientos, instalación y uso.",
-      "skills.documentation.levels.2": "Usa comentarios útiles",
-      "skills.documentation.levels.3": "Incluye explicación sobre decisiones de diseño.",
-      "skills.documentation.levels.4": "Incluye documentación como una parte integral del proceso de diseño e implementación.",
-      "categories.frontEnd": "Habilidades Técnicas (Front End)",
+      "categories.frontEnd": "Habilidades Técnicas (Front-end)",
+      "categories.frontEnd.description": "Computer Science (CS)",
       "categories.cs": "Computer Science (CS)",
       "skills.logic": "Lógica / Algoritmia",
       "skills.logic.description": "Capacidad de expresión lógica, abstracción, síntesis, conocimiento de algoritmos y complejidad asintótica.",
@@ -218,12 +248,12 @@
       "skills.logic.levels.3": "Lógica correcta, expresiva y óptima (o aceptable en términos de complejdad asintótica).",
       "skills.logic.levels.4": "Demuestra conocimiento de algoritmos comunes. Implementa soluciones de complejidad óptima.",
       "skills.architecture": "Arquitectura",
-      "skills.architecture.description": "Organización general de los componentes que confarman una aplicación o sistema (archivos, carpetas, código, integración, herramientas, despliegue, ...)",
+      "skills.architecture.description": "Organización general de los componentes que conforman una aplicación o sistema (archivos, carpetas, código, integración, herramientas, despliegue, ...)",
       "skills.architecture.levels.0": "Código no está organizado de ninguna manera en particular, no separa responsabilidades y no implementa ningun patrón o convención.",
-      "skills.architecture.levels.1": "Demuestra separación entre presentación, lógica y data (frontend).",
-      "skills.architecture.levels.2": "Descripción clara del stack con razonamiento detrás de la arquitectura general de la aplicación (frontend/backend). Demuestra haber considerado mantenibilidad.",
-      "skills.architecture.levels.3": "Demuestra haber investigado y evaluado más de una opción a nivel de arquitectura y selección de herramientas.",
-      "skills.architecture.levels.4": "Demuestra haber tenido en cuenta escalabilidad, continuous integration, continuous deployment.",
+      "skills.architecture.levels.1": "Demuestra separación entre presentación, lógica y data (archivos, módulos, funciones, ...).",
+      "skills.architecture.levels.2": "Demuestra separación entre estado y vistas, además de otras \"responsabilidades\" como hacer peticiones de red o procesar data. Demuestra haber considerado mantenibilidad.",
+      "skills.architecture.levels.3": "Separación entre estado, vistas, acciones con claros patrones de reuso. Demuestra haber investigado y evaluado más de una opción a nivel de arquitectura y selección de herramientas.",
+      "skills.architecture.levels.4": "Demuestra haber tenido en cuenta la arquitectura completa de una aplicación (front-end y back-end), incluyendo escalabilidad, continuous integration, continuous deployment.",
       "skills.softwareDesign": "Patrones/Paradigmas",
       "skills.softwareDesign.description": "Implementa y diseña haciendo uso de convenciones, patrones de diseño y conocimiento de los paradigmas predominantes (procedural/oop/funcional).",
       "skills.softwareDesign.levels.0": "Código no sigue ninguna convención o patrón común. La implementación es ad-hoc e imperativa.",
@@ -231,40 +261,40 @@
       "skills.softwareDesign.levels.2": "Es consciente de la diferencia entre estilos imperativos y declarativos, pero todavía no hay una dirección clara en la implementación.",
       "skills.softwareDesign.levels.3": "Demuestra soltura pasando de un estilo/paradigma a otro (por ejemplo reemplazando iteración con recursión o abstrayendo control de flujo, ...).",
       "skills.softwareDesign.levels.4": "Demuestra soltura y profundidad con diferentes convenciones y paradigmas (imperativo/declarativo, oop/funcional). Se adapta a paradigma sin problema. Entiende los principios de cada paradigma así como sus \"vocabularios\".",
-      "categories.scm": "Source Code Managment (SCM)",
+      "categories.scm": "Source Code Management (SCM)",
       "skills.git": "Git",
       "skills.git.description": "Manejo/admistración de código fuente (versiones).",
-      "skills.git.levels.0": "Commit, push, pull, logs/messages. Usa .gitignore",
-      "skills.git.levels.1": "Commit conventions / chunks / change sets",
-      "skills.git.levels.2": "PR/Merging",
-      "skills.git.levels.3": "Branches/Tags",
-      "skills.git.levels.4": "Demuestra un nivel avanzado de resolución de conflictos",
+      "skills.git.levels.0": "Uso básico de git (clone, commit, push, pull). Usa .gitignore y configura usuario (email, username).",
+      "skills.git.levels.1": "Escribe mensajes de log informativos. Organiza sets de cambios de forma lógica.",
+      "skills.git.levels.2": "Demuestra familiaridad con manejo de ramas, enviando, revisando e integrando (merging) pull requests.",
+      "skills.git.levels.3": "Branches/Tags. Usa \"feature branches\", \"release branches\", \"develop branch\", ...siguiendo un flujo de tipo Git Flow y tags para releases.",
+      "skills.git.levels.4": "Demuestra un nivel avanzado de resolución de conflictos, manejo de historia de un projecto, rebase, squash, ...",
       "skills.github": "GitHub",
       "skills.github.description": "Colaboración en GitHub",
-      "skills.github.levels.0": "Issue tracking",
-      "skills.github.levels.1": "Milestones",
-      "skills.github.levels.2": "Releases",
-      "skills.github.levels.3": "Continuos integration",
-      "skills.github.levels.4": "Continuos deployment",
+      "skills.github.levels.0": "Usa un servicio remoto para alojar sus repositorios. Usa GitHub pages o similar para desplegar sitios estáticos. Está familiarizada con los issues.",
+      "skills.github.levels.1": "Usa issues para reportar problemas, sugerir features, hacer preguntas, ... Organiza issues en milestones, usa labels, asigna issues, ...",
+      "skills.github.levels.2": "Hace code review (aprueba, rechaza, comentarios, ...). Integra cambios entre forks/ramas.",
+      "skills.github.levels.3": "Resuelve y/o previene conflictos. Usa sistema de releases de GitHub (en conjunción con los tags de git).",
+      "skills.github.levels.4": "Usa Continuos integration (ie: Travis, Coveralls, ...) para correr tests de forma automatizada.",
       "categories.js": "JavaScript",
       "skills.jsStyle": "Estilo (linter js)",
       "skills.jsStyle.description": "Conoce y usa guías de estilo.",
-      "skills.jsStyle.levels.0": "No sigue un estilo específico. Falta linter.",
-      "skills.jsStyle.levels.1": "Incluye linter pero implementación no pasa. Contiene múltiples errores y warnings.",
-      "skills.jsStyle.levels.2": "Incluye linter. Implementación \"casi\" pasa. Sigue estilos en líneas generales pero todavía contiene algunos errores y warnings.",
-      "skills.jsStyle.levels.3": "Incluye linter. Implementación pasa. Sigue estilos. Sin errores de linters (todavía algunos warnings).",
+      "skills.jsStyle.levels.0": "No sigue un estilo específico. Falta linter (o lo ignora).",
+      "skills.jsStyle.levels.1": "Incluye linter y configuración, pero implementación no pasa. Contiene múltiples errores y warnings (más de 10).",
+      "skills.jsStyle.levels.2": "Incluye linter. Implementación \"casi\" pasa (entre 1 y 10 errores). Sigue estilos en líneas generales pero todavía contiene algunos errores y warnings.",
+      "skills.jsStyle.levels.3": "Incluye linter. Implementación pasa. Sigue estilos. Sin errores de linter (todavía algunos warnings).",
       "skills.jsStyle.levels.4": "Incluye linter, demuestra haber evaluado y elegido configuración de linter. Implementación pasa limpia.",
       "skills.jsSemantics": "Nomenclatura / semántica",
       "skills.jsSemantics.description": "Uso de identificadores con semántica y siguiendo convenciones.",
       "skills.jsSemantics.levels.0": "No usa identificadores descriptivos.",
       "skills.jsSemantics.levels.1": "Usa identificadores descriptivos, pero de forma inconsitente. Algunos nombres son crípticos o inconsistentes.",
       "skills.jsSemantics.levels.2": "Usa nombres de identificadores (variables, funciones, archivos, carpetas, ...) descriptivos.",
-      "skills.jsSemantics.levels.3": "Usa identificadores en inglés.",
+      "skills.jsSemantics.levels.3": "Todo lo anterior, y además usa identificadores en inglés (correctamente).",
       "skills.jsSemantics.levels.4": "Propone y articula una semántica consistente y efectiva para describir los componentes de la aplicación y sus interacciones.",
       "skills.modularity": "Uso de funciones / modularidad",
       "skills.modularity.description": "Organiza y divide su código en unidades lógicas con superficies de contacto y responsabilidades claras.",
       "skills.modularity.levels.0": "Organiza su código en funciones, unidades lógicas",
-      "skills.modularity.levels.1": "Organiza su código en archivos, carpetas y funciones dividiendo responsabilidades",
+      "skills.modularity.levels.1": "Organiza su código en archivos, carpetas y funciones dividiendo responsabilidades.",
       "skills.modularity.levels.2": "Organiza su código en funciones y objetos con dependencias claras/explícitas, aisladas y orientadas a ser testeadas.",
       "skills.modularity.levels.3": "Divide su código en \"módulos\" y usa un bundler para importar/exportar.",
       "skills.modularity.levels.4": "Diseña interfaces minimizando superficie de contacto. Usa sistemas de módulos tanto CommonJS como módulos de ES6",
@@ -286,15 +316,15 @@
       "skills.htmlValidation": "Correctitud / Validación",
       "skills.htmlValidation.description": "Pasa o no validador de HTML: https://validator.w3.org/",
       "skills.htmlValidation.levels.0": ">10 errores",
-      "skills.htmlValidation.levels.1": "<10 errores",
-      "skills.htmlValidation.levels.2": "<3 errores",
+      "skills.htmlValidation.levels.1": "Entre 4 y 10 errores.",
+      "skills.htmlValidation.levels.2": "Entre 1 y 3 errores.",
       "skills.htmlValidation.levels.3": "0 errores, <10 warnings",
       "skills.htmlValidation.levels.4": "0 errores, 0 warnings",
       "skills.htmlStyle": "Estilo (linter html)",
       "skills.htmlStyle.description": "HTMLHint Ver: https://github.com/yaniswang/HTMLHint",
       "skills.htmlStyle.levels.0": ">10 errores",
-      "skills.htmlStyle.levels.1": "<10 errores",
-      "skills.htmlStyle.levels.2": "<3 errores",
+      "skills.htmlStyle.levels.1": "Entre 4 y 10 errores.",
+      "skills.htmlStyle.levels.2": "Entre 1 y 3 errores.",
       "skills.htmlStyle.levels.3": "0 errores, <10 warnings",
       "skills.htmlStyle.levels.4": "0 errores, 0 warnings",
       "skills.htmlSemantics": "Semántica / Arquitectura de información",
@@ -302,7 +332,7 @@
       "skills.htmlSemantics.levels.0": "Markup no refleja semántica",
       "skills.htmlSemantics.levels.1": "Markup refleja semántica y arquitectura de información, pero todavía con insconsistencias.",
       "skills.htmlSemantics.levels.2": "Uso de HTML semántico.",
-      "skills.htmlSemantics.levels.3": "Hace uso semántico de HTML5",
+      "skills.htmlSemantics.levels.3": "Hace uso semántico con HTML5",
       "skills.htmlSemantics.levels.4": "Arquitectura ideal. Sin estilos se debe entender todo el contenido (arquitectura), y semántica de marcado.",
       "skills.cssDry": "DRY (CSS)",
       "skills.cssDry.description": "Abstracción, reuso y jerarquía de estilos.",
@@ -318,33 +348,26 @@
       "skills.cssResponsive.levels.2": "Responsive",
       "skills.cssResponsive.levels.3": "Mobile first",
       "skills.cssResponsive.levels.4": "Progressive web app",
-      "skills.seo": "SEO",
-      "skills.seo.description": "Search Engine Optimisation (SEO) / Optimización para Motores de Búsqueda",
-      "skills.seo.levels.0": "No usa meta tags, ni headings, ni negritas, ni links con title, ni SEF URLs ...",
-      "skills.seo.levels.1": "Usa meta tags y SEF URLs",
-      "skills.seo.levels.2": "Todo lo anterior y además usa meta tags correctos, con buen copy y demuestra un estudio y una intención a nivel de keyword y keyphrases",
-      "skills.seo.levels.3": "Todo lo anterior y además usa buenos headings, negritas, ...",
-      "skills.seo.levels.4": "Todo lo anterior y además demuestra un estudio detallado de keywords y key phrases que después se refleja en el copy y meta data.",
       "categories.soft": "Habilidades Blandas (Soft Skills)",
-      "categories.soft.description": "Las habilidades blandas están divididas en autogestión, es decir, habilidades que tienen que ver con el desarrollo individual de tus capacidades, y también en relaciones interpersonales, que son aquellas habilidades que dependen de la relación e interacción con los demás, como pueden ser tus compañeras y el equipo de Laboratoria. Estoes lo que utilizará el equipo de formación de Laboratoria para evaluarte, también se utilizará para que recibas feedback de tus pares y realices tu propia autoevaluación.",
+      "categories.soft.description": "Habilidades de Autogestión",
       "categories.selfManagement": "Habilidades de Autogestión",
-      "skills.softPlanning": "Planificación y manejo del tiempo",
-      "skills.softPlanning.description": "Gestiona su tiempo y completa las tareas de forma eficiente, utilizando herramientas que la ayudan en ese objetivo.",
-      "skills.softPlanning.levels.0": "Planifica pero no gestiona su tiempo/ Gestiona su tiempo pero no planifica/ No planifica y tampoco gestiona su tiempo.",
-      "skills.softPlanning.levels.1": "Logra organizarse de manera general, sin un plan específico, realizando una estimación general del tiempo.",
-      "skills.softPlanning.levels.2": "Utiliza herramientas de planificación, como un calendario, trello, papelógrafo u otras, creando un plan paso a paso de cómo quiere abarcar el proyecto o problema. Realizando una estimación realista del tiempo.",
-      "skills.softPlanning.levels.3": "Utiliza herramientas de planificación, creando un plan paso a paso de cómo quiere abarcar el proyecto o problema, identificando las herramientas necesarias para su solución. Además, estima realistamente el tiempo y cumple con lo planificado. No pierde tiempo en secciones sin relevancia, gestionando el tiempo que tiene para realizar el proyecto de la mejor manera.",
-      "skills.softPlanning.levels.4": "Demuestra tener un prototyping mindset, lo que le permite tener siempre un producto en un nivel de fidelidad adecuado para mostrarlo a clientes y usuarios, ya sea a manera de un prototipo o un MVP. Para esto utiliza herramientas de planificación, creando un plan paso a paso de cómo quiere abarcar el proyecto o problema, identificando las herramientas necesarias para su solución. Además logra realizar una correcta distribución del problema y elección de las herramienas. Gestiona su tiempo y recursos de la mejor manera para el proyecto, considerando el tiempo, las herramientas y el equipo con que cuenta.",
+      "skills.softPlanning": "Planificación, organización y manejo del tiempo",
+      "skills.softPlanning.description": "Planifica y organiza el trabajo de manera priorizada, incremental e iterativa, aprovechando su tiempo y utilizando herramientas que la ayuden a lograrlo. Demuestra tener un prototyping mindset.",
+      "skills.softPlanning.levels.0": "No planifica y/o no gestiona su tiempo",
+      "skills.softPlanning.levels.1": "Logra organizarse de manera general, sin un plan específico, haciendo una estimación muy general del tiempo.\n\nConoce las ceremonias y artefactos ágiles (sprint planning, dailys, retrospectiva, tablero al menos, etc) pero los omite y/o no las utiliza de manera adecuada.",
+      "skills.softPlanning.levels.2": "Escribe como historias de usuario y las prioriza en función del valor de negocio/usuario y de las dependencias entre sí.\n\nEscribe definiciones de terminado para cada historia de usuario del product backlog.\n\nCumple, casi siempre, con las ceremonias y mantiene su tablero actualizado.\n\nNo pierde tiempo en tareas con menor relevancia para el produto/usuario.",
+      "skills.softPlanning.levels.3": "Escribe como historias de usuario y las prioriza en función del valor de negocio/usuario y de las dependencias entre sí.\n\nEscribe definiciones de terminado para  cada historia de usuario  del product backlog.\n\nCumple siempre con las ceremonias y con mantener su tablero actualizado.\n\nNo pierde tiempo en tareas con menor relevancia para el produto/usuario, logrando gestionar su tiempo.\n\nHace estimaciones en \"puntos\" usando como referencia otras tareas ya conocidas (\"planning poker\").",
+      "skills.softPlanning.levels.4": "Escribe como historias de usuario y las prioriza en función del valor de negocio/usuario y de las dependencias entre sí.\n\nEscribe definiciones de terminado para  cada historia de usuario  del product backlog.\n\nCumple siempre con las ceremonias y con mantener su tablero actualizado.\n\nNo pierde tiempo en tareas con menor relevancia para el produto/usuario, logrando gestionar su tiempo.\n\nHace estimaciones con precisión y, por  lo tanto, planificar \"releases\" o entregas parciales con comodidad.",
       "skills.selfLearning": "Autoaprendizaje",
       "skills.selfLearning.description": "Tiene interés en adquirir nuevos conocimientos de manera autónoma, encuentra los medios para hacerlo, y lo intenta hasta lograrlo.",
-      "skills.selfLearning.levels.0": "Demuestra interés en adquirir conocimientos, pero no lo hace de manera autónoma, tampoco realiza preguntas o aclara sus dudas / No demuestra interés en adquirir conocimientos de manera autónoma, -no realiza preguntas sobre el material, ni busca aclarar conceptos-.",
-      "skills.selfLearning.levels.1": "Demuestra interés en adquirir conocimientos autónomamente, estudiando de manera independiente, lo que se puede reflejar en que cuando es necesario realiza preguntas sobre la materia, buscando aclarar conceptos y resolver dudas",
-      "skills.selfLearning.levels.2": "Adquiere de forma constante conocimientos de manera independiente y responsable. Pide referencia de materiales que pueden ser de utilidad para su aprendizaje. Además, cuando es necesario, realiza preguntas sobre la materia. Busca aprender, aclarar conceptos y resolver dudas sobre temáticas más allá de las vistas en clase.",
-      "skills.selfLearning.levels.3": "Adquiere de forma constante conocimientos de manera independiente y responsable. Es capaz de identificar por su cuenta herramientas que necesita aprender o también reforzar. Pide referencia de materiales que pueden ser de utilidad para su aprendizaje. Además, cuando es necesario, realiza preguntas sobre la materia. Busca aprender, aclarar conceptos y resolver dudas sobre temáticas más allá de las vistas en clase.",
-      "skills.selfLearning.levels.4": "Adquiere de forma constante conocimientos de manera independiente y responsable. Es capaz de identificar por su cuenta herramientas que necesita aprender o también reforzar. Pide referencia de materiales que pueden ser de utilidad para su aprendizaje. Además, cuando es necesario, realiza preguntas sobre la materia. Busca aprender, aclarar conceptos y resolver dudas sobre temáticas más allá de las vistas en clase. Le agregan a sus proyectos herramientas fuera de lo visto en clase o lo pedido y que le agregaran valor al producto.",
+      "skills.selfLearning.levels.0": "No demuestra adquiere conocimientos de manera autónoma, no realiza preguntas sobre el material, ni busca aclarar conceptos.",
+      "skills.selfLearning.levels.1": "Demuestra interés en adquirir conocimientos autónomamente, estudiando de manera independiente, lo que se puede reflejar en que cuando es necesario busca aclarar conceptos y resolver dudas sobre la materia.",
+      "skills.selfLearning.levels.2": "Adquiere de forma constante conocimientos de manera independiente y responsable. Pide referencia de materiales que pueden ser de utilidad para su aprendizaje. Además, cuando es necesario, realiza preguntas sobre la materia. Busca resolver dudas sobre temáticas más allá de las vistas en clase.",
+      "skills.selfLearning.levels.3": "Adquiere de forma constante conocimientos de manera independiente y responsable. Es capaz de identificar por su cuenta herramientas que necesita aprender o también reforzar. Pide referencia de materiales que pueden ser de utilidad para su aprendizaje. Además, cuando es necesario, realiza preguntas sobre la materia. Busca resolver dudas sobre temáticas más allá de las vistas en clase.",
+      "skills.selfLearning.levels.4": "Adquiere de forma constante conocimientos de manera independiente y responsable. Es capaz de identificar por su cuenta herramientas que necesita aprender o también reforzar. Pide referencia de materiales que pueden ser de utilidad para su aprendizaje. Además, cuando es necesario, realiza preguntas sobre la materia. Busca resolver dudas sobre temáticas más allá de las vistas en clase. Le agregan a sus proyectos herramientas fuera de lo visto en clase o lo pedido y que le agregaran valor al producto.",
       "skills.presentations": "Presentaciones",
       "skills.presentations.description": "Usar estrategias apropiadas para hablar en público, incluida la interacción con medios de presentación, como es el demo, para asegurar el entendimiento de la audiencia y la mejor forma de presentar el proyecto.",
-      "skills.presentations.levels.0": "No logra presentar el demo según requisitos del reto: no se ve bien, no se abre el link pedido, solo se ve en su computador local, etc. No realiza contacto visual y el volumen de voz es bajo o utiliza un ritmo no adecuado, lo que hace difícil entender el contenido de la presentación.",
+      "skills.presentations.levels.0": "No logra presentar el demo según requisitos del reto: no se ve bien, no se abre el link pedido, solo se ve en su computador local, etc. y/o No realiza contacto visual y el volumen de voz es bajo o utiliza un ritmo no adecuado, lo que hace difícil entender el contenido de la presentación.",
       "skills.presentations.levels.1": "Cualquier persona puede acceder al demo desde cualquier equipo. Habla con un tono y ritmo adecuado pero no realiza contacto visual o realiza contacto visual con la audiencia pero habla en un volumen bajo o en un ritmo no adecuado, lo que dificulta el entendimiento de la presentación.",
       "skills.presentations.levels.2": "Cualquier persona puede acceder al demo desde cualquier equipo. El demo se ve y funciona correctamente, logrando priorizar qué mostrar en el demo -pudiendo enseñar algunas veces menos elementos pero funcionales-. Realiza algún contacto visual con la audiencia, se apropia del espacio físico y habla con un volumen y ritmo que no interfieren con el entendimiento de la audiencia.",
       "skills.presentations.levels.3": "Cualquier persona puede acceder al demo desde cualquier equipo. El demo se ve y funciona correctamente, teniendo al menos una funcionalidad principal que está perfecta y pequeñas funcionalidades anexas que funcionan correctamente. Realiza contacto visual regular con la audiencia, se apropia del espacio físico y habla con un volumen y ritmo que no interfieren con el entendimiento de la audiencia, e incluso capta su atención.",
@@ -358,26 +381,26 @@
       "skills.adaptability.levels.4": "Navega ante la incertidumbre, siendo capaz de reconocer y alimentar la incomodidad de no saber, y luego idear tácticas para salir de ella cuando sea necesario. Ante cambios inesperados o nuevos desafios los recibe con una actitud positiva, se adapta y logra proponer soluciones creativas para encontrar una nueva estrategia. Logra asumir retos, enfrenta los cambios repentinos, como trabajar con nuevos equipos o cambios en el proyecto.  Realizar un analisis \"post mortem\"; ve lo que salío mal e identificar posibles mejores. Además, realiza un análisis \"pre-mortem\", asume que puede pasar algo inesperado y lo maneja de la mejor forma posible, cambiando su función para estar alineada con los requisitos del entorno (proyecto, salón de clases, etc).",
       "skills.problemSolving": "Solución de problemas",
       "skills.problemSolving.description": "Tiene la disposición de buscar y encontrar soluciones a problemas de diversa complejidad y naturaleza, evitando quedarse estancada y apoyando a su equipo en el camino.",
-      "skills.problemSolving.levels.0": "Ante problemas busca pero no logra encontrar una solución o no intenta buscar alternativas ante problemas que se presentan.",
-      "skills.problemSolving.levels.1": "Busca soluciones alternativas a problemas de mediana complejidad, no siempre logra buscar alternativas a problemas de mayor complejidad. Para encontrar esta solución depende de otros para comenzar a resolver un problema.",
-      "skills.problemSolving.levels.2": "Comienza a aplicar su propria creatividad para resolver problemas independentiemente. Busca soluciones alternativas a problemas de diversa complejidad, a pesar de que no todas las soluciones puedan ser correctas, consulta distintas fuentes para resolver el problema.",
-      "skills.problemSolving.levels.3": "Busca soluciones alternativas utilizando su propia creatividad para resolver problemas de diversa complejidad y naturaleza. Al no encontrar una solución, recurre a los demás para encontrar una forma de resolver el problema o también busca soluciones a través de experimentación e iteracíon -busca salir del edificio como una herramienta para \"resolver\" el problema-.",
+      "skills.problemSolving.levels.0": "No intenta buscar alternativas ante problemas que se presentan.",
+      "skills.problemSolving.levels.1": "Busca soluciones alternativas a problemas de mediana complejidad. Depende de otros para comenzar a resolver un problema.",
+      "skills.problemSolving.levels.2": "Comienza a aplicar su propia creatividad para resolver problemas independentiemente. Busca soluciones alternativas a problemas de diversa complejidad, a pesar de que no todas las soluciones puedan ser correctas, consulta distintas fuentes para resolver el problema.",
+      "skills.problemSolving.levels.3": "Busca soluciones alternativas utilizando su propia creatividad para resolver problemas de diversa complejidad y naturaleza. Al consultar diferentes fuentes y no encontrar una solución, recurre a los demás para encontrar una forma de resolver el problema o también busca soluciones a través de experimentación e iteracíon -busca \"salir del edificio\" como una herramienta para \"resolver\" el problema-.",
       "skills.problemSolving.levels.4": "Busca soluciones alternativas utilizando su propia creatividad para resolver problemas de diversa complejidad y naturaleza. Logra pedir ayuda a tiempo y recurre a los demás para encontrar una forma de resolver el problema de manera colaborativa. Demuestra experimentación e iteración dentro del proceso de solución de problemas. No solo experimenta con el problema, si no también piensa criticamente sobre él - es decir, cuestiona como se conecta \"x problema\" a otros y encuentra soluciones, nuevos procesos, técnicas, etc. Para poder resolver un grupo entero de \"problemas,\" influye a los demás y trabaja en equipo para lograrlo.",
-      "categories.interpersonalRelationships": "Habilidades para las Relaciones interpersonales",
-      "skills.collaboration": "Trabajo en equipo: colaborativo",
-      "skills.collaboration.description": "Trabajo colaborativo: trabaja de manera colaborativa y coordinada para alcanzar los objetivos de su equipo.",
-      "skills.collaboration.levels.0": "No trabaja colaborativamente",
-      "skills.collaboration.levels.1": "Trabaja de manera coordinada con el equipo",
-      "skills.collaboration.levels.2": "Trabaja de manera coordinada y contribuye al objetivo común, entregando ideas para la construcción del producto.",
-      "skills.collaboration.levels.3": "Trabaja de manera coordinada y contribuye al objetivo común, entregando ideas para la construcción del producto, respetando siempre el trabajo de sus compañeras.",
-      "skills.collaboration.levels.4": "Trabaja de manera coordinada y contribuye al objetivo común, entregando ideas para la construcción del producto, respetando siempre el trabajo de sus compañeras. Se preocupa del proceso de aprendizaje del equipo, generando un ambiente colaborativo entre sus compañeras.",
-      "skills.teamWork": "Trabajo en equipo: responsabilidad",
-      "skills.teamWork.description": "Responsabilidad: cumple con entregar su trabajo a tiempo y ayuda a los demás con lo que tengan pendiente.",
-      "skills.teamWork.levels.0": "No cumple con sus responsabilidades o si las cumple es fuera del tiempo acordado",
-      "skills.teamWork.levels.1": "Entrega su trabajo a tiempo",
-      "skills.teamWork.levels.2": "Entrega su trabajo a tiempo y colabora con el objetivo final del trabajo, con el fin de entregar un producto de calidad.",
-      "skills.teamWork.levels.3": "Entrega su trabajo a tiempo y colabora con el objetivo final del trabajo, ayudando a los demás con los pendientes, con el fin de entregar un producto de calidad.",
-      "skills.teamWork.levels.4": "Entrega su trabajo a tiempo y colabora con el objetivo del trabajo, ayudando a los demás con los pendientes, con el fin de entregar un producto de calidad. Encuentra alternativas de acción cuando es necesario, para llegar con el producto a tiempo.",
+      "categories.interpersonalRelationships": "Habilidades para relaciones interpersonales",
+      "skills.teamWork": "Trabajo en equipo",
+      "skills.teamWork.description": "Trabajo en equipo: ofrece ayuda a sus compañeras, coordina sus actividades con su grupo y trabaja por el objetivo común de su equipo",
+      "skills.teamWork.levels.0": "No trabaja colaborativamente",
+      "skills.teamWork.levels.1": "Trabaja de manera colaborativa con el equipo.",
+      "skills.teamWork.levels.2": "Trabaja de manera colaborativa y contribuye al objetivo común, entregando ideas para la construcción del proyecto.",
+      "skills.teamWork.levels.3": "Trabaja de manera colaborativa y contribuye al objetivo común, entregando ideas para la construcción del producto, respetando siempre el trabajo de sus compañeras.",
+      "skills.teamWork.levels.4": "Trabaja de manera colaborativa y contribuye al objetivo común, entregando ideas para la construcción del producto, respetando siempre el trabajo de sus compañeras.                                                                                                                                                                                                                              Se preocupa del proceso de aprendizaje del equipo, generando un ambiente colaborativo entre sus compañeras. Por ejemplo. ofrece ayuda a sus compañeras, hace preguntas a sus compañeras respecto a su proceso, anima a su grupo, etc.",
+      "skills.responsibility": "Responsabilidad",
+      "skills.responsibility.description": "Responsabilidad: cumple con entregar su trabajo a tiempo y ayuda a los demás con lo que tengan pendiente.",
+      "skills.responsibility.levels.0": "No cumple con sus responsabilidades o si las cumple es fuera del tiempo acordado",
+      "skills.responsibility.levels.1": "Entrega su trabajo a tiempo",
+      "skills.responsibility.levels.2": "Entrega su trabajo a tiempo y colabora con el objetivo final del trabajo, con el fin de entregar un producto de calidad.",
+      "skills.responsibility.levels.3": "Entrega su trabajo a tiempo y colabora con el objetivo final del trabajo, ayudando a los demás con los pendientes, con el fin de entregar un producto de calidad.",
+      "skills.responsibility.levels.4": "Entrega su trabajo a tiempo y colabora con el objetivo del trabajo, ayudando a los demás con los pendientes, con el fin de entregar un producto de calidad. Encuentra alternativas de acción cuando es necesario, para llegar con el producto a tiempo.",
       "skills.feedback": "Dar y recibir feedback",
       "skills.feedback.description": "Escucha y valora los comentarios y críticas de los demás, rescatando los aspectos que la ayuden a incorporar mejoras. Da su opinión de manera fundamentada, constructiva y coherente. Promueve sesiones de feedback con su equipo, aporta puntual y objetivamente en retrospectivas. Code review (hace y recibe)",
       "skills.feedback.levels.0": "No escucha o rechaza los comentarios y criticas de los demás, y/o no entrega su opinión o si lo hace no es de manera constructiva.",
@@ -393,137 +416,21 @@
       "skills.communication.levels.3": "Logra comunicar sus ideas a los demás, teniendo capacidad de síntesis y articulando sus ideas con claridad. Entiende a su audiencia o equipo y logra que se entienda lo que quiere comunicar facilitando el diálogo",
       "skills.communication.levels.4": "Logra comunicar sus ideas a los demás, teniendo capacidad de síntesis y articulando sus ideas con claridad. Entiende a su audiencia o equipo y logra que se entienda lo que quiere comunicar facilitando el diálogo. Además, mantiene una comunicación constante y fluida con el resto, facilitando el trabajo y las relaciones en este.",
       "categories.ux": "Habilidades Técnicas (UX)",
-      "categories.ux.description": "Las habilidades de UX Design tienen en cuenta 6 distintos aspectos: UX Design, research o investigación, interaction design, visual design, business mindset y tech understanding. Todos estos aspectos son claves para tu evolución como UX Designer y en tu camino hacía diseñar y rediseñar productos digitales exitosos. Esto es lo que utilizará el equipo de formación de Laboratoria para evaluarte, también se utilizará para que recibas feedback de tus pares y realices tu propia autoevaluación.",
-      "categories.uxDesign": "UX Design",
+      "categories.ux.description": "Habilidad",
       "skills.userCentricity": "User centricity",
       "skills.userCentricity.description": "Capacidad para crear productos pensando y entendiendo a los usuarios finales.",
       "skills.userCentricity.levels.0": "Diseña el producto basado en su propia experiencia - \"self-driven design\". No entiende ni tiene en cuenta al usuario.",
-      "skills.userCentricity.levels.1": "Conoce sobre UX y sabe que el usuario es importante. Reflexiona sobre los objetivos del usuario y del negocio, pero no \"sale a la calle\" (no se acerca al usuario). Utiliza algunas heurísticas.",
-      "skills.userCentricity.levels.2": "Se enfoca en la investigación. Entiende al usuario a través de la investigación, realiza entrevistas y observa al usuario en ambientes controlados.",
-      "skills.userCentricity.levels.3": "Toma en cuenta al usuario en todo el proceso de diseño desde research hasta testing, sin embargo, no los toma en cuenta en sus KPIs del producto.",
-      "skills.userCentricity.levels.4": "Toma en cuenta al usuario en todo el proceso de diseño desde research hasta testing hasta KPIs",
-      "categories.research": "Research",
-      "skills.uxPlanning": "Planificación",
-      "skills.uxPlanning.description": "Planifica una investigación entendiendo primero el objetivo de esta y elabora un plan de acción para poder completarla.",
-      "skills.uxPlanning.levels.0": "Empieza a trabajar en la investigación sin planificar.",
-      "skills.uxPlanning.levels.1": "Planifica las actividades a realizar pero le cuesta alinearlas a los objetivos del negocio. No delimita bien el alcance del proyecto.",
-      "skills.uxPlanning.levels.2": "Entiende los objetivos del proyecto y logra proponer un plan de actividades acorde a ello. Aún tiene problemas sobre la definición del alcance y de los tiempos para realizar las actividades.",
-      "skills.uxPlanning.levels.3": "Entiende los objetivos del proyecto y propone un plan de actividades acorde a los objetivos de investigación, delimitados de acuerdo al alcance y tiempos del proyecto. Le es complicado replantear las actividades y sus tiempos cuando cambian las condiciones durante la investigación.",
-      "skills.uxPlanning.levels.4": "Entiende los objetivos del proyecto y propone un plan de actividades acorde a los objetivos de investigación, delimitados de acuerdo al alcance y tiempos del proyecto. Tiene la capacidad de replantear las actividades y tiempos si es que cambian las condiciones durante la investigación.",
-      "skills.analytics": "Analítica",
-      "skills.analytics.description": "Identifica y manipula datos de herramientas/servicios existentes",
-      "skills.analytics.levels.0": "No considera analítica de ningún tipo antes de trabajar en su investigación.",
-      "skills.analytics.levels.1": "Tiene la capacidad de encontrar y revisar los datos de análitica históricos que puede tener el producto en el que trabaja y considerarlos dentro de su investigación.",
-      "skills.analytics.levels.2": "Entiende distintas herramientas de analítica tanto para revisar data histórica como para generar nueva data dentro del proceso de investigación.",
-      "skills.analytics.levels.3": "Entiende y trabaja con distintas herramientas de análitica tanto internas como externas. Es capaz de revisar data histórica como de generar nueva data dentro de su proceso de investigación.",
-      "skills.analytics.levels.4": "Considera analítica en todo su proceso de investigación tanto para revisar data existente, como para generar nueva data. Además, propone un plan para medir los resultados de sus diseños a través de analítica.",
-      "skills.interviews": "Entrevistas",
-      "skills.interviews.description": "Define, diseña y realiza entrevistas para lograr un completo entendimiento de los usuarios.",
-      "skills.interviews.levels.0": "Entrevista sin priorizar los objetivos de la investigación. No elabora una guía de entrevistas o la elabora sin priorizar los tiempos ni objetivos de negocio. Realiza preguntas de respuestas cerradas.",
-      "skills.interviews.levels.1": "Elabora guía de entrevistas para la investigación con poco orden en el flujo. Entiende los objetivos de la entrevista pero tiene dificultad para formular preguntas de acuerdo a estos objetivos. Le cuesta crear preguntas no condicionadas. No se siente muy cómoda entrevistando. Interrumpe al usuario durante la entrevista. Utiliza el tiempo de la entrevista en temas no relevantes.",
-      "skills.interviews.levels.2": "Crea una guía de entrevistas con preguntas bien formuladas y con un flujo que tiene sentido. Valora el silencio durante las entrevistas, sin embargo a veces le cuesta no interrumpir al usuario y priorizar el uso del tiempo durante la entrevista. Genera confianza en usuarios de backgrounds similares al de ella, sin embargo le cuesta trabajo generar confianza y sentirse confiada con otros tipos de usuarios. Se le complica re-dirigir al usuario si es que este se desvía del tema durante la entrevista.",
-      "skills.interviews.levels.3": "Entiende los objetivos de la investigación y los traslada a una guía de entrevistas bien estructurada y que sigue un flujo que hace sentido. No interrumpe al usuario ni hace preguntas condicionadas o cerradas. Genera confianza con distintos tipos de usuarios. Le cuesta un poco salirse del libreto cuando un usuario toca temas no esperados.",
-      "skills.interviews.levels.4": "Realiza entrevistas con usuarios sin hacer preguntas condicionadas. Es capaz de salirse del libreto sin dejar de seguir los objetivos de la investigación. Puede identificar y profundizar en temas no esperados, pero que sean relevantes para la investigación, que surjan por parte del entrevistado. Genera confianza y se enfrenta sin dificultad a distintos tipos de usuarios de distintos mercados sin problema. Maneja estratégicamente los tiempos de la entrevista.",
-      "skills.observation": "Observación",
-      "skills.observation.description": "Desarrolla la habilidad y metodología de observación.",
-      "skills.observation.levels.0": "No tiene en cuenta actividades de observación dentro de su proceso de investigación.",
-      "skills.observation.levels.1": "Observa a usuarios dentro de su proceso de investigación de una manera poco estructurada. Le cuesta trabajo dentificar patrones y entender los comportamientos del usuario.",
-      "skills.observation.levels.2": "Tiene la capacidad de observar usuarios en ambientes controlados y en ambientes reales. En ocasiones condiciona las acciones del usuario. Entiende los comportamientos más habituales, pero le cuesta trabajo entender comportamientos poco frecuentes.",
-      "skills.observation.levels.3": "Tiene la capacidad de observar usuarios en distintas situaciones en ambientes controlados y en ambientes reales sin condicionar al usuario. Entendiende e interpreta el lenguaje corporal del usuario. Encuentra patrones en lo que observa tanto en las acciones del usuario como en el espacio que lo rodea, identificando, en el espacio, las cosas que son importantes para el usuario.",
-      "skills.observation.levels.4": "Tiene la capacidad de observar usuarios en distintas situaciones en ambientes controlados y en ambientes reales sin condicionar al usuario. Entendiende e interpreta el lenguaje corporal del usuario. Encuentra patrones en lo que observa tanto en las acciones del usuario como en el espacio que lo rodea, identificando, en el espacio, las cosas que son importantes para el usuario. Es capaz de generar un guía de preguntas complementaria para luego de la sesión de observación.",
-      "skills.uxTesting": "Testing",
-      "skills.uxTesting.description": "Define, diseña y realiza sesiones de testing.",
-      "skills.uxTesting.levels.0": "No realiza actividades de testeo con usuarios de sus diseños.",
-      "skills.uxTesting.levels.1": "Dirige sesiones de testing con usuarios en ambientes controlados. Es capaz de crear una guía de entrevista para el testing. Sin embargo, le cuesta trabajo no interrumpir al usuario o hacer preguntas condicionadas. No valora el silencio y no es capaz de extraer mayores impresiones del usuario.",
-      "skills.uxTesting.levels.2": "Dirige sesiones de testing con usuarios al final del proceso de diseño y realiza estas sesiones en distintos ambientes. Genera empatía. No interrumpe al usuario ni condiciona sus acciones dentro de la sesión de testing. Sabe responder a las preguntas del usuario con otras preguntas buscando el mayor input de él.",
-      "skills.uxTesting.levels.3": "Dirige sesiones de testing con usuarios en distintos ambientes y en distintas etapas del proceso de diseño. Se siente cómoda testeando en etapas tempanas del proceso de diseño y en distintos niveles de fidelidad. Genera empatía con el usuario.",
-      "skills.uxTesting.levels.4": "Dirige sesiones de testing desde etapas tempranas de la investigación. Usa las sesiones de testing en la parte de diágnostico y durante todo el proceso. Es capaz de realizar sesiones de testing estructuradas y no estructuradas con prototipos de disintos niveles de fidelidad. Es capaz de crear y seguir una guía de entrevista para la sesión de testing.",
-      "skills.synthesis": "Síntesis de resultados",
-      "skills.synthesis.description": "Tiene la habilidad de encontrar sentido dentro de todas las fuentes de información e inspiración que revisa y de encontrar insights y oportunidades en ellas.",
-      "categories.interactionDesign": "Interaction design",
-      "skills.userFlow": "Flujos de usuario",
-      "skills.userFlow.description": "Entiende las distintas interacciones que tiene un usuario con un producto digital y crea flujos que faciliten al usuario conseguir sus objetivos con el producto.",
-      "skills.userFlow.levels.0": "No identifica ni define los diferentes flujos que el usuario realiza dentro de su aplicación.",
-      "skills.userFlow.levels.1": "Identifica ciertos flujos que el usuario realiza dentro de su aplicación.",
-      "skills.userFlow.levels.2": "Identifica y define ciertos flujos que el usuario realiza dentro de su aplicación.",
-      "skills.userFlow.levels.3": "Identifica y define todos los posibles flujos de usuario de su aplicación. Algunos flujos definidos facilitan al usuario alcanzar sus objetivos con el producto de manera efectiva.",
-      "skills.userFlow.levels.4": "Identifica y define todos los posibles flujos de usuario de la aplicación. Todos los flujos definidos facilitan al usuario alcanzar sus objetivos con el producto.",
-      "skills.useOfComponents": "Uso de componentes",
-      "skills.useOfComponents.description": "Entiende y aplica las mejores prácticas de uso de componentes en interfaces.",
-      "skills.informationArchitecture": "Arquitectura de la información",
-      "skills.informationArchitecture.description": "Organiza la información que tiene un producto digital.",
-      "skills.prototyping": "Prototyping",
-      "skills.prototyping.description": "Crea prototipos en distintos niveles de fidelidad que le permiten confirmar que el producto que está diseñando resuelve las necesidades de los usuarios.",
-      "categories.visualDesign": "Visual design",
-      "skills.contrast": "Contraste",
-      "skills.contrast.description": "Utiliza los estándares de contraste en las interfaces que trabaja.",
-      "skills.contrast.levels.0": "No diferencia los colores y tipografías por su nivel de contraste.",
-      "skills.contrast.levels.1": "Diferencia el uso de contraste en colores de fondo y texto, así como contraste entre títulos y párrafos.",
-      "skills.contrast.levels.2": "Experimenta colores de fondo y de texto en los componentes más importantes: títulos y botones, diferenciándolos por su contraste.",
-      "skills.contrast.levels.3": "Comprende el uso de contraste a lo largo de su composición. No sólo en componentes o en fondos, sino  como una suma que crea uniformidad.",
-      "skills.contrast.levels.4": "Aplica y entiende las reglas de contraste con las mejores prácticas. Se percibe una composición homogénea y limpia en su totalidad.",
-      "skills.alignment": "Alineación",
-      "skills.alignment.description": "Utiliza alineaciones en las interfaces que crea.",
-      "skills.alignment.levels.0": "Los componentes presentan distintos tipos de alineaciones. La interfaz se ve desordenada.",
-      "skills.alignment.levels.1": "Alinea los elementos de su composición dando un sentido de equilibrio, pero aún no lo hace de forma homogénea.",
-      "skills.alignment.levels.2": "Alinea los componentes más importantes como títulos, imágenes y botones. No presta atención al detalle de los componentes secundarios.",
-      "skills.alignment.levels.3": "Alinea todos los componentes con un sentido de orientación o una lógica, pero se siguen presentando inconsistencias visuales o de planificación.",
-      "skills.alignment.levels.4": "Entiende y aplica la misma guía y lógica en los componentes  bajo las mejores prácticas, logrando una composición alineada y equilibrada en su totalidad.",
-      "skills.hierarchy": "Jerarquías",
-      "skills.hierarchy.description": "Utiliza jerarquías para comunicar distintos niveles de importancia de los elementos de sus interfaces.",
-      "skills.hierarchy.levels.0": "El contenido no tiene ningún nivel de jerarquía.",
-      "skills.hierarchy.levels.1": "Diferencía la importancia de algunos componentes. Sin embargo, no hay consistencia en las jerarquías cuando se cambian los tamaños de pantallas.",
-      "skills.hierarchy.levels.2": "Sólo distingue y le da relevancia jerárquica a los componentes más importantes. Los de menor categoría puede estar incorporados a la jerarquía pero su diferencia en importancia no es clara.",
-      "skills.hierarchy.levels.3": "Los elementos tienen manipulación jerárquica haciendo evidente el uso, pero carecen de unidad.",
-      "skills.hierarchy.levels.4": "Aplica y entiende la jerarquización a tal grado de que en la composicón se entiende la intención de cada componente similar y se perciben como un grupo uniforme.",
-      "skills.typography": "Tipografías",
-      "skills.typography.description": "Utiliza distintos tipos de tipografías de acuerdo a las necesidades de comunicación de su producto.",
-      "skills.typography.levels.0": "No usa tipografías distintas a las que vienen por defecto.",
-      "skills.typography.levels.1": "Utiliza tipografías distintas a las que vienen por defecto. De ser el caso, utiliza las fuentes del manual de la marca con la que está trabajando.",
-      "skills.typography.levels.2": "Selecciona tipografías específicas por componente a destacar. (Ej: una para todos los títulos.)  De ser el caso, utiliza las fuentes del manual de la marca con la que está trabajando.",
-      "skills.typography.levels.3": "Utiliza menos de tres fuentes tipográficas, perfectramente utilizadas bajo el concepto de contraste y unidad visual. Las tipografías reafirman el mensaje central de la composición.  De ser el caso, utiliza las fuentes del manual de la marca con la que está trabajando.",
-      "skills.typography.levels.4": "Aplica y entiende el uso de tipografía como un elemento que aporta un significado en tamaño, uso y lectura. La composición cuenta con un sistema de tipografías bien aplicado y consistente.  De ser el caso, utiliza las fuentes del manual de la marca con la que está trabajando.",
-      "skills.color": "Color",
-      "skills.color.description": "Utiliza y combina colores de acuerdo a las mejores prácticas.",
-      "skills.color.levels.0": "No usa colores ni estilos.",
-      "skills.color.levels.1": "Utiliza colores distintos a los que vienen por defecto. Usa distintos colores para textos, botones, fondos, etc. De ser el caso, utiliza los colores que representan a la marca con la que está trabajando.",
-      "skills.color.levels.2": "Usa un número determinado de colores que acompañan la composición a lo largo de los componentes. De ser el caso, utiliza los colores y variaciones de color del manual de la marca con la que está trabajando. Presenta errores en la consistencia de colores en algunos componentes.",
-      "skills.color.levels.3": "Usa menos de tres colores siguiendo reglas como: contraste, tonalidades o matices para la implementación en los diferentes componentes. De ser el caso, utiliza los colores y variaciones de color del manual de la marca con la que está trabajando.",
-      "skills.color.levels.4": "Entiende y aplica el color como un signo que aporta y reafirma un significado a lo largo de la composición de manera homogénea y congruente, creando una identidad sólida. De ser el caso, utiliza los colores y variaciones de color del manual de la marca con la que está trabajando.",
-      "skills.accessibility": "Accesibilidad",
-      "skills.accessibility.description": "Entiende e implementa los estándares de accesibilidad.",
-      "skills.usability": "Usabilidad",
-      "skills.usability.description": "Entende e implementa las distintas heurísiticas de usabilidad.",
-      "skills.usability.levels.0": "No entiende",
-      "skills.usability.levels.1": "Entiende y aplica correctamente al menos 3 de las 10 heurísticas de usabilidad de NN. Puede sustentar el porqué de su uso.",
-      "skills.usability.levels.2": "Entiende y aplica correctamente al menos 7 de las 10 heurísticas de usabilidad de NN. Puede sustentar el porqué de su uso.",
-      "skills.usability.levels.3": "Entiende y aplica correctamente las 10 heurísticas de usabilidad de NN. Puede sustentar el porqué de su uso.",
-      "skills.usability.levels.4": "Entiende y aplica correctamente las 10 heurísticas de usabilidad de NN. También entiende y extrapola estos conceptos de usabilidad a otro productos digitales. Puede sustentar el porqué de sus decisiones de usabilidad.",
-      "categories.businessMindset": "Business mindset",
-      "skills.businessObjectivesKPI": "Objetivos de negocio + KPIs",
-      "skills.businessObjectivesKPI.description": "Identifica y entende el problema/reto de negocio/producto en una empresa y las distintas métricas asociadas al éxito del producto.",
-      "skills.businessObjectivesKPI.levels.0": "No identifica o entiende los objetivos de negocio de la empresa. Tampoco considera los KPIs asociados a los objetivos y/o productos.",
-      "skills.businessObjectivesKPI.levels.1": "Identifica y/o entiende algunos objetivos de negocio y KPIs de la empresa pero no los considera durante las etapas del desarrollo del producto.",
-      "skills.businessObjectivesKPI.levels.2": "Identifica y endiende los objetivos de negocio y KPIs de la empresa pero no los considera en las etapas del desarrollo del producto.",
-      "skills.businessObjectivesKPI.levels.3": "Identifica y endiende los objetivos de negocio y KPIs de la empresa y los considera en algunas etapas del desarrollo del producto.",
-      "skills.businessObjectivesKPI.levels.4": "Identifica y endiende los objetivos de negocio y KPIs de la empresa y los considera durante todas las etapas del desarrollo del producto.",
-      "skills.stakeholdersRelationships": "Relación con Stakeholders",
-      "skills.stakeholdersRelationships.description": "Identifica, entiende y se relaciona con stakeholders claves de los proyectos que en los que trabaja.",
-      "skills.stakeholdersRelationships.levels.0": "No identifica, ni entiende, ni se relaciona con los stakeholders del proyecto.",
-      "skills.stakeholdersRelationships.levels.1": "Identifica a algunos stakeholders del proyecto, pero no entiende ni se relaciona con ellos.",
-      "skills.stakeholdersRelationships.levels.2": "Identifica a todos los stakeholders del proyecto, pero no llega a entenderlos completamente ni se relaciona con ellos.",
-      "skills.stakeholdersRelationships.levels.3": "Identifica y entiende a todos los todos los stakeholders del proyecto pero no se relaciona con ellos.",
-      "skills.stakeholdersRelationships.levels.4": "Identifica, entiende y se relaciona a los stakeholders del proyecto. Considera los diferentes puntos de vista en todas las etapas del desarrollo.",
-      "skills.priorization": "Priorización",
-      "skills.priorization.description": "Entiende qué funcionalidades priorizar de acuerdo a los objetivos de negocio.",
-      "skills.priorization.levels.0": "No identifica las funcionalidades a priorizar en el desarrollo del producto de acuerdo a los objetivos del negocio.",
-      "skills.priorization.levels.1": "Identifica y prioriza algunas funcionalidades y actividades durante el desarrollo del producto.",
-      "skills.priorization.levels.2": "Identifica y prioriza funcionalidades y actividades durante el desarrollo del producto pero no alineado a los objetivos del negocio.",
-      "skills.priorization.levels.3": "Identifica y prioriza funcionalidades y actividades durante el desarrollo del producto en base a algunos objetivos de negocio.",
-      "skills.priorization.levels.4": "Identifica y prioriza funcionalidades y actividades durante el desarrollo del producto de acuerdo a los objetivos del negocio.",
-      "categories.techUnderstanding": "Tech understanding",
-      "skills.otherTechnologies": "Otras tecnologías",
-      "skills.otherTechnologies.description": "Entiende la diferencia entre web, nativo, híbrido, etc. y utiliza este entendimiento para sustentar sus deciones de diseño."
+      "skills.userCentricity.levels.1": "Conoce sobre UX y sabe que el usuario es importante. Reflexiona sobre los objetivos del usuario y del producto, pero no \"sale a la calle\" (no se acerca al usuario). Los usuarios a quienes entrevista o con quienes realiza prueba no son un reflejo de su público objetivo.",
+      "skills.userCentricity.levels.2": "Se enfoca en la investigación. Entiende al usuario a través de la investigación, realiza entrevistas, observación y testings con usuarios de su público objetivo.",
+      "skills.userCentricity.levels.3": "Toma en cuenta al usuario en todo el proceso de diseño desde research hasta testing. Estos usuarios son parte  del público objetivo del producto en el cuál trabaja.",
+      "skills.userCentricity.levels.4": "Toma en cuenta al usuario en todo el proceso de diseño desde research hasta testing, y los incluye al momento de definir los KPIs de su producto.",
+      "skills.visualDesign": "Visual Design",
+      "skills.visualDesign.description": "Pone en práctica los principios de visual design en los componentes de su producto y en la relación de estos con los otros componentes. El diseño propuesto como un todo se entiende de manera clara.",
+      "skills.visualDesign.levels.0": "No entiende ni aplica los principios de visual design.",
+      "skills.visualDesign.levels.1": "Entiende que hay conceptos como: contraste, alineación, jerarquía, tipografía y color para crear composiciones. Si bien no las aplica todas, pero se ve un esfuerzo por implementar algunos.",
+      "skills.visualDesign.levels.2": "Aplica la mayoría de conceptos de manera adecuada por separado. Y en conjunto algunos puede que no tengan 100% armonía, pero se ve el fuerte trabajo por seguirlos y aplicarlos casi en su totalidad. La página se percibe fuertemente homogenea en estilos.",
+      "skills.visualDesign.levels.3": "Pueden criticar una interfaz basándose en los fundamentos de diseño visual y en buenas prácticas. Construye interfaces utilizando como base una librería de componentes o guía de estilo siguiendo, también, las mejores prácticas de diseño visual, usabilidad y accesibilidad.",
+      "skills.visualDesign.levels.4": "Entiende y pone en práctica las mejores prácticas de Visual Design. Implementa las normas básicas de accesibilidad y las heurísticas usabilidad."
     }
   }
 }
