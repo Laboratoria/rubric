@@ -5,7 +5,7 @@ const pkg = require('./package.json');
 const skillIds = Object.keys(skills);
 
 
-const buildTree = (nodes = categories, parent) => Object.keys(nodes).reduce(
+const buildTree = (parent, nodes = categories) => Object.keys(nodes).reduce(
   (memo, key) => (
     (nodes[key].parent !== parent)
       ? memo
@@ -29,9 +29,9 @@ const buildTree = (nodes = categories, parent) => Object.keys(nodes).reduce(
 
 
 const buildTreeWithLocale = (
+  parent,
   locale = 'es',
   nodes = categories,
-  parent,
 ) => Object.keys(nodes).reduce(
   (memo, key) => (
     (nodes[key].parent !== parent)
