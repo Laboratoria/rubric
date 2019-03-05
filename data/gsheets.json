@@ -277,6 +277,47 @@
   ],
   [
     [
+      "Habilidades Técnicas (UX)"
+    ],
+    [
+      "Habilidad",
+      "Descripción",
+      "Nivel 1",
+      "Nivel 2",
+      "Nivel 3",
+      "Nivel 4",
+      "Nivel 5",
+      "Indispensable (core)",
+      "Expectativa Final CC",
+      "Expectativa Final BC"
+    ],
+    [
+      "User centricity",
+      "Capacidad para poder crear productos pensando y entendiendo a los usuarios finales.",
+      "Diseña el producto basado en su propia experiencia - \"self-driven design\". No entiende ni tiene en cuenta al usuario.",
+      "Conoce sobre UX y sabe que el usuario es importante. Reflexiona sobre los objetivos del usuario y del producto, pero no \"sale a la calle\" (no se acerca al usuario). Los usuarios a quienes entrevista o con quienes realiza prueba no son un reflejo de su público objetivo.",
+      "Se enfoca en la investigación. Entiende al usuario a través de la investigación, realiza entrevistas, observación y testings con usuarios de su público objetivo.",
+      "Toma en cuenta al usuario en todo el proceso de diseño desde research hasta testing. Estos usuarios son parte  del público objetivo del producto en el cuál trabaja.",
+      "Toma en cuenta al usuario en todo el proceso de diseño desde research hasta testing, y los incluye al momento de definir los KPIs de su producto.",
+      true,
+      3,
+      "TBD"
+    ],
+    [
+      "Visual Design",
+      "Pone en práctica los principios de diseño visual en los componentes de su producto y en la relación de estos con los otros componentes. El diseño propuesto como un todo se entiende de manera clara.",
+      "No entiende ni aplica los principios de visual design.",
+      "Entiende que hay conceptos como: contraste, alineación, jerarquía, tipografía y color para crear composiciones. Si bien no las aplica todas, pero se ve un esfuerzo por implementar algunos.",
+      "Aplica la mayoría de conceptos de manera adecuada por separado. Y en conjunto algunos puede que no tengan 100% armonía, pero se ve el fuerte trabajo por seguirlos y aplicarlos casi en su totalidad. La página se percibe fuertemente homogenea en estilos.",
+      "Pueden criticar una interfaz basándose en los fundamentos de diseño visual y en buenas prácticas. Construye interfaces utilizando como base una librería de componentes o guía de estilo siguiendo, también, las mejores prácticas de diseño visual, usabilidad y accesibilidad.",
+      "Entiende y pone en práctica las mejores prácticas de Visual Design. Implementa las normas básicas de accesibilidad y las heurísticas usabilidad.",
+      true,
+      2,
+      "TBD"
+    ]
+  ],
+  [
+    [
       "Habilidades Blandas (Soft Skills)"
     ],
     [
@@ -500,47 +541,6 @@
       true,
       2,
       4
-    ]
-  ],
-  [
-    [
-      "Habilidades Técnicas (UX)"
-    ],
-    [
-      "Habilidad",
-      "Descripción",
-      "Nivel 1",
-      "Nivel 2",
-      "Nivel 3",
-      "Nivel 4",
-      "Nivel 5",
-      "Indispensable (core)",
-      "Expectativa Final CC",
-      "Expectativa Final BC"
-    ],
-    [
-      "User centricity",
-      "Capacidad para poder crear productos pensando y entendiendo a los usuarios finales.",
-      "Diseña el producto basado en su propia experiencia - \"self-driven design\". No entiende ni tiene en cuenta al usuario.",
-      "Conoce sobre UX y sabe que el usuario es importante. Reflexiona sobre los objetivos del usuario y del producto, pero no \"sale a la calle\" (no se acerca al usuario). Los usuarios a quienes entrevista o con quienes realiza prueba no son un reflejo de su público objetivo.",
-      "Se enfoca en la investigación. Entiende al usuario a través de la investigación, realiza entrevistas, observación y testings con usuarios de su público objetivo.",
-      "Toma en cuenta al usuario en todo el proceso de diseño desde research hasta testing. Estos usuarios son parte  del público objetivo del producto en el cuál trabaja.",
-      "Toma en cuenta al usuario en todo el proceso de diseño desde research hasta testing, y los incluye al momento de definir los KPIs de su producto.",
-      true,
-      3,
-      "TBD"
-    ],
-    [
-      "Visual Design",
-      "Pone en práctica los principios de diseño visual en los componentes de su producto y en la relación de estos con los otros componentes. El diseño propuesto como un todo se entiende de manera clara.",
-      "No entiende ni aplica los principios de visual design.",
-      "Entiende que hay conceptos como: contraste, alineación, jerarquía, tipografía y color para crear composiciones. Si bien no las aplica todas, pero se ve un esfuerzo por implementar algunos.",
-      "Aplica la mayoría de conceptos de manera adecuada por separado. Y en conjunto algunos puede que no tengan 100% armonía, pero se ve el fuerte trabajo por seguirlos y aplicarlos casi en su totalidad. La página se percibe fuertemente homogenea en estilos.",
-      "Pueden criticar una interfaz basándose en los fundamentos de diseño visual y en buenas prácticas. Construye interfaces utilizando como base una librería de componentes o guía de estilo siguiendo, también, las mejores prácticas de diseño visual, usabilidad y accesibilidad.",
-      "Entiende y pone en práctica las mejores prácticas de Visual Design. Implementa las normas básicas de accesibilidad y las heurísticas usabilidad.",
-      true,
-      2,
-      "TBD"
     ]
   ]
 ]
