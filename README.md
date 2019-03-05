@@ -89,14 +89,22 @@ y nombres, descriciones y niveles de cada _habilidad_
 
 ### Métodos
 
-#### `buildTree(nodes, parent)`
+#### `buildTree(nodes = categories, parent = undefined)`
 
-Retorna un arreglo con las categorás raíz (cada _hoja_ del spreadsheet es una
-_categoría raíz_ - sin `parent`) con sus subcategorías y habilidades
-correspondientes.
+Retorna un `Array` con las _categorías raíz_. Por defecto, si omitimos el
+argumento `nodes`, las categorías raíz serían las _hojas_ del spreadsheet, y si
+omitimos el argumento `parent` estaríamos diciendo que queremos construir el
+árbol desde la ráiz. El arreglo retornado contiene las categorías raíz, cada una
+con sus subcategorías y habilidades correspondientes.
 
-```
-[Category, Category, Category, ...]
+```js
+const rubric = require('rubric');
+
+// Build entire tree from the root
+console.log(rubric.buildTree());
+
+// Build partial tree (sub-tree) for a given branch
+console.log(rubric.buildTree(undefined, 'frontEnd'));
 ```
 
 Cada categoría/subcategoría (`Category`) tiene las siguientes propiedades:
