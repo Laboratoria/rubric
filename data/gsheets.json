@@ -75,7 +75,7 @@
     ],
     [
       "Patrones/Paradigmas",
-      "Implementa y diseña haciendo uso de convenciones, patrones de diseño y conocimiento de los paradigmas predominantes (procedural/oop/funcional).",
+      "Implementa y diseña haciendo uso de convenciones, patrones de diseño y conocimiento de los paradigmas de programación predominantes (procedural/oop/funcional).",
       "Código no sigue ninguna convención o patrón común. La implementación es ad-hoc e imperativa.",
       "Demuestra uso de convenciones de JavaScript idiomático. Implementación predominantemente procedural.",
       "Es consciente de la diferencia entre estilos imperativos y declarativos, pero todavía no hay una dirección clara en la implementación.",
@@ -369,7 +369,7 @@
     [
       "Adaptabilidad",
       "Se adapta a situaciones nuevas con actitud positiva. Lidia con la incertidumbre proponiendo soluciones creativas y cambia de estrategia cuando se necesita. Asume retos, afronta cambios repentinos, se adecua a trabajar con nuevos equipos, etc",
-      "Ante cambios o nuevos desafiíos se adapta pero no mantiene una actitud positiva/ No logra adaptarse ante situaciones nuevas o a la incertidumbre.",
+      "Ante cambios o nuevos desafíos se adapta pero no mantiene una actitud positiva/ No logra adaptarse ante situaciones nuevas o a la incertidumbre.",
       "Ante cambios o nuevos desafíos los recibe con una actitud positiva, pero no necesariamente logra accionarlos o adaptarse de la mejor manera, es decir, no planifica nuevamente o no puede integrar los cambios en lo planificado.",
       "Ante cambios inesperados o nuevos desafios los recibe con una actitud positiva, se adapta y logra proponer soluciones creativas para encontrar una nueva estrategia. De esta manera, logra asumir retos, enfrenta los cambios repentinos, como trabajar con nuevos equipos o cambios en el proyecto.",
       "Navega ante la incertidumbre, siendo capaz de reconocer y alimentar la incomodidad de no saber, y luego idear tácticas para salir de ella cuando sea necesario. Ante cambios inesperados o nuevos desafios los recibe con una actitud positiva, se adapta y logra proponer soluciones creativas para encontrar una nueva estrategia. Logra asumir retos, enfrenta los cambios repentinos, como trabajar con nuevos equipos o cambios en el proyecto. Logra realizar un analisis \"post mortem\" o retrospectiva, donde logra ver que es lo que salío mal e identifica posibles mejores",
@@ -520,7 +520,7 @@
     ],
     [
       "User centricity",
-      "Capacidad para crear productos pensando y entendiendo a los usuarios finales.",
+      "Capacidad para poder crear productos pensando y entendiendo a los usuarios finales.",
       "Diseña el producto basado en su propia experiencia - \"self-driven design\". No entiende ni tiene en cuenta al usuario.",
       "Conoce sobre UX y sabe que el usuario es importante. Reflexiona sobre los objetivos del usuario y del producto, pero no \"sale a la calle\" (no se acerca al usuario). Los usuarios a quienes entrevista o con quienes realiza prueba no son un reflejo de su público objetivo.",
       "Se enfoca en la investigación. Entiende al usuario a través de la investigación, realiza entrevistas, observación y testings con usuarios de su público objetivo.",
@@ -532,7 +532,7 @@
     ],
     [
       "Visual Design",
-      "Pone en práctica los principios de visual design en los componentes de su producto y en la relación de estos con los otros componentes. El diseño propuesto como un todo se entiende de manera clara.",
+      "Pone en práctica los principios de diseño visual en los componentes de su producto y en la relación de estos con los otros componentes. El diseño propuesto como un todo se entiende de manera clara.",
       "No entiende ni aplica los principios de visual design.",
       "Entiende que hay conceptos como: contraste, alineación, jerarquía, tipografía y color para crear composiciones. Si bien no las aplica todas, pero se ve un esfuerzo por implementar algunos.",
       "Aplica la mayoría de conceptos de manera adecuada por separado. Y en conjunto algunos puede que no tengan 100% armonía, pero se ve el fuerte trabajo por seguirlos y aplicarlos casi en su totalidad. La página se percibe fuertemente homogenea en estilos.",
