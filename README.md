@@ -94,7 +94,7 @@ y nombres, descriciones y niveles de cada _habilidad_
 Retorna un `Array` con las _categorías raíz_. Por defecto, si omitimos el
 argumento `nodes`, las categorías raíz serían las _hojas_ del spreadsheet, y si
 omitimos el argumento `parent` estaríamos diciendo que queremos construir el
-árbol desde la ráiz. El arreglo retornado contiene las categorías raíz, cada una
+árbol desde la raíz. El arreglo retornado contiene las categorías raíz, cada una
 con sus subcategorías y habilidades correspondientes.
 
 ```js
