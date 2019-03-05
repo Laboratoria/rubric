@@ -22,8 +22,11 @@
       "parent": "frontEnd",
       "order": 3
     },
-    "soft": {
+    "ux": {
       "order": 2
+    },
+    "soft": {
+      "order": 3
     },
     "selfManagement": {
       "parent": "soft",
@@ -32,9 +35,6 @@
     "interpersonalRelationships": {
       "parent": "soft",
       "order": 1
-    },
-    "ux": {
-      "order": 3
     }
   },
   "skills": {
@@ -148,6 +148,20 @@
       "order": 4,
       "category": "html"
     },
+    "userCentricity": {
+      "core": true,
+      "cc": 3,
+      "bc": "TBD",
+      "order": 0,
+      "category": "ux"
+    },
+    "visualDesign": {
+      "core": true,
+      "cc": 2,
+      "bc": "TBD",
+      "order": 1,
+      "category": "ux"
+    },
     "softPlanning": {
       "core": true,
       "cc": 2,
@@ -210,20 +224,6 @@
       "bc": 4,
       "order": 3,
       "category": "interpersonalRelationships"
-    },
-    "userCentricity": {
-      "core": true,
-      "cc": 3,
-      "bc": "TBD",
-      "order": 0,
-      "category": "ux"
-    },
-    "visualDesign": {
-      "core": true,
-      "cc": 2,
-      "bc": "TBD",
-      "order": 1,
-      "category": "ux"
     }
   },
   "intl": {
@@ -255,7 +255,7 @@
       "skills.architecture.levels.3": "Separación entre estado, vistas, acciones con claros patrones de reuso. Demuestra haber investigado y evaluado más de una opción a nivel de arquitectura y selección de herramientas.",
       "skills.architecture.levels.4": "Demuestra haber tenido en cuenta la arquitectura completa de una aplicación (front-end y back-end), incluyendo escalabilidad, continuous integration, continuous deployment.",
       "skills.softwareDesign": "Patrones/Paradigmas",
-      "skills.softwareDesign.description": "Implementa y diseña haciendo uso de convenciones, patrones de diseño y conocimiento de los paradigmas predominantes (procedural/oop/funcional).",
+      "skills.softwareDesign.description": "Implementa y diseña haciendo uso de convenciones, patrones de diseño y conocimiento de los paradigmas de programación predominantes (procedural/oop/funcional).",
       "skills.softwareDesign.levels.0": "Código no sigue ninguna convención o patrón común. La implementación es ad-hoc e imperativa.",
       "skills.softwareDesign.levels.1": "Demuestra uso de convenciones de JavaScript idiomático. Implementación predominantemente procedural.",
       "skills.softwareDesign.levels.2": "Es consciente de la diferencia entre estilos imperativos y declarativos, pero todavía no hay una dirección clara en la implementación.",
@@ -348,6 +348,22 @@
       "skills.cssResponsive.levels.2": "Responsive",
       "skills.cssResponsive.levels.3": "Mobile first",
       "skills.cssResponsive.levels.4": "Progressive web app",
+      "categories.ux": "Habilidades Técnicas (UX)",
+      "categories.ux.description": "Habilidad",
+      "skills.userCentricity": "User centricity",
+      "skills.userCentricity.description": "Capacidad para poder crear productos pensando y entendiendo a los usuarios finales.",
+      "skills.userCentricity.levels.0": "Diseña el producto basado en su propia experiencia - \"self-driven design\". No entiende ni tiene en cuenta al usuario.",
+      "skills.userCentricity.levels.1": "Conoce sobre UX y sabe que el usuario es importante. Reflexiona sobre los objetivos del usuario y del producto, pero no \"sale a la calle\" (no se acerca al usuario). Los usuarios a quienes entrevista o con quienes realiza prueba no son un reflejo de su público objetivo.",
+      "skills.userCentricity.levels.2": "Se enfoca en la investigación. Entiende al usuario a través de la investigación, realiza entrevistas, observación y testings con usuarios de su público objetivo.",
+      "skills.userCentricity.levels.3": "Toma en cuenta al usuario en todo el proceso de diseño desde research hasta testing. Estos usuarios son parte  del público objetivo del producto en el cuál trabaja.",
+      "skills.userCentricity.levels.4": "Toma en cuenta al usuario en todo el proceso de diseño desde research hasta testing, y los incluye al momento de definir los KPIs de su producto.",
+      "skills.visualDesign": "Visual Design",
+      "skills.visualDesign.description": "Pone en práctica los principios de diseño visual en los componentes de su producto y en la relación de estos con los otros componentes. El diseño propuesto como un todo se entiende de manera clara.",
+      "skills.visualDesign.levels.0": "No entiende ni aplica los principios de visual design.",
+      "skills.visualDesign.levels.1": "Entiende que hay conceptos como: contraste, alineación, jerarquía, tipografía y color para crear composiciones. Si bien no las aplica todas, pero se ve un esfuerzo por implementar algunos.",
+      "skills.visualDesign.levels.2": "Aplica la mayoría de conceptos de manera adecuada por separado. Y en conjunto algunos puede que no tengan 100% armonía, pero se ve el fuerte trabajo por seguirlos y aplicarlos casi en su totalidad. La página se percibe fuertemente homogenea en estilos.",
+      "skills.visualDesign.levels.3": "Pueden criticar una interfaz basándose en los fundamentos de diseño visual y en buenas prácticas. Construye interfaces utilizando como base una librería de componentes o guía de estilo siguiendo, también, las mejores prácticas de diseño visual, usabilidad y accesibilidad.",
+      "skills.visualDesign.levels.4": "Entiende y pone en práctica las mejores prácticas de Visual Design. Implementa las normas básicas de accesibilidad y las heurísticas usabilidad.",
       "categories.soft": "Habilidades Blandas (Soft Skills)",
       "categories.soft.description": "Habilidades de Autogestión",
       "categories.selfManagement": "Habilidades de Autogestión",
@@ -374,7 +390,7 @@
       "skills.presentations.levels.4": "Cualquier persona puede acceder al demo desde cualquier equipo. El demo se ve y funciona correctamente, teniendo una funcionalidad principal y varias sub funcionalidades que están perfectas. Además eligen el mejor medio para mostrar el demo. Realiza contacto visual regular con la audiencia, se apropia adecuadamente del espacio físico y habla con un volumen y ritmo que propician el entendimiento de la audiencia y capta su atención.",
       "skills.adaptability": "Adaptabilidad",
       "skills.adaptability.description": "Se adapta a situaciones nuevas con actitud positiva. Lidia con la incertidumbre proponiendo soluciones creativas y cambia de estrategia cuando se necesita. Asume retos, afronta cambios repentinos, se adecua a trabajar con nuevos equipos, etc",
-      "skills.adaptability.levels.0": "Ante cambios o nuevos desafiíos se adapta pero no mantiene una actitud positiva/ No logra adaptarse ante situaciones nuevas o a la incertidumbre.",
+      "skills.adaptability.levels.0": "Ante cambios o nuevos desafíos se adapta pero no mantiene una actitud positiva/ No logra adaptarse ante situaciones nuevas o a la incertidumbre.",
       "skills.adaptability.levels.1": "Ante cambios o nuevos desafíos los recibe con una actitud positiva, pero no necesariamente logra accionarlos o adaptarse de la mejor manera, es decir, no planifica nuevamente o no puede integrar los cambios en lo planificado.",
       "skills.adaptability.levels.2": "Ante cambios inesperados o nuevos desafios los recibe con una actitud positiva, se adapta y logra proponer soluciones creativas para encontrar una nueva estrategia. De esta manera, logra asumir retos, enfrenta los cambios repentinos, como trabajar con nuevos equipos o cambios en el proyecto.",
       "skills.adaptability.levels.3": "Navega ante la incertidumbre, siendo capaz de reconocer y alimentar la incomodidad de no saber, y luego idear tácticas para salir de ella cuando sea necesario. Ante cambios inesperados o nuevos desafios los recibe con una actitud positiva, se adapta y logra proponer soluciones creativas para encontrar una nueva estrategia. Logra asumir retos, enfrenta los cambios repentinos, como trabajar con nuevos equipos o cambios en el proyecto. Logra realizar un analisis \"post mortem\" o retrospectiva, donde logra ver que es lo que salío mal e identifica posibles mejores",
@@ -414,23 +430,7 @@
       "skills.communication.levels.1": "Logra comunicar sus ideas a los demás cuando es necesario, pero no fomenta instancias de comunicación",
       "skills.communication.levels.2": "Logra comunicar sus ideas a los demás, teniendo capacidad de síntesis y articulando sus ideas con claridad.",
       "skills.communication.levels.3": "Logra comunicar sus ideas a los demás, teniendo capacidad de síntesis y articulando sus ideas con claridad. Entiende a su audiencia o equipo y logra que se entienda lo que quiere comunicar facilitando el diálogo",
-      "skills.communication.levels.4": "Logra comunicar sus ideas a los demás, teniendo capacidad de síntesis y articulando sus ideas con claridad. Entiende a su audiencia o equipo y logra que se entienda lo que quiere comunicar facilitando el diálogo. Además, mantiene una comunicación constante y fluida con el resto, facilitando el trabajo y las relaciones en este.",
-      "categories.ux": "Habilidades Técnicas (UX)",
-      "categories.ux.description": "Habilidad",
-      "skills.userCentricity": "User centricity",
-      "skills.userCentricity.description": "Capacidad para crear productos pensando y entendiendo a los usuarios finales.",
-      "skills.userCentricity.levels.0": "Diseña el producto basado en su propia experiencia - \"self-driven design\". No entiende ni tiene en cuenta al usuario.",
-      "skills.userCentricity.levels.1": "Conoce sobre UX y sabe que el usuario es importante. Reflexiona sobre los objetivos del usuario y del producto, pero no \"sale a la calle\" (no se acerca al usuario). Los usuarios a quienes entrevista o con quienes realiza prueba no son un reflejo de su público objetivo.",
-      "skills.userCentricity.levels.2": "Se enfoca en la investigación. Entiende al usuario a través de la investigación, realiza entrevistas, observación y testings con usuarios de su público objetivo.",
-      "skills.userCentricity.levels.3": "Toma en cuenta al usuario en todo el proceso de diseño desde research hasta testing. Estos usuarios son parte  del público objetivo del producto en el cuál trabaja.",
-      "skills.userCentricity.levels.4": "Toma en cuenta al usuario en todo el proceso de diseño desde research hasta testing, y los incluye al momento de definir los KPIs de su producto.",
-      "skills.visualDesign": "Visual Design",
-      "skills.visualDesign.description": "Pone en práctica los principios de visual design en los componentes de su producto y en la relación de estos con los otros componentes. El diseño propuesto como un todo se entiende de manera clara.",
-      "skills.visualDesign.levels.0": "No entiende ni aplica los principios de visual design.",
-      "skills.visualDesign.levels.1": "Entiende que hay conceptos como: contraste, alineación, jerarquía, tipografía y color para crear composiciones. Si bien no las aplica todas, pero se ve un esfuerzo por implementar algunos.",
-      "skills.visualDesign.levels.2": "Aplica la mayoría de conceptos de manera adecuada por separado. Y en conjunto algunos puede que no tengan 100% armonía, pero se ve el fuerte trabajo por seguirlos y aplicarlos casi en su totalidad. La página se percibe fuertemente homogenea en estilos.",
-      "skills.visualDesign.levels.3": "Pueden criticar una interfaz basándose en los fundamentos de diseño visual y en buenas prácticas. Construye interfaces utilizando como base una librería de componentes o guía de estilo siguiendo, también, las mejores prácticas de diseño visual, usabilidad y accesibilidad.",
-      "skills.visualDesign.levels.4": "Entiende y pone en práctica las mejores prácticas de Visual Design. Implementa las normas básicas de accesibilidad y las heurísticas usabilidad."
+      "skills.communication.levels.4": "Logra comunicar sus ideas a los demás, teniendo capacidad de síntesis y articulando sus ideas con claridad. Entiende a su audiencia o equipo y logra que se entienda lo que quiere comunicar facilitando el diálogo. Además, mantiene una comunicación constante y fluida con el resto, facilitando el trabajo y las relaciones en este."
     }
   }
 }
