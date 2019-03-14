@@ -15,7 +15,6 @@
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.16.0",
     "fetch-gsheets": "Laboratoria/fetch-gsheets#v1.0.0-alpha.1",
-    "googleapis": "^38.0.0",
     "jest": "^24.1.0"
   }
 }
