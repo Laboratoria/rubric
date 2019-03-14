@@ -26,6 +26,7 @@ const categoryToIdMap = {
   'UX Design': 'uxDesign',
   Research: 'research',
   'Interaction design': 'interactionDesign',
+  // 'Diseño de interacción': 'interactionDesign',
   'Visual design': 'visualDesign',
   'Business mindset': 'businessMindset',
   'Tech understanding': 'techUnderstanding',
@@ -89,6 +90,7 @@ const skillToIdMap = {
 
   'User centricity': 'userCentricity',
   Planificación: 'uxPlanning',
+  'Planeamiento y ejecución': 'uxPlanning',
   Analítica: 'analytics',
   Entrevistas: 'interviews',
   Observación: 'observation',
@@ -109,6 +111,7 @@ const skillToIdMap = {
   'Relación con Stakeholders': 'stakeholdersRelationships',
   Priorización: 'priorization',
   'Otras tecnologías': 'otherTechnologies',
+  'Diseño de interacción': 'interactionDesign',
 
   'Entrevistas y testing': 'interviews',
   'Visual Design': 'visualDesign',
@@ -140,8 +143,9 @@ const data = fromSpreadsheet.map((rows, sheetIdx) => {
   const rootCategoryId = categoryToId(rows[0][0]);
   // If in first sheet (General), we skip to rows because we have the legacy
   // "description"
-  const rootCategoryDescription = sheetIdx === 0 ? rows[1][0] : '';
-  const { categories, skills, intl } = rows.slice(sheetIdx === 0 ? 2 : 1)
+  const hasRootCategoryDescription = [0, 2].includes(sheetIdx);
+  const rootCategoryDescription = hasRootCategoryDescription ? rows[1][0] : '';
+  const { categories, skills, intl } = rows.slice(hasRootCategoryDescription ? 2 : 1)
     .filter(row => !isHeadingRow(row)) // ignore headings...
     .reduce((memo, row) => (
       (row.length === 1) // category
