@@ -8,7 +8,7 @@
     "test": "jest --coverage",
     "fetch-data": "./scripts/fetch-data.sh > data/gsheets.json",
     "process-data": "./scripts/process-data.js > ./data/processed.json",
-    "fetch-and-process": "yarn fetch-data && yarn process-data"
+    "fetch-and-process": "npm run fetch-data && npm run process-data"
   },
   "devDependencies": {
     "eslint": "^5.15.0",
