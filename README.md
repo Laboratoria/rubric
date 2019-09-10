@@ -1,4 +1,4 @@
-# rubric
+# @laboratoria/rubric
 
 [![Build Status](https://travis-ci.com/Laboratoria/rubric.svg?token=4uyuoxi9qhvAfjzUTB6y&branch=master)](https://travis-ci.com/Laboratoria/rubric)
 [![Coverage Status](https://coveralls.io/repos/github/Laboratoria/rubric/badge.svg?branch=master)](https://coveralls.io/github/Laboratoria/rubric?branch=master)
@@ -20,16 +20,17 @@ Los _mantenedores_ del documento de la rúbrica son:
 ## Instalación
 
 Si solo necesitas la versión más reciente de la _rúbrica_, puedes instalar el
-módulo `Laboratoria/rubric` desde el repo de GitHub con los siguientes comandos:
+módulo `@laboratoria/rubric` desde el repo de GitHub con los siguientes comandos:
 
 ```sh
 # con npm
-npm install --save Laboratoria/rubric
+npm install --save @laboratoria/rubric
 
 # con yarn
-yarn add Laboratoria/rubric
+yarn add @laboratoria/rubric
 ```
 
+<!--
 ### Instalación de varias versiones en paralelo
 
 Por otro lado, en muchos casos necesitarás poder usar varias versiones de la
@@ -44,8 +45,8 @@ Por ejemplo, en tu `package.json`:
   "name": "my-app",
   "version": "1.0.0",
   "dependencies": {
-    "rubric-v1": "Laboratoria/rubric#v1",
-    "rubric-v2": "Laboratoria/rubric#v2"
+    "rubric-v1": "@laboratoria/rubric#v1.0.0",
+    "rubric-v2": "@laboratoria/rubric#v2.3.1"
   }
 }
 ```
@@ -61,6 +62,7 @@ const rubric = {
 
 console.log(rubric.v1.buildTreeWithLocale('es'));
 ```
+-->
 
 ## API
 
