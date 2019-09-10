@@ -1,0 +1,8 @@
+__snapshots__/
+scripts/
+.editorconfig                   
+.eslintignore                   
+.eslintrc                       
+index.spec.js                   
+data/gsheets.json               
+.travis.yml
