@@ -1,8 +1,9 @@
 __snapshots__/
+coverage/
 scripts/
-.editorconfig                   
-.eslintignore                   
-.eslintrc                       
-index.spec.js                   
-data/gsheets.json               
+.editorconfig
+.eslintignore
+.eslintrc
+index.spec.js
+data/gsheets.json
 .travis.yml
