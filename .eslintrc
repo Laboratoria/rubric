@@ -11,6 +11,7 @@
     "no-underscore-dangle": "off",
     "consistent-return": "off",
     "no-shadow": "off",
-    "no-nested-ternary": "off"
+    "no-nested-ternary": "off",
+    "arrow-parens": ["error", "as-needed", { "requireForBlockBody": true }]
   }
 }
