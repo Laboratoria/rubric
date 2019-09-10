@@ -5,13 +5,15 @@
   "license": "MIT",
   "scripts": {
     "pretest": "eslint .",
-    "test": "jest --coverage",
+    "test": "jest --verbose --coverage",
+    "coveralls": "cat ./coverage/lcov.info | coveralls",
     "fetch-data": "./scripts/fetch-data.sh > data/gsheets.json",
     "process-data": "./scripts/process-data.js > ./data/processed.json",
     "fetch-and-process": "npm run fetch-data && npm run process-data"
   },
   "devDependencies": {
     "@laboratoria/fetch-gsheets": "^1.0.1",
+    "coveralls": "^3.0.6",
     "eslint": "^6.3.0",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.18.2",

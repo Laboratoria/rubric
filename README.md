@@ -1,6 +1,7 @@
 # rubric
 
 [![Build Status](https://travis-ci.com/Laboratoria/rubric.svg?token=4uyuoxi9qhvAfjzUTB6y&branch=master)](https://travis-ci.com/Laboratoria/rubric)
+[![Coverage Status](https://coveralls.io/repos/github/Laboratoria/rubric/badge.svg?branch=master)](https://coveralls.io/github/Laboratoria/rubric?branch=master)
 
 Este repositorio contienen una _librería_ (_biblioteca_) de JavaScript que
 representa la _rúbrica_ que usamos en el Bootcamp de Laboratoria. La _rúbrica_
