@@ -26,8 +26,12 @@ describe('rubric', () => {
   });
 
   describe('rubric.buildTreeWithLocale', () => {
-    it('should build tree including localized texts', () => {
+    it('should build tree including spanish (es) localized texts', () => {
       expect(rubric.buildTreeWithLocale('es')).toMatchSnapshot();
+    });
+
+    it('should build tree including portuguese (pt) localized texts', () => {
+      expect(rubric.buildTreeWithLocale('pt')).toMatchSnapshot();
     });
 
     it('should use spanish as default language', () => {

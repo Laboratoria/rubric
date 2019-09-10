@@ -4,30 +4,7 @@
       "General"
     ],
     [
-      "En este documento encontrarás todas las habilidades que mediremos en Laboratoria. Cada una tiene una descripción  general que te ayudará a entender de qué se trata y la definición explícita de cada nivel -del 1 al 5-  para que puedas reconocer tu progreso y el nivel que debes alcanzar en cada proyecto. \n\nLa descripción de cada uno de los niveles podrá ser cada vez más detallada según corresponda a los proyectos que te toquen hacer a continuación."
-    ],
-    [
-      "Nivel de logro general para cada proyecto"
-    ],
-    [
-      "",
-      "Descripción",
-      "Nivel 1",
-      "Nivel 2",
-      "Nivel 3",
-      "Nivel 4",
-      "Nivel 5",
-      "Core"
-    ],
-    [
-      "Completitud",
-      "Grado de completitud del proyecto o reto dependiendo de especificaciones/requerimientos de cada uno.",
-      "<50%",
-      "50%",
-      "80%",
-      "100%",
-      ">100%",
-      true
+      "En este documento encontrarás todas las habilidades que consideramos importantes en Laboratoria. Cada una tiene una descripción general que te ayudará a entender de qué se trata y la definición explícita de cada nivel -del 1 al 5-  para que puedas reconocer tu progreso."
     ]
   ],
   [
@@ -45,9 +22,7 @@
       "Nivel 3",
       "Nivel 4",
       "Nivel 5",
-      "Indispensable (core)",
-      "Expectativa Final CC",
-      "Expectativa Final BC"
+      "Indispensable (core)"
     ],
     [
       "Lógica / Algoritmia",
@@ -57,9 +32,7 @@
       "Lógica correcta. Identifica y evita repetición. Abstrae/reusa lógica. DRY",
       "Lógica correcta, expresiva y óptima (o aceptable en términos de complejidad asintótica).",
       "Demuestra conocimiento de algoritmos comunes. Implementa soluciones de complejidad óptima.",
-      true,
-      1,
-      2
+      true
     ],
     [
       "Arquitectura",
@@ -67,11 +40,9 @@
       "Código no está organizado de ninguna manera en particular, no separa responsabilidades y no implementa ningún patrón o convención.",
       "Demuestra separación entre presentación, lógica y data (archivos, módulos, funciones, ...).",
       "Demuestra separación entre estado y vistas, además de otras \"responsabilidades\" como hacer peticiones de red o procesar data. Demuestra haber considerado mantenibilidad.",
-      "Demuestra separación entre estado y vistas, además de otras \"responsabilidades\" como hacer peticiones de red o procesar data. Demuestra haber considerado mantenibilidad.",
+      "Separación entre estado, vistas, acciones con claros patrones de reuso. Demuestra haber investigado y evaluado más de una opción a nivel de arquitectura y selección de herramientas.",
       "Demuestra haber tenido en cuenta la arquitectura completa de una aplicación (front-end y back-end), incluyendo escalabilidad, continuous integration, continuous deployment.",
-      true,
-      2,
-      3
+      true
     ],
     [
       "Patrones/Paradigmas",
@@ -81,9 +52,7 @@
       "Es consciente de la diferencia entre estilos imperativos y declarativos, pero todavía no hay una dirección clara en la implementación.",
       "Demuestra soltura pasando de un estilo/paradigma a otro (por ejemplo reemplazando iteración con recursión o abstrayendo control de flujo, ...).",
       "Demuestra soltura y profundidad con diferentes convenciones y paradigmas (imperativo/declarativo, oop/funcional). Se adapta a paradigma sin problema. Entiende los principios de cada paradigma así como sus \"vocabularios\".",
-      false,
-      1,
-      2
+      false
     ],
     [
       "Source Code Management (SCM)"
@@ -96,9 +65,7 @@
       "Nivel 3",
       "Nivel 4",
       "Nivel 5",
-      "Indispensable (core)",
-      "Expectativa Final CC",
-      "Expectativa Final BC"
+      "Indispensable (core)"
     ],
     [
       "Git",
@@ -108,9 +75,7 @@
       "Demuestra familiaridad con manejo de ramas, enviando, revisando e integrando (merging) pull requests.",
       "Branches/Tags. Usa \"feature branches\", \"release branches\", \"develop branch\", ...siguiendo un flujo de tipo Git Flow y tags para releases.",
       "Demuestra un nivel avanzado de resolución de conflictos, manejo de historia de un proyecto, rebase, squash, ...",
-      true,
-      2,
-      3
+      true
     ],
     [
       "GitHub",
@@ -120,9 +85,7 @@
       "Hace code review (aprueba, rechaza, comentarios, ...). Integra cambios entre forks/ramas.",
       "Resuelve y/o previene conflictos. Usa sistema de releases de GitHub (en conjunción con los tags de git).",
       "Usa Continuos integration (ie: Travis, Coveralls, ...) para correr tests de forma automatizada.",
-      false,
-      2,
-      3
+      false
     ],
     [
       "JavaScript"
@@ -135,9 +98,7 @@
       "Nivel 3",
       "Nivel 4",
       "Nivel 5",
-      "Indispensable (core)",
-      "Expectativa Final CC",
-      "Expectativa Final BC"
+      "Indispensable (core)"
     ],
     [
       "Estilo (linter js)",
@@ -147,9 +108,7 @@
       "Incluye linter. Implementación \"casi\" pasa (entre 1 y 10 errores). Sigue estilos en líneas generales pero todavía contiene algunos errores y warnings.",
       "Incluye linter. Implementación pasa. Sigue estilos. Sin errores de linter (todavía algunos warnings).",
       "Incluye linter, demuestra haber evaluado y elegido configuración de linter. Implementación pasa limpia.",
-      true,
-      2,
-      3
+      true
     ],
     [
       "Nomenclatura / semántica",
@@ -159,9 +118,7 @@
       "Usa nombres de identificadores (variables, funciones, archivos, carpetas, ...) descriptivos.",
       "Todo lo anterior, y además usa identificadores en inglés (correctamente).",
       "Propone y articula una semántica consistente y efectiva para describir los componentes de la aplicación y sus interacciones.",
-      true,
-      3,
-      3
+      true
     ],
     [
       "Uso de funciones / modularidad",
@@ -171,9 +128,7 @@
       "Organiza su código en funciones y objetos con dependencias claras/explícitas, aisladas y orientadas a ser testeadas.",
       "Divide su código en \"módulos\" y usa un bundler para importar/exportar.",
       "Diseña interfaces minimizando superficie de contacto. Usa sistemas de módulos tanto CommonJS como módulos de ES6",
-      true,
-      2,
-      4
+      true
     ],
     [
       "Estructuras de datos",
@@ -183,9 +138,7 @@
       "Usa objetos y arreglos de forma avanzada (idiomática) y conoce patrones para recorrer estructuras y manipularlas.",
       "Hace uso de estructuras complejas como sets, maps, árboles, pilas, colas, ...",
       "Implementa sus propias estructuras de datos basadas en patrones conocidos.",
-      false,
-      2,
-      3
+      false
     ],
     [
       "Tests",
@@ -193,11 +146,9 @@
       "No demuestra enfoque orientado a tests. Código no testeable.",
       "Demuestra un mínimo de orientación hacia tests, pero sólo una pequeña parte del código es testeable y/o incluye tests.",
       "Aplica TDD como concepto. Imagina el flujo del usuario en la interacción con el programa. Posibles usos y errores al usar el programa.",
-      "Demuestra código orientado a tests, coverage alto, incluye casos de error.",
+      "Demuestra código orientado a tests, coverage alto, incluye casos de error y casos extremos (edge cases).",
       "Test suite comprensiva. Múltiples entornos. Automatizado.",
-      true,
-      2,
-      3
+      true
     ],
     [
       "HTML/CSS"
@@ -210,9 +161,7 @@
       "Nivel 3",
       "Nivel 4",
       "Nivel 5",
-      "Indispensable (core)",
-      "Expectativa Final CC",
-      "Expectativa Final BC"
+      "Indispensable (core)"
     ],
     [
       "Correctitud / Validación",
@@ -222,9 +171,7 @@
       "Entre 1 y 3 errores.",
       "0 errores, <10 warnings",
       "0 errores, 0 warnings",
-      true,
-      3,
-      3
+      true
     ],
     [
       "Estilo (linter html)",
@@ -234,9 +181,7 @@
       "Entre 1 y 3 errores.",
       "0 errores, <10 warnings",
       "0 errores, 0 warnings",
-      false,
-      3,
-      3
+      false
     ],
     [
       "Semántica / Arquitectura de información",
@@ -246,9 +191,7 @@
       "Uso de HTML semántico.",
       "Hace uso semántico con HTML5",
       "Arquitectura ideal. Sin estilos se debe entender todo el contenido (arquitectura), y semántica de marcado.",
-      true,
-      2,
-      4
+      true
     ],
     [
       "DRY (CSS)",
@@ -258,9 +201,7 @@
       "Abstrae y reusa estilos a través de clases.",
       "Hace buen uso de estilos en cascada para reusar estilos de forma jerérquica.",
       "Usa herramientas de pre-procesado de CSS o estilos con JavaScript para mayor flexibilidad y escalabilidad de estilos.",
-      true,
-      3,
-      4
+      true
     ],
     [
       "Responsive Web Design",
@@ -270,9 +211,7 @@
       "Responsive",
       "Mobile first",
       "Progressive web app",
-      true,
-      2,
-      4
+      true
     ]
   ],
   [
@@ -293,9 +232,7 @@
       "Nivel 3",
       "Nivel 4",
       "Nivel 5",
-      "Indispensable (core)",
-      "Expectativa Final CC",
-      "Expectativa Final BC"
+      "Indispensable (core)"
     ],
     [
       "User centricity",
@@ -305,9 +242,7 @@
       "Entiende la importancia de centrarse en el usuario y lo involucra en las primeras partes del proceso de desarrollo del proyecto, sin embargo se olvida del usuario en las fases finales. Aún tiene algunas fallas: preguntas sesgadas, prejuicios, incluye algunos usuarios que no son del target.",
       "Toma en cuenta al usuario en la mayor parte del desarrollo del proyecto. Sin embargo, a veces se le pasa testear o validar hipótesis con los usuarios, sobre todo en los tramos finales del desarrollo. Sabe distinguir las observaciones/data/respuestas que aportan valor al producto.",
       "Se acerca al usuario de distintas formas según la necesidad. Tiene en cuenta a los usuarios durante todo el proceso de diseño del producto desde research hasta el despliegue. Sabe distinguir las observaciones/data/respuestas que aportan valor.",
-      true,
-      3,
-      5
+      true
     ],
     [
       "Entrevistas",
@@ -317,9 +252,7 @@
       "Elabora una guía de entrevistas según objetivos de la investigación pero le cuesta organizar el flujo y crear preguntas no condicionadas.  Genera confianza en usuarios de backgrounds similares al de ella pero le cuesta trabajo generar confianza y sentirse confiada con otros tipos de usuarios. Valora el silencio durante las entrevistas, sin embargo, a veces le cuesta no interrumpir al usuario y priorizar el uso del tiempo durante la entrevista. Documenta las entrevistas sin mucho orden (hay bulla, no se escucha al usuario, o la transcripción no está completa).",
       "Crea una guía de entrevistas con preguntas bien formuladas y con un flujo que tiene sentido. No interrumpe al usuario ni hace preguntas condicionadas o cerradas. Genera confianza con distintos tipos de usuarios. Se le complica re-dirigir al usuario si es que este se desvía del tema durante la entrevista. Le cuesta un poco salirse del libreto cuando un usuario toca temas no esperados. Documenta las entrevistas de manera adecuada sin problemas de orden y ni de audio; y hace disponible esta documentación.",
       "Realiza entrevistas con usuarios sin condicionarlos. Es capaz de salirse del libreto sin dejar de seguir los objetivos de la investigación. Puede identificar y profundizar en temas no esperados que surjan del entrevistado, pero que sean relevantes para la investigación. Genera confianza y se enfrenta sin dificultad a distintos tipos de usuarios y de distintos mercados sin problemas. Maneja estratégicamente los tiempos de la entrevista.  Documenta las entrevistas de manera adecuada sin problemas de orden y ni de audio; y hace disponible esta documentación.",
-      true,
-      0,
-      5
+      true
     ],
     [
       "Testing",
@@ -329,9 +262,7 @@
       "Elabora una guía de tareas según objetivos de la investigación pero le cuesta organizar el flujo y crear tareas/preguntas no condicionadas.  Genera confianza en usuarios de backgrounds similares al de ella pero le cuesta trabajo generar confianza y sentirse confiada con otros tipos de usuarios. Valora el silencio durante las entrevistas, sin embargo, a veces le cuesta no interrumpir al usuario y priorizar el uso del tiempo durante la sesión de testing. Documenta la sesión de testing sin mucho orden (hay bulla, no se escucha al usuario, o la transcripción no está completa).",
       "Crea una guía de testing con tareas bien formuladas y con un flujo que tiene sentido. No interrumpe al usuario ni hace preguntas condicionadas o cerradas. Genera confianza con distintos tipos de usuarios. Se le complica re-dirigir al usuario si es que este se desvía del tema durante la sesión de testing. Le cuesta un poco salirse del libreto cuando un usuario toca temas no esperados. Documenta las sesiones de testing de manera adecuada sin problemas de orden y ni de audio; y hace disponible esta documentación.",
       "Realiza sesiones de testing con usuarios sin condicionarlos. Es capaz de salirse del libreto sin dejar de seguir los objetivos de la investigación. Puede identificar y profundizar en temas no esperados que surjan del usuario, pero que sean relevantes para la investigación. Genera confianza y se enfrenta sin dificultad a distintos tipos de usuarios y de distintos mercados sin problemas. Maneja estratégicamente los tiempos de la sesión de testing.  Documenta las sesiones de testing de manera adecuada sin problemas de orden y ni de audio; y hace disponible esta documentación.",
-      true,
-      0,
-      4
+      true
     ],
     [
       "Planeamiento y ejecución",
@@ -341,9 +272,7 @@
       "Entiende bien el reto en el que trabaja. Logra proponer un plan de investigación, teniendo en cuenta los tiempos disponibles para la investigación. Sin embargo, no logra sustentar el porqué del uso de todas las herramientas que propone utilizar. La mayor parte de las herramientas las utiliza de manera adecuada, sin embargo hay algunas en las que aún tiene errores.",
       "Entiende bien el reto en el que trabaja y los tiempos que tiene para resolverlo. De acuerdo a eso crea un plan para la invesgitación y define y sustenta qué herramientas utilizar en el proceso. Utiliza estas herramientas con pocos errores durante su investigación. Le es complicado iterar y cambiar de herramientas en el camino.",
       "Entiende bien el reto en el que trabaja y los tiempos que tiene para resolverlo. De acuerdo a eso crea un plan para la invesgitación y define y sustenta qué herramientas utilizar en el proceso. Utiliza estas herramientas sin errores durante su investigación. Puede cambiar de herramientas en el camino de acuerdo los resultados que va obteniendo.",
-      true,
-      0,
-      4
+      true
     ],
     [
       "Síntesis de resultados",
@@ -353,9 +282,7 @@
       "Encuentra con facilidad patrones en los resultados de su investigación, pero le cuesta convertir esos patrones observados en recomendaciones accionables para el producto. Tiene dificultad para diferenciar un insight de una observación.",
       "Encuentra con facilidad patrones en los resultados de su investigación, puede convertir esos patrones observados en recomendaciones accionables para el producto, sin embargo le cuesta priorizar estas recomendaciones.  Puede diferenciar entre un insight y un dato u observación.",
       "Logra encontrar conexiones en distintos puntos. En los resultados de su investigación sabe diferenciar entre insights y observaciones. Cuando es el caso, entrega insights inspiradores,  relevantes y accionable para la construcción del producto. Comunica estos resultados de una manera clara y puede sustentar el porqué de los mismos.",
-      true,
-      0,
-      4
+      true
     ],
     [
       "Interaction design"
@@ -368,9 +295,7 @@
       "Nivel 3",
       "Nivel 4",
       "Nivel 5",
-      "Indispensable (core)",
-      "Expectativa Final CC",
-      "Expectativa Final BC"
+      "Indispensable (core)"
     ],
     [
       "Diseño de interacción",
@@ -380,9 +305,7 @@
       "Propone flujos basados en los objetivos del usuario o del negocio, sin embargo, no hace un match de ambos grupos de objetivos. Los flujos que crea no son del todo eficientes para el usuario.  Entiende las heurísticas de usabilidad y accesibilidad en un producto o diseño de un tercero, sin embargo, al crear sus propios diseños le cuesta poner en práctica estos conceptos.",
       "Propone flujos basados en los objetivos del usuario y del negocio. Los flujos que crea no son del todo eficientes para el usuario. Entiende las heurísticas de usabilidad y accesibilidad en un producto o diseño de un tercero. Al crear sus propios diseños le cuesta poner en práctica algunas de estas heurísticas, pero aún tiene espacio de mejora.",
       "Prioriza y propone flujos que facilitan al usuario conseguir sus objetivos con el producto. Estos flujos son eficientes y consideran objetivos del usuario y del negocio; y además distintos casos de uso. Sigue las heurísticas de usabilidad y accesibilidad en sus propuestas de diseño.",
-      true,
-      0,
-      4
+      true
     ],
     [
       "Arquitectura de la información",
@@ -392,9 +315,7 @@
       "Jerarquiza los contenidos según inventario, pero esta priorización no considera al usuario.",
       "Prioriza contenidos necesarios para el producto basado en estudios con usuarios e  inventarios de contenido, pero esta jerarquización no se refleja completamente en la propuesta de interfaz.",
       "Prioriza contenidos necesarios para el producto basado en estudios con usuarios e inventarios de contenido, y se refleja en la propuesta de interfaz: textos y titulares claramente jerarquizados, elementos relacionados agrupados.",
-      true,
-      0,
-      4
+      true
     ],
     [
       "Prototyping",
@@ -404,9 +325,7 @@
       "Crea prototipos basados en objetivos de negocio y de la investigación. Le es complicado iterar. No muestra evolución basada en el feedback de los usuarios en sus prototipos finales.",
       "Crea prototipos con un objetivo claro basados en los objetivos de negocio y de la investigación. Muestra prototyping mindset. Sus prototipos evolucionan basándose en el feedback de los usuarios. Tiene problemas para crear experiencias cercanas a una experiencia real en sus prototipos.",
       "Crea prototipos con un objetivo claro basados en los objetivos de negocio y de la investigación. Muestra prototyping mindset. Tiene en cuenta las partes más importantes del journey del usuario al crear un prototipo para testear e intenta crear una experiencia cercana a una experiencia real para obtener las respuestas que necesita. Sus prototipos evolucionan basados en el feedback de los usuarios.",
-      true,
-      0,
-      5
+      true
     ],
     [
       "Visual design"
@@ -419,9 +338,7 @@
       "Nivel 3",
       "Nivel 4",
       "Nivel 5",
-      "Indispensable (core)",
-      "Expectativa Final CC",
-      "Expectativa Final BC"
+      "Indispensable (core)"
     ],
     [
       "Visual Design",
@@ -431,9 +348,7 @@
       "Puede criticar una interfaz basándose en los fundamentos de diseño visual y en buenas prácticas. Puede trabajar con una librería de componentes o guía de estilos como base, sin embargo, le cuesta trabajo hacer ediciones o crear nuevos componentes para esta guía siguiendo las mejores prácticas de diseño visual. Comete algunos errores de consistencia.",
       "Puede criticar una interfaz basándose en los fundamentos de diseño visual y en buenas prácticas. Construye interfaces utilizando como base una librería de componentes o guía de estilos siguiendo, también, las mejores prácticas de diseño visual, sin embargo al crear elementos nuevos tiene algunos errores de consistencia.",
       "Entiende y pone en práctica las mejores prácticas de diseño visual al crear, editar y evaluar interfaces. Puede crear una librería de componentes que le ayude en la consistencia de su diseño.",
-      true,
-      2,
-      4
+      true
     ],
     [
       "Business mindset"
@@ -446,9 +361,7 @@
       "Nivel 3",
       "Nivel 4",
       "Nivel 5",
-      "Indispensable (core)",
-      "Expectativa Final CC",
-      "Expectativa Final BC"
+      "Indispensable (core)"
     ],
     [
       "Business mindset",
@@ -458,9 +371,7 @@
       "Identifica y entiende todos los objetivos de negocio y stakeholders de una empresa pero no los considera ni prioriza en las etapas del desarrollo del producto. No entiende cómo los objetivos de negocio se traducen en métricas para medir la efectividad.",
       "Identifica y endiende los objetivos de negocio y stakeholders de una empresa y los considera en algunas etapas del desarrollo del producto. Con cierta dificultad, logra crear una lista de métricas para validar si el producto propuesto cumple con los objetivos de negocio.",
       "Entiende los objetivos del negocio y los tiene en cuenta durante el desarrollo del producto. Usa estos objetivos para priorizar su trabajo. Crea una lista de métricas relevantes para validar que se estén cumpliendo los objetivos del negocio. Entiende, involucra y se comunica efectivamente con los stakeholders clave durante todo el proceso de diseño.",
-      true,
-      0,
-      4
+      true
     ]
   ],
   [
@@ -478,9 +389,7 @@
       "Nivel 3",
       "Nivel 4",
       "Nivel 5",
-      "Indispensable (core)",
-      "Expectativa Final CC",
-      "Expectativa Final BC"
+      "Indispensable (core)"
     ],
     [
       "Planificación, organización y manejo del tiempo",
@@ -490,9 +399,7 @@
       "Escribe como historias de usuario y las prioriza en función del valor de negocio/usuario y de las dependencias entre sí.\n\nEscribe definiciones de terminado para cada historia de usuario del \"product backlog\".\n\nCumple, casi siempre, con las ceremonias y mantiene su tablero actualizado.\n\nNo pierde tiempo en tareas con menor relevancia para el produto/usuario.",
       "Escribe como historias de usuario y las prioriza en función del valor de negocio/usuario y de las dependencias entre sí.\n\nEscribe definiciones de terminado para  cada historia de usuario  del \"product backlog\".\n\nCumple siempre con las ceremonias y con mantener su tablero actualizado.\n\nNo pierde tiempo en tareas con menor relevancia para el produto/usuario, logrando gestionar su tiempo.\n\nHace estimaciones en \"puntos\" usando como referencia otras tareas ya conocidas (\"planning poker\").",
       "Escribe como historias de usuario y las prioriza en función del valor de negocio/usuario y de las dependencias entre sí.\n\nEscribe definiciones de terminado para  cada historia de usuario  del \"product backlog\".\n\nCumple siempre con las ceremonias y con mantener su tablero actualizado.\n\nNo pierde tiempo en tareas con menor relevancia para el produto/usuario, logrando gestionar su tiempo.\n\nHace estimaciones con precisión y, por  lo tanto, planificar \"releases\" o entregas parciales con comodidad.",
-      true,
-      2,
-      4
+      true
     ],
     [
       "Habilidad",
@@ -502,9 +409,7 @@
       "Nivel 3",
       "Nivel 4",
       "Nivel 5",
-      "Indispensable (core)",
-      "Expectativa Final CC",
-      "Expectativa Final BC"
+      "Indispensable (core)"
     ],
     [
       "Autoaprendizaje",
@@ -514,9 +419,7 @@
       "Adquiere de forma constante conocimientos de manera independiente y responsable. Pide referencia de materiales que pueden ser de utilidad para su aprendizaje. Además, cuando es necesario, realiza preguntas sobre la materia. Busca resolver dudas sobre temáticas más allá de las vistas en clase.",
       "Adquiere de forma constante conocimientos de manera independiente y responsable. Es capaz de identificar por su cuenta herramientas que necesita aprender o también reforzar. Pide referencia de materiales que pueden ser de utilidad para su aprendizaje. Además, cuando es necesario, realiza preguntas sobre la materia. Busca resolver dudas sobre temáticas más allá de las vistas en clase.",
       "Adquiere de forma constante conocimientos de manera independiente y responsable. Es capaz de identificar por su cuenta herramientas que necesita aprender o también reforzar. Pide referencia de materiales que pueden ser de utilidad para su aprendizaje. Además, cuando es necesario, realiza preguntas sobre la materia. Busca resolver dudas sobre temáticas más allá de las vistas en clase. Le agregan a sus proyectos herramientas fuera de lo visto en clase o lo pedido y que le agregarán valor al producto.",
-      true,
-      2,
-      4
+      true
     ],
     [
       "Habilidad",
@@ -526,9 +429,7 @@
       "Nivel 3",
       "Nivel 4",
       "Nivel 5",
-      "Indispensable (core)",
-      "Expectativa Final CC",
-      "Expectativa Final BC"
+      "Indispensable (core)"
     ],
     [
       "Presentaciones",
@@ -538,9 +439,7 @@
       "Cualquier persona puede acceder al demo desde cualquier equipo. El demo se ve y funciona correctamente, logrando priorizar qué mostrar en el demo -pudiendo enseñar algunas veces menos elementos pero funcionales-. Realiza algún contacto visual con la audiencia, se apropia del espacio físico y habla con un volumen y ritmo que no interfieren con el entendimiento de la audiencia.",
       "Cualquier persona puede acceder al demo desde cualquier equipo. El demo se ve y funciona correctamente, teniendo al menos una funcionalidad principal que está perfecta y pequeñas funcionalidades anexas que funcionan correctamente. Realiza contacto visual regular con la audiencia, se apropia del espacio físico y habla con un volumen y ritmo que no interfieren con el entendimiento de la audiencia, e incluso capta su atención.",
       "Cualquier persona puede acceder al demo desde cualquier equipo. El demo se ve y funciona correctamente, teniendo una funcionalidad principal y varias sub funcionalidades que están perfectas. Además eligen el mejor medio para mostrar el demo. Realiza contacto visual regular con la audiencia, se apropia adecuadamente del espacio físico y habla con un volumen y ritmo que propician el entendimiento de la audiencia y capta su atención.",
-      true,
-      2,
-      4
+      true
     ],
     [
       "Habilidad",
@@ -550,9 +449,7 @@
       "Nivel 3",
       "Nivel 4",
       "Nivel 5",
-      "Indispensable (core)",
-      "Expectativa Final CC",
-      "Expectativa Final BC"
+      "Indispensable (core)"
     ],
     [
       "Adaptabilidad",
@@ -562,9 +459,7 @@
       "Ante cambios inesperados o nuevos desafíos los recibe con una actitud positiva, se adapta y logra proponer soluciones creativas para encontrar una nueva estrategia. De esta manera, logra asumir retos, enfrenta los cambios repentinos, como trabajar con nuevos equipos o cambios en el proyecto.",
       "Navega ante la incertidumbre, siendo capaz de reconocer y alimentar la incomodidad de no saber, y luego idear tácticas para salir de ella cuando sea necesario. Ante cambios inesperados o nuevos desafíos los recibe con una actitud positiva, se adapta y logra proponer soluciones creativas para encontrar una nueva estrategia. Logra asumir retos, enfrenta los cambios repentinos, como trabajar con nuevos equipos o cambios en el proyecto. Logra realizar un análisis \"post mortem\" o retrospectiva, donde logra ver que es lo que salió mal e identifica posibles mejores",
       "Navega ante la incertidumbre, siendo capaz de reconocer y alimentar la incomodidad de no saber, y luego idear tácticas para salir de ella cuando sea necesario. Ante cambios inesperados o nuevos desafíos los recibe con una actitud positiva, se adapta y logra proponer soluciones creativas para encontrar una nueva estrategia. Logra asumir retos, enfrenta los cambios repentinos, como trabajar con nuevos equipos o cambios en el proyecto.  Realizar un análisis \"post mortem\"; ve lo que salió mal e identificar posibles mejores. Además, realiza un análisis \"pre-mortem\", asume que puede pasar algo inesperado y lo maneja de la mejor forma posible, cambiando su función para estar alineada con los requisitos del entorno (proyecto, salón de clases, etc).",
-      true,
-      2,
-      4
+      true
     ],
     [
       "Habilidad",
@@ -574,9 +469,7 @@
       "Nivel 3",
       "Nivel 4",
       "Nivel 5",
-      "Indispensable (core)",
-      "Expectativa Final CC",
-      "Expectativa Final BC"
+      "Indispensable (core)"
     ],
     [
       "Solución de problemas",
@@ -586,9 +479,7 @@
       "Comienza a aplicar su propia creatividad para resolver problemas independientemente. Busca soluciones alternativas a problemas de diversa complejidad, a pesar de que no todas las soluciones puedan ser correctas, consulta distintas fuentes para resolver el problema.",
       "Busca soluciones alternativas utilizando su propia creatividad para resolver problemas de diversa complejidad y naturaleza. Al consultar diferentes fuentes y no encontrar una solución, recurre a los demás para encontrar una forma de resolver el problema o también busca soluciones a través de experimentación e iteracíon -busca \"salir del edificio\" como una herramienta para \"resolver\" el problema-.",
       "Busca soluciones alternativas utilizando su propia creatividad para resolver problemas de diversa complejidad y naturaleza. Logra pedir ayuda a tiempo y recurre a los demás para encontrar una forma de resolver el problema de manera colaborativa. Demuestra experimentación e iteración dentro del proceso de solución de problemas. No solo experimenta con el problema, si no también piensa criticamente sobre él - es decir, cuestiona como se conecta \"x problema\" a otros y encuentra soluciones, nuevos procesos, técnicas, etc. Para poder resolver un grupo entero de \"problemas,\" influye a los demás y trabaja en equipo para lograrlo.",
-      true,
-      2,
-      4
+      true
     ],
     [
       "Habilidades para relaciones interpersonales"
@@ -601,9 +492,7 @@
       "Nivel 3",
       "Nivel 4",
       "Nivel 5",
-      "Indispensable (core)",
-      "Expectativa Final CC",
-      "Expectativa Final BC"
+      "Indispensable (core)"
     ],
     [
       "Trabajo en equipo",
@@ -613,9 +502,7 @@
       "Trabaja de manera colaborativa y contribuye al objetivo común, entregando ideas para la construcción del proyecto.",
       "Trabaja de manera colaborativa y contribuye al objetivo común, entregando ideas para la construcción del producto, respetando siempre el trabajo de sus compañeras.",
       "Trabaja de manera colaborativa y contribuye al objetivo común, entregando ideas para la construcción del producto, respetando siempre el trabajo de sus compañeras.                                                                                                                                                                                                                              Se preocupa del proceso de aprendizaje del equipo, generando un ambiente colaborativo entre sus compañeras. Por ejemplo. ofrece ayuda a sus compañeras, hace preguntas a sus compañeras respecto a su proceso, anima a su grupo, etc.",
-      true,
-      2,
-      4
+      true
     ],
     [
       "Habilidad",
@@ -625,9 +512,7 @@
       "Nivel 3",
       "Nivel 4",
       "Nivel 5",
-      "Indispensable (core)",
-      "Expectativa Final CC",
-      "Expectativa Final BC"
+      "Indispensable (core)"
     ],
     [
       "Responsabilidad",
@@ -637,9 +522,7 @@
       "Entrega su trabajo a tiempo y colabora con el objetivo final del trabajo, con el fin de entregar un producto de calidad.",
       "Entrega su trabajo a tiempo y colabora con el objetivo final del trabajo, ayudando a los demás con los pendientes, con el fin de entregar un producto de calidad.",
       "Entrega su trabajo a tiempo y colabora con el objetivo del trabajo, ayudando a los demás con los pendientes, con el fin de entregar un producto de calidad. Encuentra alternativas de acción cuando es necesario, para llegar con el producto a tiempo.",
-      true,
-      2,
-      4
+      true
     ],
     [
       "Habilidad",
@@ -649,9 +532,7 @@
       "Nivel 3",
       "Nivel 4",
       "Nivel 5",
-      "Indispensable (core)",
-      "Expectativa Final CC",
-      "Expectativa Final BC"
+      "Indispensable (core)"
     ],
     [
       "Dar y recibir feedback",
@@ -661,9 +542,7 @@
       "Escucha y valora los comentarios y críticas de los demás, rescatando aspectos que le sirvan para su mejora. Además, entrega su opinión a los demás de forma constructiva, fundamentada y coherente con el fin de ayudar a los demás.",
       "Escucha y valora los comentarios y críticas de los demás, rescatando aspectos que le sirvan para su mejora. Además, busca instancias de feedback o peer review, entregando su opinión a los demás de forma constructiva, fundamentada y coherente con el fin de ayudar a los otros. Reconoce que el feedback es un regalo, por lo tanto es honesto, empático e inmediato.",
       "Escucha y valora los comentarios y críticas de los demás, rescatando aspectos que le sirvan para su mejora. Logra gestionar el feedback y realizar acciones para el cambio. Además, entrega su opinión a los demás de forma constructiva, fundamentada y coherente. Reconoce que el feedback es un regalo, por lo tanto es honesto, empático e inmediato. Participa de retrospectivas, feedbacks y peer review de forma constante, aportando de manera puntual y objetiva, generando un aporte positivo para su entorno de trabajo.",
-      true,
-      2,
-      4
+      true
     ],
     [
       "Habilidad",
@@ -673,9 +552,7 @@
       "Nivel 3",
       "Nivel 4",
       "Nivel 5",
-      "Indispensable (core)",
-      "Expectativa Final CC",
-      "Expectativa Final BC"
+      "Indispensable (core)"
     ],
     [
       "Comunicación eficaz",
@@ -685,9 +562,573 @@
       "Logra comunicar sus ideas a los demás, teniendo capacidad de síntesis y articulando sus ideas con claridad.",
       "Logra comunicar sus ideas a los demás, teniendo capacidad de síntesis y articulando sus ideas con claridad. Entiende a su audiencia o equipo y logra que se entienda lo que quiere comunicar facilitando el diálogo",
       "Logra comunicar sus ideas a los demás, teniendo capacidad de síntesis y articulando sus ideas con claridad. Entiende a su audiencia o equipo y logra que se entienda lo que quiere comunicar facilitando el diálogo. Además, mantiene una comunicación constante y fluida con el resto, facilitando el trabajo y las relaciones en este.",
-      true,
-      2,
-      4
+      true
+    ]
+  ],
+  [
+    [
+      "General"
+    ],
+    [
+      "En este documento encontrarás todas las habilidades que consideramos importantes en Laboratoria. Cada una tiene una descripción general que te ayudará a entender de qué se trata y la definición explícita de cada nivel -del 1 al 5-  para que puedas reconocer tu progreso."
+    ]
+  ],
+  [
+    [
+      "Habilidades Técnicas (Front-end)"
+    ],
+    [
+      "Computer Science (CS)"
+    ],
+    [
+      "Habilidade",
+      "Descrição",
+      "Nivel 1",
+      "Nivel 2",
+      "Nivel 3",
+      "Nivel 4",
+      "Nivel 5",
+      "Indispensable (core)"
+    ],
+    [
+      "Lógica / Algoritmos",
+      "Capacidade de expressão lógica, abstração, síntese, conhecimento de algoritmos de complexidade e assintótica.",
+      "Lógica pouco clara, código verboso (verborrágico), contém código sem uso.",
+      "Lógica clara e correta, mas o código é extenso e resulta em mais operações do que as necessárias. Não contém código em desuso.",
+      "Lógica correta. Identifica e evita repetições. Abstrai/reutiliza a lógica.",
+      "Lógica correta, expressiva e ótima (ou aceitáveis em termos de complexidade assintótica).",
+      "Demonstra conhecimento de algoritmos comuns. Implementa soluções de complexidade.",
+      true
+    ],
+    [
+      "Arquitetura",
+      "Organização geral dos componentes que fazem parte de uma aplicação ou sistema (arquivos, pastas, código, integração, ferramentas, implantação, etc).",
+      "Código não está organizado de nenhuma maneira particular, não separa responsabilidades e não implementa nenhum padrão ou convenção.",
+      "Demonstra saber organizar entre apresentação, lógica e dados (arquivos, módulo, funções, etc...).",
+      "Demonstra separação entre estado e visualizações, além de outras \"responsabilidades\" como fazer requisições de rede ou processar dados. Escreve código de fácil manutenção e legibilidade.",
+      "Separação de estado, visualizações, ações com padrões claros de reuso. Demostra ter investigado e avaliado mais de uma opção a nível de arquitetura e seleção de ferramentas.",
+      "Demonstra ter levado em conta a arquitetura completa de uma aplicação (front-end e back-end), incluindo escalabilidade, integração contínua e deploy contínuo.",
+      true
+    ],
+    [
+      "Padrões/Paradigmas",
+      "Implementa e desenha o código fazendo uso de convenções, padrões e conhecimento dos paradigmas predominantes (procedural/oop/funcional).",
+      "Código não segue nenhuma convenção ou padrão comum.",
+      "Demonstra uso de convenções JavaScript. Implementação predominantemente procedural.",
+      "É consciente da diferença entre estilos imperativos e declarativos, no entanto não tem uma direção clara na implementação.",
+      "Demonstra desenvoltura passando de um estilo para outro (por exemplo, substituindo interação por recursão ou abstraindo controle de fluxo, etc... ).",
+      "Demonstra desenvoltura e profundidade em diferentes convenções e paradigmas (imperativo/declarativo, oop/funcional). Adapta-se a paradigmas sem problemas. Entende os princípios de cada paradigma assim como seus \"vocabulários\".",
+      false
+    ],
+    [
+      "Source Code Management (SCM)"
+    ],
+    [
+      "Habilidade",
+      "Descrição",
+      "Nivel 1",
+      "Nivel 2",
+      "Nivel 3",
+      "Nivel 4",
+      "Nivel 5",
+      "Indispensable (core)"
+    ],
+    [
+      "Git",
+      "Manejo/admistração de código fonte (versionamento).",
+      "Uso básico de git (clone, commit, push, pull). Usa .gitignore e configura usuário (email, username).",
+      "Escreve mensagens de log informativas. Organiza contexto de mudança de forma lógica.",
+      "Demonstra familiaridade com o manejo de branches, enviando, revisando e integrando (merging) pull requests.",
+      "Branches/Tags. Usa \"feature branches\", \"release branches\", \"develop branch\",  etc, seguindo um fluxo de tipo Git Flow e tags para releases.",
+      "Demonstra um nível avançado de resolução de conflitos, manejo de história de um projeto, rebase, squash, ...",
+      true
+    ],
+    [
+      "GitHub",
+      "Domínio sobre GitHub",
+      "Usa um serviço remoto para alocar seus repositórios. Usa GitHub pages ou similar para hospedar sites estáticos. Está familiarizada com as issues.",
+      "Usa issues para reportar problemas, sugerir features, fazer perguntas e etc. Organiza issues em milestones, usa labels, atribuições, issues, etc.",
+      "Faz code review (aprova, desaprova, faz comentários e etc). Integra mudanças entre forks.",
+      "Resolve e/ou previne conflitos. Usa sistema de releases de GitHub ( em conjunto com as tags de git).",
+      "Usa ferramentas de integração contínua (ex.: Travis, Coveralls) para rodar testes de forma automatizada.",
+      false
+    ],
+    [
+      "JavaScript"
+    ],
+    [
+      "Habilidade",
+      "Descrição",
+      "Nivel 1",
+      "Nivel 2",
+      "Nivel 3",
+      "Nivel 4",
+      "Nivel 5",
+      "Indispensable (core)"
+    ],
+    [
+      "Estilo (linter js)",
+      "Conhece e usa guias de estilos.",
+      "Não segue um estilo específico. Falta linter (ou o ignora).",
+      "Inclui linter e configurações, mas a implementação não passa. Contém muitos erros e warnings (mais de 10).",
+      "Inclui linter. Implementação quase \"passa\" (entre 1 e 10 erros). Segue estilos em linhas gerais, no entanto com alguns erros e warnings.",
+      "Inclui linter. implementação passa. Segue estilos. Sem erros de linter (mas tem alguns warnings).",
+      "Inclui linter, demonstra ter avaliado e elegido configurações de linter. Implementação passa sem erros e warnings.",
+      true
+    ],
+    [
+      "Nomenclatura / semântica",
+      "Uso de identificadores com semântica e seguindo convenções.",
+      "Não usa identificadores descritivos.",
+      "Usa identificadores descritivos, mas de forma inconsistente. Alguns nomes são críticos ou inconsistentes.",
+      "Usa nomes de identificadores (variáveis, funções, arquivos, pastas, etc...)  descritivos.",
+      "Todo o anterior e também usa identificadores em inglês (corretamente).",
+      "Propõe e articula uma semântica consistente e efetiva para descrever os componentes da aplicação e suas interações.",
+      true
+    ],
+    [
+      "Uso de funções / modularidade",
+      "Organiza e divide seu código em unidades lógicas e responsibilidades claras.",
+      "Organiza seu código em funções e unidades lógicas.",
+      "Organiza seu código em arquivos, pastas e funções dividindo responsabilidades.",
+      "Organiza seu código em funções e objetos com dependencias claras/explícitas, isoladas e orientadas a serem testadas.",
+      "Divide seu código em \"módulos\"  e usa um bundler para importar/exportar.",
+      "Desenha interfaces minimizando as \"superfícies de contato\". Usa sistemas de módulos tanto CommonJS como módulos de ES6",
+      true
+    ],
+    [
+      "Estruturas de dados",
+      "Uso de estruturas de dados para representar e solucionar problemas.",
+      "Não organiza os dados de forma clara, estruturada e concisa.",
+      "Utiliza objetos e arrays para agrupar data. Demonstra um nivel mínimo de \"modelagem\" de dados.",
+      "Usa objetos e arrays de forma avançada e conhece padrões para criar estruturas e manipulá-las.",
+      "Faz uso de estruturas complexas como sets, maps, árvores, pilhas, filas, ...",
+      "Implementa suas próprias estruturas de dados baseadas em padrões conhecidos.",
+      false
+    ],
+    [
+      "Testes",
+      "Desenvolvimento orientado a prova, cobertura e manutenção.",
+      "Não demonstra enfoque orientado a testes. Código não testável.",
+      "Demonstra o mínimo de códigos orientados à testes, mas śo uma pequena parte do código é testável e/ou inclui testes.",
+      "Aplica TDD como conceito. Imagina o fluxo de usuário na interação com o programa. Possíveis usos e erros ao usar o programa.",
+      "Demonstra código orientado à testes, coverage alto, inclue casos de erros.",
+      "Test suite compreensivo. Vários ambientes. Automatizado.",
+      true
+    ],
+    [
+      "HTML/CSS"
+    ],
+    [
+      "Habilidade",
+      "Descrição",
+      "Nivel 1",
+      "Nivel 2",
+      "Nivel 3",
+      "Nivel 4",
+      "Nivel 5",
+      "Indispensable (core)"
+    ],
+    [
+      "Exatidão / Validação",
+      "Passa no validador de HTML: https://validator.w3.org/",
+      ">10 erros",
+      "Entre 4 e 10 erros.",
+      "Entre 1 e 3 erros.",
+      "0 erros, <10 warnings",
+      "0 erros, 0 warnings",
+      true
+    ],
+    [
+      "Estilo (linter html)",
+      "HTMLHint Ver: https://github.com/yaniswang/HTMLHint",
+      ">10 erros",
+      "Entre 4 e 10 erros.",
+      "Entre 1 e 3 erros.",
+      "0 erros, <10 warnings",
+      "0 erros, 0 warnings",
+      false
+    ],
+    [
+      "Semântica / Arquitetura de Informação",
+      "Arquitetura de Informação: Como se organiza a informação para que ela tenha um sentido lógico.",
+      "Markup não reflete semântica",
+      "Markup reflete semântica e arquitetura de informação, no entanto com inconsistências.",
+      "Uso de HTML semântico.",
+      "Faz uso  de HTML5 semântico.",
+      "Arquitetura ideal. Mesmo sem estilos é possível entender todo o conteúdo e semântica.",
+      true
+    ],
+    [
+      "DRY (CSS)",
+      "Abstração, reuso e hierarquia de estilos.",
+      "Estilos inline... omg!",
+      "Contém estilos duplicados/redundantes.",
+      "Abstrai e reusa estilos por meio de classes.",
+      "Faz bom uso de estilos em cascata para reusar estilos de forma hierárquica.",
+      "Usa ferramentas de pre-processamento de CSS ou estilos com JavaScript para maior flexibilidade e escalabilidade de estilos.",
+      true
+    ],
+    [
+      "Responsive Web Design",
+      "Layout adaptável a diferentes dispositivos (desktop, mobile, tablet, etc ...).",
+      "Não é responsivo",
+      "Responsivo com issues",
+      "Responsivo",
+      "Mobile first",
+      "Progressive web app",
+      true
+    ]
+  ],
+  [
+    [
+      "Habilidades Técnicas (UX)"
+    ],
+    [
+      "Las habilidades de UX Design tienen en cuenta 4 distintos aspectos: Research, Interaction design, Visual design y Business mindset. Todos estos aspectos son claves para tu evolución como UX Designer y en tu camino hacía diseñar y rediseñar productos digitales exitosos. Estas habilidades son las que los coaches tendrán en cuenta para evaluarte y darte feedback. Esta rúbrica también te servirá para recibir feedback de tus pares y para autoevaluarte."
+    ],
+    [
+      "Research"
+    ],
+    [
+      "Habilidade",
+      "Descrição",
+      "Nivel 1",
+      "Nivel 2",
+      "Nivel 3",
+      "Nivel 4",
+      "Nivel 5",
+      "Indispensable (core)"
+    ],
+    [
+      "User centricity",
+      "Capacidade para criar produtos pendando e entendendo os usuários finais.",
+      "Desenha o produto baseado em sua própria experiência \"self-driven design\". Não entende e não leva em conta o usuário.",
+      "Conhece sobre UX e sabe que o usuário é importante. Reflete sobre os objetivos do usuário e do produto, mas não faz pequeisa de campo (não se aproxima do usuário). Os usuários que entrevista ou com quem realiza provas não são um reflexo de seu público alvo.",
+      "Se enfoca na investigação. Entende o usuário através da investigação, realiza entrevistas, observa e realiza testes com usuários de seu público alvo.",
+      "Leva em conta o usuário em todo o processo de desenho desde a pesquisa até os testes. Estes usuários são parte do público alvo do produto no qual trabalha.",
+      "Leva em conta o usuário em todo o processo de desenho desde a pesquisa até os testes e os inclui no momento de definir os KPIs de seu produto.",
+      true
+    ],
+    [
+      "Entrevistas",
+      "Define, diseña y realiza entrevistas para lograr un buen entendimiento de los usuarios.",
+      "No realiza entrevistas en su proceso de investigación.",
+      "Entrevista sin priorizar los objetivos de la investigación. No elabora una guía de entrevistas o la elabora sin priorizar los tiempos del proyecto ni los objetivos del negocio. Plantea preguntas de respuestas cerradas e interrumpe y condiciona al usuario en sus respuestas. Se deja influenciar por sus propios prejuicios. No documenta sus entrevistas.",
+      "Elabora una guía de entrevistas según objetivos de la investigación pero le cuesta organizar el flujo y crear preguntas no condicionadas.  Genera confianza en usuarios de backgrounds similares al de ella pero le cuesta trabajo generar confianza y sentirse confiada con otros tipos de usuarios. Valora el silencio durante las entrevistas, sin embargo, a veces le cuesta no interrumpir al usuario y priorizar el uso del tiempo durante la entrevista. Documenta las entrevistas sin mucho orden (hay bulla, no se escucha al usuario, o la transcripción no está completa).",
+      "Crea una guía de entrevistas con preguntas bien formuladas y con un flujo que tiene sentido. No interrumpe al usuario ni hace preguntas condicionadas o cerradas. Genera confianza con distintos tipos de usuarios. Se le complica re-dirigir al usuario si es que este se desvía del tema durante la entrevista. Le cuesta un poco salirse del libreto cuando un usuario toca temas no esperados. Documenta las entrevistas de manera adecuada sin problemas de orden y ni de audio; y hace disponible esta documentación.",
+      "Realiza entrevistas con usuarios sin condicionarlos. Es capaz de salirse del libreto sin dejar de seguir los objetivos de la investigación. Puede identificar y profundizar en temas no esperados que surjan del entrevistado, pero que sean relevantes para la investigación. Genera confianza y se enfrenta sin dificultad a distintos tipos de usuarios y de distintos mercados sin problemas. Maneja estratégicamente los tiempos de la entrevista.  Documenta las entrevistas de manera adecuada sin problemas de orden y ni de audio; y hace disponible esta documentación.",
+      true
+    ],
+    [
+      "Testing",
+      "Define, diseña y realiza sesiones de testings con usuarios siguiendo buenas prácticas y logrando un buen entendimiento de la interacción de los usuarios con el producto.",
+      "No realiza sesiones de testing de sus prototipos en su proceso de investigación.",
+      "Hace testeos sin priorizar tareas ni objetivos de la investigación. No elabora una guía de tareas para el testing o la elabora sin priorizar los tiempos ni los objetivos del producto. Plantea tareas muy dirigidas y condiciona al usuario en sus respuestas. Se deja influenciar por sus propios prejuicios. No documenta sus sesiones de testing.",
+      "Elabora una guía de tareas según objetivos de la investigación pero le cuesta organizar el flujo y crear tareas/preguntas no condicionadas.  Genera confianza en usuarios de backgrounds similares al de ella pero le cuesta trabajo generar confianza y sentirse confiada con otros tipos de usuarios. Valora el silencio durante las entrevistas, sin embargo, a veces le cuesta no interrumpir al usuario y priorizar el uso del tiempo durante la sesión de testing. Documenta la sesión de testing sin mucho orden (hay bulla, no se escucha al usuario, o la transcripción no está completa).",
+      "Crea una guía de testing con tareas bien formuladas y con un flujo que tiene sentido. No interrumpe al usuario ni hace preguntas condicionadas o cerradas. Genera confianza con distintos tipos de usuarios. Se le complica re-dirigir al usuario si es que este se desvía del tema durante la sesión de testing. Le cuesta un poco salirse del libreto cuando un usuario toca temas no esperados. Documenta las sesiones de testing de manera adecuada sin problemas de orden y ni de audio; y hace disponible esta documentación.",
+      "Realiza sesiones de testing con usuarios sin condicionarlos. Es capaz de salirse del libreto sin dejar de seguir los objetivos de la investigación. Puede identificar y profundizar en temas no esperados que surjan del usuario, pero que sean relevantes para la investigación. Genera confianza y se enfrenta sin dificultad a distintos tipos de usuarios y de distintos mercados sin problemas. Maneja estratégicamente los tiempos de la sesión de testing.  Documenta las sesiones de testing de manera adecuada sin problemas de orden y ni de audio; y hace disponible esta documentación.",
+      true
+    ],
+    [
+      "Planeamiento y ejecución",
+      "Identifica los objetivos de la investigación y de acuerdo a eso propone y ejecuta un plan para llevarla a cabo.",
+      "No entiende el reto en el que trabaja y los tiempos que tiene para resolverlo. Le es complicado proponer y ejecutar un plan de investigación.",
+      "Entiende el reto en el que trabaja. Y logra proponer un plan de investigación, sin embargo, este plan no tiene en cuenta los tiempos adecuados para resolver el reto y elige todas las herramientas que conoce, sin lograr sustentar el por qué utilizará cada una. Las herramientas que usa no las usa adecuadamente.",
+      "Entiende bien el reto en el que trabaja. Logra proponer un plan de investigación, teniendo en cuenta los tiempos disponibles para la investigación. Sin embargo, no logra sustentar el porqué del uso de todas las herramientas que propone utilizar. La mayor parte de las herramientas las utiliza de manera adecuada, sin embargo hay algunas en las que aún tiene errores.",
+      "Entiende bien el reto en el que trabaja y los tiempos que tiene para resolverlo. De acuerdo a eso crea un plan para la invesgitación y define y sustenta qué herramientas utilizar en el proceso. Utiliza estas herramientas con pocos errores durante su investigación. Le es complicado iterar y cambiar de herramientas en el camino.",
+      "Entiende bien el reto en el que trabaja y los tiempos que tiene para resolverlo. De acuerdo a eso crea un plan para la invesgitación y define y sustenta qué herramientas utilizar en el proceso. Utiliza estas herramientas sin errores durante su investigación. Puede cambiar de herramientas en el camino de acuerdo los resultados que va obteniendo.",
+      true
+    ],
+    [
+      "Síntesis de resultados",
+      "Tiene la habilidad de encontrar sentido dentro de todas las fuentes de información e inspiración que revisa y de encontrar insights y oportunidades en ellas.",
+      "No logra encontrar patrones ni conexiones entre las distintas fuentes de información que consultó y entre los resultados de la investigación realizada. Le es complicado sustentar los resultados de su investigación.",
+      "Identifica algunos patrones pero le es complicado distinguir y separar o unir patrones más específicos y más generales.",
+      "Encuentra con facilidad patrones en los resultados de su investigación, pero le cuesta convertir esos patrones observados en recomendaciones accionables para el producto. Tiene dificultad para diferenciar un insight de una observación.",
+      "Encuentra con facilidad patrones en los resultados de su investigación, puede convertir esos patrones observados en recomendaciones accionables para el producto, sin embargo le cuesta priorizar estas recomendaciones.  Puede diferenciar entre un insight y un dato u observación.",
+      "Logra encontrar conexiones en distintos puntos. En los resultados de su investigación sabe diferenciar entre insights y observaciones. Cuando es el caso, entrega insights inspiradores,  relevantes y accionable para la construcción del producto. Comunica estos resultados de una manera clara y puede sustentar el porqué de los mismos.",
+      true
+    ],
+    [
+      "Interaction design"
+    ],
+    [
+      "Habilidade",
+      "Descrição",
+      "Nivel 1",
+      "Nivel 2",
+      "Nivel 3",
+      "Nivel 4",
+      "Nivel 5",
+      "Indispensable (core)"
+    ],
+    [
+      "Diseño de interacción",
+      "Entiende las distintas interacciones que tiene un usuario con un producto digital y crea flujos que faciliten al usuario conseguir sus objetivos con el producto.",
+      "Solo propone un flujo para el usuario (flujo por defecto), y este flujo no ha sido cuestionado ni tiene en cuenta los objetivos del usuario ni del negocio. No tiene en cuenta heurísitcas de usabilidad ni accesibilidad.",
+      "Propone flujos que el usuario debe seguir para alcanzar los objetivos con el producto. No logra encontrar un balance entre la eficiencia del flujo y los objetivos de negocio. No prioriza la realización de flujos que den mayor valor agregado al usuario. Entiende algunas de las heurísticas de usabilidad y accesibilidad en diseños de terceros, pero no las aplica en sus propios diseños.",
+      "Propone flujos basados en los objetivos del usuario o del negocio, sin embargo, no hace un match de ambos grupos de objetivos. Los flujos que crea no son del todo eficientes para el usuario.  Entiende las heurísticas de usabilidad y accesibilidad en un producto o diseño de un tercero, sin embargo, al crear sus propios diseños le cuesta poner en práctica estos conceptos.",
+      "Propone flujos basados en los objetivos del usuario y del negocio. Los flujos que crea no son del todo eficientes para el usuario. Entiende las heurísticas de usabilidad y accesibilidad en un producto o diseño de un tercero. Al crear sus propios diseños le cuesta poner en práctica algunas de estas heurísticas, pero aún tiene espacio de mejora.",
+      "Prioriza y propone flujos que facilitan al usuario conseguir sus objetivos con el producto. Estos flujos son eficientes y consideran objetivos del usuario y del negocio; y además distintos casos de uso. Sigue las heurísticas de usabilidad y accesibilidad en sus propuestas de diseño.",
+      true
+    ],
+    [
+      "Arquitectura de la información",
+      "Organiza la información que tiene un producto digital.",
+      "No demuestra seguir una estrategia de jerarquización de contenidos.",
+      "Sigue una estrategia de jerarquización de contenidos pero no se aplica de manera uniforme a todo el producto. No realiza estudios con usuarios ni inventario de contenidos.",
+      "Jerarquiza los contenidos según inventario, pero esta priorización no considera al usuario.",
+      "Prioriza contenidos necesarios para el producto basado en estudios con usuarios e  inventarios de contenido, pero esta jerarquización no se refleja completamente en la propuesta de interfaz.",
+      "Prioriza contenidos necesarios para el producto basado en estudios con usuarios e inventarios de contenido, y se refleja en la propuesta de interfaz: textos y titulares claramente jerarquizados, elementos relacionados agrupados.",
+      true
+    ],
+    [
+      "Prototyping",
+      "Crea prototipos en distintos niveles de fidelidad que le permiten confirmar que el producto que está diseñando resuelve las necesidades de los usuarios.",
+      "Crea prototipos sin orden y sin relación con los objetivos del proyecto ni del negocio. No muestra itera ni tiene en cuenta el feedback del usuario.",
+      "Crea prototipos basados en algunos objetivos de negocio y de la investigación. No escoge correctamente el tipo de prototipado y qué prototipar según los objetivos del proyecto. No muestra evolución basada en el feedback de los usuarios.",
+      "Crea prototipos basados en objetivos de negocio y de la investigación. Le es complicado iterar. No muestra evolución basada en el feedback de los usuarios en sus prototipos finales.",
+      "Crea prototipos con un objetivo claro basados en los objetivos de negocio y de la investigación. Muestra prototyping mindset. Sus prototipos evolucionan basándose en el feedback de los usuarios. Tiene problemas para crear experiencias cercanas a una experiencia real en sus prototipos.",
+      "Crea prototipos con un objetivo claro basados en los objetivos de negocio y de la investigación. Muestra prototyping mindset. Tiene en cuenta las partes más importantes del journey del usuario al crear un prototipo para testear e intenta crear una experiencia cercana a una experiencia real para obtener las respuestas que necesita. Sus prototipos evolucionan basados en el feedback de los usuarios.",
+      true
+    ],
+    [
+      "Visual design"
+    ],
+    [
+      "Habilidade",
+      "Descrição",
+      "Nivel 1",
+      "Nivel 2",
+      "Nivel 3",
+      "Nivel 4",
+      "Nivel 5",
+      "Indispensable (core)"
+    ],
+    [
+      "Visual Design",
+      "Coloca em prática os princípios de visual design nos componentes de seus prdutos e na relação destes com outros componentes. O desenho proposto como um todo se entende de maneira clara",
+      "Não entende nem aplica os princípios de visual design.",
+      "Entende que existem conceitos como contraste, alinhamento, hierarquia, tipografia e cores para criar composições. Não aplica todos conceitos, mas se vê um esforço para implementar alguns.",
+      "Aplica a maioria de conceitos de maneira adequada em separado. Mas em conjunto pode ser que nem todos tenham 100% de harmonia, mas se vê forte empenho em seguí-los e aplicar-los quase me toda totalidade. A página aparenta forte homogenia de estilos.",
+      "Podem criticar uma interface se baseando nos fundamentos de desneho visual e nas boas práticas. Constroi interfaces utilizando como base uma livraria de componentes ou guías de estilo, seguindo, também, as melhores práticas de desenho visual, usabilidade e acessibilidade.",
+      "Entende e põe em prática as melhores práticas de Visual Design. Implementa as normas básicas de acessibilidade e de usabilidade.",
+      true
+    ],
+    [
+      "Business mindset"
+    ],
+    [
+      "Habilidade",
+      "Descrição",
+      "Nivel 1",
+      "Nivel 2",
+      "Nivel 3",
+      "Nivel 4",
+      "Nivel 5",
+      "Indispensable (core)"
+    ],
+    [
+      "Business mindset",
+      "Identifica y entiende el problema/reto de negocio/producto en una empresa y las distintas métricas y personas claves asociadas al éxito del producto. Toma en cuenta estos puntos al momento de priorizar su trabajo.",
+      "No identifica o entiende los objetivos de negocio de la empresa. No considera ninguna forma de medir el éxito del proyecto del lado del negocio.",
+      "Identifica y entiende algunos objetivos de negocio y stakeholders de una empresa pero no los considera durante las etapas del desarrollo del producto.",
+      "Identifica y entiende todos los objetivos de negocio y stakeholders de una empresa pero no los considera ni prioriza en las etapas del desarrollo del producto. No entiende cómo los objetivos de negocio se traducen en métricas para medir la efectividad.",
+      "Identifica y endiende los objetivos de negocio y stakeholders de una empresa y los considera en algunas etapas del desarrollo del producto. Con cierta dificultad, logra crear una lista de métricas para validar si el producto propuesto cumple con los objetivos de negocio.",
+      "Entiende los objetivos del negocio y los tiene en cuenta durante el desarrollo del producto. Usa estos objetivos para priorizar su trabajo. Crea una lista de métricas relevantes para validar que se estén cumpliendo los objetivos del negocio. Entiende, involucra y se comunica efectivamente con los stakeholders clave durante todo el proceso de diseño.",
+      true
+    ]
+  ],
+  [
+    [
+      "Habilidades Interpessoais (Soft Skills)"
+    ],
+    [
+      "Habilidades de Autogestión"
+    ],
+    [
+      "Habilidade",
+      "Descrição",
+      "Nivel 1",
+      "Nivel 2",
+      "Nivel 3",
+      "Nivel 4",
+      "Nivel 5",
+      "Indispensable (core)"
+    ],
+    [
+      "Planejamento e administração do tempo",
+      "Administra o seu tempo e completa as tarefas de forma eficiente, utilizando ferramentas úteis para este objetivo. Ferramentas + Administração do Tempo",
+      "Planeja mas não administra seu tempo/ Administra seu tempo mas não planeja/ Não planeja e nem administra seu tempo.",
+      "Consegue se organizar de maneira geral, sem um plano específico, realizando uma estimativa geral do tempo.",
+      "Utiliza ferramentas de planejamento, como um calendário, trello, cartolina ou outros, criando um plano passo a passo de como quer abordar o projeto ou problema. Realiza uma estimação realista do tempo.",
+      "Utiliza ferramentas de planejamento, criando um plano passo a passo de como quer abordar o projeto ou problema, identificando as ferramentas necessárias para sua solução. Além disso, estima de forma realista o tempo e cumpre com o planejado. Não perde tempo em seções sem relevância, administrando o tempo que tem para realizar o projeto da melhor maneira.",
+      "Demonstra ter um prototyping mindset, o que lhe permite ter sempre um produto em um nível de fidelidade adequado para mostrá-lo a clientes e usuários, seja na forma de um protótipo ou um MVP. Para isto utiliza ferramentas de planejamento, criando um plano passo a passo de como quer abordar o projeto ou problema, identificando as ferramentas necessárias para sua solução. Além disso, consegue realizar uma correta distribuição do problema e escolha das ferramentas. Administra seu tempo e recursos da melhor maneira para o projeto, considerando o tempo, as ferramentas e a equipe com a qual se conta.",
+      true
+    ],
+    [
+      "Habilidade",
+      "Descrição",
+      "Nivel 1",
+      "Nivel 2",
+      "Nivel 3",
+      "Nivel 4",
+      "Nivel 5",
+      "Indispensable (core)"
+    ],
+    [
+      "Autoaprendizado",
+      "Tem interesse em adquirir novos conhecimentos de maneira autônoma, encontra as formas para isso e persevera até conseguir.",
+      "Demonstra interesse em adquirir conhecimentos, mas não o faz de maneira autônoma, nem faz perguntas ou tira suas dúvidas / Não demonsstra interesse em adquirir conhecimentos de maneira autônoma, -não realiza perguntas sobre o material, nem busca esclarecer conceitos.",
+      "Demonstra interesse em adquirir conhecimento de forma autônoma, estudando de forma independente. Isto reflete na assertividade para fazer perguntas sobre o assunto quando é necessário esclarecer conceitos e dúvidas.",
+      "Adquire de forma constante conhecimentos de maneira independente e responsável. Pede referência de materiais que podem ser de utilidade para seu aprendizado. Além disso, quando é necessário, realiza perguntas sobre a matéria. Busca aprender, esclarecer conceitos e resolver dúvidas sobre temáticas para além das estudadas em aula.",
+      "Adquire de forma constante conhecimentos de maneira independente e responsável. É capaz de identificar por sua conta ferramentas que necessita aprender ou também reforçar. Pede referência de materiais que podem ser úteis para sua aprendizagem. Além disso, quando necessário, realiza perguntas sobre a matéria. Busca aprender, esclarecer conceitos e resolver dúvidas sobre temas que vão além dos estudados em sala.",
+      "Adquire de forma constante conhecimentos de maneira independente e responsável. É capaz de identificar por sua conta ferramentas que necessita aprender ou também reforçar. Pede referência de materiais que podem ser de utilidade para sua aprendizagem. Além disso, quando necessário, realiza perguntas sobre a matéria. Busca aprender, esclarecer conceitos e resolver dúvidas sobre temas que vão além dos estudados em sala. Agrega a seus projetos ferramentas fora do visto en sala ou do que foi pedido e que são capazes de agregar valor ao produto.",
+      true
+    ],
+    [
+      "Habilidade",
+      "Descrição",
+      "Nivel 1",
+      "Nivel 2",
+      "Nivel 3",
+      "Nivel 4",
+      "Nivel 5",
+      "Indispensable (core)"
+    ],
+    [
+      "Apresentações",
+      "Usa estratégias apropriadas para falar em público, incluindo interação com a mídia de apresentação, como a demonstração, para garantir a compreensão do público e a melhor maneira de apresentar o projeto.",
+      "Não apresenta o demo de acordo com os requisitos do desafio: ele não parece bom, o link solicitado não é aberto, só é visto em seu computador local, etc. Ela não faz contato visual e o volume da voz é baixo ou usa um ritmo inadequado, o que dificulta a compreensão do conteúdo da apresentação.",
+      "Qualquer pessoa pode acessar a demo de qualquer computador. Ela fala com um tom e ritmo adequados, mas não faz contato visual ou faz contato visual com o público, mas fala em um volume baixo ou em um ritmo inadequado, o que dificulta a compreensão da apresentação.",
+      "Qualquer pessoa pode acessar a demo de qualquer computador. A demonstração é vista e funciona corretamente, conseguindo priorizar o que mostrar na demonstração - sendo capaz de ensinar, às vezes, menos elementos mas funcionais. Faz algum contato visual com o público, aproveita o espaço físico e fala com um volume e ritmo que não interfira na compreensão do público.",
+      "Qualquer pessoa pode acessar a demo de qualquer computador. A demo parece boa e funciona corretamente, tendo pelo menos uma funcionalidade principal que é perfeita e pequenas funcionalidades anexadas que funcionam corretamente. Ela faz contato visual regular com o público, apropria-se do espaço físico e fala com um volume e ritmo que não interfere na compreensão do público, e até capta sua atenção.",
+      "Qualquer pessoa pode acessar ao demo de qualquer computador. A demo parece boa e funciona corretamente, tendo uma funcionalidade principal e várias sub-funcionalidades que são perfeitas. Ela também escolhe a melhor maneira de mostrar a demo. Ela faz contato visual regular com o público, apropria-se do espaço físico e fala com um volume e ritmo que propiciam o entendimento do público e capturam sua atenção.",
+      true
+    ],
+    [
+      "Habilidade",
+      "Descrição",
+      "Nivel 1",
+      "Nivel 2",
+      "Nivel 3",
+      "Nivel 4",
+      "Nivel 5",
+      "Indispensable (core)"
+    ],
+    [
+      "Adaptabilidade",
+      "Adapta-se a novas situações com uma atitude positiva. Lida com a incerteza, propondo soluções criativas e altera estratégias quando necessário. Assume desafios, enfrenta mudanças súbitas, adapta-se ao trabalho com novos equipamentos, etc.",
+      "Diante de mudanças ou novos desafios, ela se adapta, mas não mantém uma atitude positiva / Não consegue se adaptar a novas situações ou incertezas.",
+      "Quando se depara com mudanças ou novos desafios, recebe-os com uma atitude positiva, mas não consegue necessariamente ativá-los ou adaptá-los da melhor maneira, isto é, não faz um planejamento novo ou não consegue integrar as mudanças no que já tinha planejado.",
+      "Em face de mudanças inesperadas ou novos desafios, ela os recebe com uma atitude positiva, se adapta e consegue propor soluções criativas para encontrar uma nova estratégia. Desta forma, ela consegue enfrentar desafios, enfrentar mudanças repentinas, como trabalhar com novas equipes ou mudanças no projeto.",
+      "Navega na incerteza, sendo capaz de reconhecer e alimentar o desconforto de não saber e, depois, invente táticas para sair dela quando necessário.\nEm face de mudanças inesperadas ou novos desafios, ela os recebe com uma atitude positiva, se adapta e consegue propor soluções criativas para encontrar uma nova estratégia. Ela consegue enfrentar desafios, enfrentar mudanças repentinas, como trabalhar com novas equipes ou mudanças no projeto. Ela consegue uma análise \"post mortem\" ou retrospectiva, onde consegue ver o que deu errado e identifica o melhor possível.",
+      "Navega na incerteza, sendo capaz de reconhecer e alimentar o desconforto de não saber e, depois, inventa táticas para sair dela quando necessário. Em face de mudanças inesperadas ou novos desafios, ela os recebe com uma atitude positiva, se adapta e consegue propor soluções criativas para encontrar uma nova estratégia. Ela consegue enfrentar desafios, enfrentar mudanças repentinas, como trabalhar com novas equipes ou mudanças no projeto. Realiza uma análise \"post mortem\"; identifica o que deu errado e o que foi positivo. Além disso, realiza uma análise \"pré-mortem\", pressupõe que algo inesperado pode acontecer e o gerencia da melhor forma possível, alterando sua função para estar alinhada com os requisitos do ambiente (projeto, sala de aula, etc).",
+      true
+    ],
+    [
+      "Habilidade",
+      "Descrição",
+      "Nivel 1",
+      "Nivel 2",
+      "Nivel 3",
+      "Nivel 4",
+      "Nivel 5",
+      "Indispensable (core)"
+    ],
+    [
+      "Solução de problemas",
+      "Tem a disposição de buscar e encontrar soluções para problemas de diversas complexidades e naturezas, evitando a estagnação e apoiando sua equipe ao longo do caminho.",
+      "Dados os problemas, ela procura mas não consegue encontrar uma solução ou não tenta encontrar alternativas para os problemas que surgem.",
+      "Procura soluções alternativas para problemas de média complexidade, mas não sempre encontra alternativas para problemas mais complexos. Depende de outras pessoas para encontrar essa solução e começar a resolver o problema.",
+      "Começa a aplicar sua própria criatividade para resolver problemas de forma independente. Procura soluções alternativas para problemas de complexidade diferente, embora nem todas as soluções possam estar corretas, consulta fontes diferentes para resolver o problema.",
+      "Procura soluções alternativas usando sua própria criatividade para resolver problemas de diversas complexidades e naturezas. Quando não encontra uma solução, recorre a outros para encontrar uma maneira de resolver o problema ou também procura soluções através de experimentação e iteração - ela procura deixar o edifício como uma ferramenta para \"resolver\" o problema.",
+      "Procura soluções alternativas usando sua própria criatividade para resolver problemas de diversas complexidades e naturezas. Ela pede ajuda na hora e se vira para os outros para encontrar uma maneira de resolver o problema de forma colaborativa. Demonstra experimentação e iteração no processo de solução de problemas. Não apenas experimenta o problema, mas também pensa criticamente sobre ele - isto é, questiona como o \"x problema\" está conectado aos outros e encontra soluções, novos processos, técnicas, etc. A fim de resolver todo um grupo de \"problemas\", influencia os outros e trabalha em equipe para alcançá-lo.",
+      true
+    ],
+    [
+      "Habilidades para as Relações interpessoais"
+    ],
+    [
+      "Habilidade",
+      "Descrição",
+      "Nivel 1",
+      "Nivel 2",
+      "Nivel 3",
+      "Nivel 4",
+      "Nivel 5",
+      "Indispensable (core)"
+    ],
+    [
+      "Trabalho em equipe",
+      "Trabalha de forma colaborativa e coordenada para alcançar os objetivos de sua equipe.",
+      "Não trabalha colaborativamente",
+      "Trabalha de maneira coordenada com a equipe",
+      "Trabalha de forma coordenada e contribui para o objetivo comum, entregando ideias para a construção do produto.",
+      "Trabalha de forma coordenada e contribui para o objetivo comum, entregando ideias para a construção do produto, sempre respeitando o trabalho de seus parceiros.",
+      "Trabalha de forma coordenada e contribui para o objetivo comum, entregando ideias para a construção do produto, sempre respeitando o trabalho de seus parceiros. Ela se preocupa com o processo de aprendizagem da equipe, gerando um ambiente colaborativo entre suas colegas.",
+      true
+    ],
+    [
+      "Habilidade",
+      "Descrição",
+      "Nivel 1",
+      "Nivel 2",
+      "Nivel 3",
+      "Nivel 4",
+      "Nivel 5",
+      "Indispensable (core)"
+    ],
+    [
+      "Responsabilidade",
+      "Entrega seu trabalho a tempo e ajuda os outros com o que tenham pendente.",
+      "Não cumpre as suas responsabilidades ou cumpre fora do prazo acordado",
+      "Entrega seu trabalho no prazo",
+      "Entrega seu trabalho no prazo e colabora com o objetivo final do trabalho, a fim de entregar um produto de qualidade.",
+      "Entrega seu trabalho no prazo e colabora com o objetivo final do trabalho, ajudando os outros com o pendente, a fim de entregar um produto de qualidade.",
+      "Entrega seu trabalho no prazo e colabora com o objetivo do trabalho, ajudando outros com o pendente, a fim de entregar um produto de qualidade. Encontra alternativas de ação quando necessário, para chegar com o produto no prazo.",
+      true
+    ],
+    [
+      "Habilidade",
+      "Descrição",
+      "Nivel 1",
+      "Nivel 2",
+      "Nivel 3",
+      "Nivel 4",
+      "Nivel 5",
+      "Indispensable (core)"
+    ],
+    [
+      "Dar e receber feedback",
+      "Escuta e valoriza os comentários e críticas dos outros, resgatando os aspectos que ajudam a incorporar melhorias. Dá sua opinião de maneira bem fundamentada, construtiva e coerente. Promove sessões de feedback com sua equipe, contribui pontualmente e objetivamente em retrospectivas. Code review (faz e recebe)",
+      "Não ouve ou rejeita os comentários e críticas de outros, e / ou não dá sua opinião ou se o fizer não é construtivo.",
+      "Ouve os comentários e críticas de outras pessoas de maneira respeitosa, mas não ative o feedback, e/ou dar aos outros a sua opinião de forma construtiva, mas não necessariamente útil.",
+      "Ouve e valoriza os comentários e críticas dos outros, resgatando aspectos que servem para melhorar. Além disso, dá sua opinião aos outros de forma construtiva, fundamentada e coerente, a fim de ajuda-lhes.",
+      "Ouve e valoriza os comentários e críticas dos outros, resgatando aspectos que servem para melhorar. Além disso, procura instâncias de feedback ou revisão por pares, entregando sua opinião a outras pessoas de maneira construtiva, fundamentada e coerente, a fim de ajudar os outros. Reconhece que o feedback é uma dádiva, portanto é honesto, empático e imediato.",
+      "Ouve e valoriza os comentários e críticas dos outros, resgatando aspectos que servem para melhorar. Gerencia o feedback e executa ações para a mudança. Além disso, dá sua opinião aos outros de maneira construtiva, fundamentada e coerente. Reconhece que o feedback é uma dádiva, portanto é honesto, empático e imediato. Participa em retrospectivas, feedbacks e peer reviews de maneira constante, contribuindo de forma tempestiva e objetiva, gerando uma contribuição positiva ao seu ambiente de trabalho.",
+      true
+    ],
+    [
+      "Habilidade",
+      "Descrição",
+      "Nivel 1",
+      "Nivel 2",
+      "Nivel 3",
+      "Nivel 4",
+      "Nivel 5",
+      "Indispensable (core)"
+    ],
+    [
+      "Comunicação eficaz",
+      "Tem a capacidade de síntese e de articular suas ideias com clareza. Entende quem a escuta e consegue que as demais entendam o que quer comunicar, facilitando assim o diálogo.",
+      "Falha em se comunicar de forma eficaz, porque não consegue comunicar suas ideias ou porque não se comunica claramente.",
+      "Consegue comunicar as suas ideias a outros quando necessário, mas não encoraja instâncias de comunicação.",
+      "Consegue comunicar suas ideias para os outros, sendo capaz de sintetizar e articular suas ideias claramente.",
+      "Consegue comunicar suas ideias para os outros, sendo capaz de sintetizar e articular suas ideias claramente. Entende seu público ou equipe e consegue transmitir o que quer comunicar facilitando o diálogo",
+      "Consegue comunicar suas ideias para os outros, sendo capaz de sintetizar e articular suas ideias claramente. Entende seu público ou equipe e consegue transmitir o que quer comunicar facilitando o diálogo. Além disso, mantém uma comunicação constante e fluida com o resto, facilitando o trabalho e as relações.",
+      true
     ]
   ]
 ]
