@@ -12,11 +12,11 @@
     "fetch-and-process": "npm run fetch-data && npm run process-data"
   },
   "devDependencies": {
-    "@laboratoria/fetch-gsheets": "^1.0.2",
-    "coveralls": "^3.0.6",
-    "eslint": "^6.4.0",
+    "@laboratoria/fetch-gsheets": "^1.0.3",
+    "coveralls": "^3.0.9",
+    "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.0.0",
-    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-import": "^2.19.1",
     "jest": "^24.9.0"
   }
 }
