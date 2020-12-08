@@ -1,5 +1,7 @@
 # @laboratoria/rubric
 
+:warning: WARNING: This module has been DEPRECATED and is no longer supported.
+
 [![Build Status](https://travis-ci.com/Laboratoria/rubric.svg?token=4uyuoxi9qhvAfjzUTB6y&branch=master)](https://travis-ci.com/Laboratoria/rubric)
 [![Coverage Status](https://coveralls.io/repos/github/Laboratoria/rubric/badge.svg?branch=master)](https://coveralls.io/github/Laboratoria/rubric?branch=master)
 
